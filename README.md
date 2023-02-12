@@ -35,8 +35,12 @@ Created by sergiou87 (https://github.com/sergiou87/open-supaplex)
 ### 🎮 How to play?
 Use the arrow Keys to move.
 SpaceBar + arrow Key to snap (get what's next to you without moving).
-Hold SpaceBar to drop a Red Disk (and then run away before it explode!). 
-## ➕ Norb's levels
+Hold SpaceBar to drop a Red Disk (and then run away before it explode!).
+## ℹ️ Extra information and content
+### 💾 Fandom Wiki
+https://supaplex.fandom.com/wiki/Supaplex
+### 👨‍💻 People's Levels that were not packed
+#### ➕ Norb's levels
 https://github.com/norbcodes/NorbSupaplexArchive 
-## ➕ AlterT's levels
+#### ➕ AlterT's levels
 https://github.com/thealtermaven/promotek-supaplex
