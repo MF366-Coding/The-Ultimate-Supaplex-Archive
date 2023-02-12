@@ -17,7 +17,7 @@ Level Editor: https://sple.me
 Supaplex Online is a project that allows you to play SP levels directly from your bowser! It also records demos and saves info on what levels you solved, you didn't, etc. (For that you need an account. Make sure that the part before the @ is the username you want.)
 Created a level? Upload it to Supaplex Online (for that you need Discord). 
 Supaplex Online's Official Discord Server: https://discord.gg/Q2n3sQTsMb 
-### ❓ How to play? 
+### ❓ How to install? 
 Step-by-step guide: start playing this awesome game! 
 #### 1️⃣ Option 1: Use Megaplex
 There is a big Supaplex clone called Megaplex. You can install it for Windows and emulate it using Wine on Linux. 
@@ -31,7 +31,11 @@ Use Supaplex Online, by creating an account (highly recommended) or just playing
 Pick a level from thousands of them and you are definitely good to go!!! 
 #### 4️⃣ Option 4: Use an open-source clone
 OpenSupaplex runs in almost every platform, including PS Vita and Nintendo Switch! Amazing, right? 
-Created by 
+Created by sergiou87 (https://github.com/sergiou87/open-supaplex) 
+### 🎮 How to play?
+Use the arrow Keys to move.
+SpaceBar + arrow Key to snap (get what's next to you without moving).
+Hold SpaceBar to drop a Red Disk (and then run away before it explode!). 
 ## ➕ Norb's levels
 https://github.com/norbcodes/NorbSupaplexArchive 
 ## ➕ AlterT's levels
