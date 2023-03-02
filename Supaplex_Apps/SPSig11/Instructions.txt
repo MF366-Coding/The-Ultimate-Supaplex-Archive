@@ -1,0 +1,16 @@
+Adding a Signature with SPSIG
+-----------------------------
+As you may have read on the Supaplex page at http://www.bd-fans.com (in the Solutions section),
+you can create signature text files. Just follow the instructions on the website until you have
+a SIGNATUR.txt file ready.
+
+Now you would like to attach this signature file to your demo recording. You should use the following
+commandline option while starting up SPSIG: 'SPSIG.EXE A DEMOn.BIN SIGNATUR.TXT'. Both the demo file 
+and the signature file must be in the directory of SPSIG.
+
+If you don't know how commandline options work, you should have a look in the Download section of the 
+Classic Supaplex page at http://www.bd-fans.com. 
+
+-------------------------------
+Martijn's Boulder Dash Fan Site
+http://www.bd-fans.com 

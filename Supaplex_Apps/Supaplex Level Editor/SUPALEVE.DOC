@@ -1,0 +1,30 @@
+This is Suaplex level editor 1.0b document file you are reading now.
+
+Supaplex level editor written by Ahti Legonkov from LC SoppWare Inc.
+
+How to use this program?
+
+Using supaplex level editor is easy and I think it is real obvios. To edit
+your levels.dat the progrm must be is the same dorectory as your supaplex
+is. Once you have started the program you will see a box in the middle of
+the screen where you can select the level to edit. For moving the cursor
+there are cursor keys. And for selecting the file is an enter key.
+
+When you are in level editing mode you can get help on keys by pressing F1.
+
+After you have done your editing the program will create a directory LEVELS
+of one does not exist and saves the selected level in file level.xx.
+To make the level available in game there is a little utility called addlev.
+This is made in case you do not want the level you have made to be in your
+levels.dat file. If you are sure about this use addlev.
+
+usage of addlev:
+addlev <level number>
+
+ * there must be levels.dat and levels\levels.xxx in current directory.
+   This means that this program has to be in the directory where your supaplex 
+   is.
+  * there has to be exactly 1 command line parameter.
+  * value of the parameter must be in range 1..111.
+
+Enjoy editing levels!

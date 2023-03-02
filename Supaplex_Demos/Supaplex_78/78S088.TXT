@@ -1,0 +1,22 @@
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³  Level 88 -  WAITING FOR GODOT AGAIN  ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+It's unable to make solution demo of this level for tremendous long time to
+play. I didn't solve it for the same reason, but it's solvable theoretically.
+Special feature of this level, is it's using 'hidden track'. Another Murphy
+(dummy) is in hidden track, right beneath bottom-right orange disk. You should
+not explode the Electron on the left side of Murphy. That will kill Murphy in
+the end. You should wait all enemys move away and make room for the Zonk in
+bottom-right. Also that time, you must release freezed Zonk to fall down and
+activate the second 'GODOT' by passing the special port above you. It have to
+be right on time, or be failed.
+
+
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+       Ü   Ü  Ü  ÜÜÜ      ÜÜÜ    Ü  ÜÜÜ      ÜÜÜÜ    ÜÜÜ    ÜÜÜ
+       Û Ûßß  Û  Û ÛßÛ    Û ÛßÛ  Û  Û ßßÛ    ÛÜ ßß  Ûß ßÛ  Ûß ßÛ
+       ÛßÛÜ   Û  Û Û Û    Û Û Û  Û  Û   Û     ßßßÛ  ÛÜ ÜÛ  ÛÜ ÜÛ
+       ß  ßß  ß  ß ß ß    ß ß ß  ß  ß   ß    Ûßßßß   ßßß    ßßß
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+
+(FSchindler: I've added a demo solution in MegaPlex file format: 78S088.mpx.)

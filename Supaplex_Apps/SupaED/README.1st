@@ -1,0 +1,242 @@
+
+			SupaED (Supaplex Editor)
+			Version 0.6 for Windows 95/NT4
+
+
+			Copyright (c) 1997 by Mario Corsolini
+			URL: http://www.geocities.com/Athens/4442/
+			EMail: M.Corsolini@mclink.it
+
+
+
+
+ --- 0. Contents ------------------------------------------------------------
+
+
+	0. Contents
+
+	1. Introduction
+
+	2. Legal Stuff
+
+	3. System Requirements
+
+	4. How to INSTALL
+
+	5. How to UNINSTALL
+
+	6. How to Use
+		- The Mouse
+		- The Keyboard
+
+	7. Feedback, Suggestions, Bug-Reports
+
+	8. Distribution
+
+	9. Credits
+
+
+
+
+ --- 1. Introduction --------------------------------------------------------
+
+
+	SupaED  is  a  powerful  and  friendly  full-screen  Level Editor for
+	Supaplex, a wonderful game by  Digital Integration (1991).  If You do
+	not  know  Supaplex  go  to  the  Supaplex WWW page (look for the URL
+	below) and immediately download it (it's free)!
+
+	This file contains the basic documentation for SupaED.  It is not the
+	full  documentation  for  the  program.  Other documentation You will
+	need is:
+
+	SupaED.HLP	The  documentation  for  SupaED  itself. Reading this
+			file is	essential if You want to use SupaED properly.
+			It will be accessed from the SupaED for Windows  Help
+			menu,   or   from  the  directory  created  when  You
+			installed SupaED.
+
+			Unfortunately  it  does  NOT exist, up to now! At the
+			moment I am searching for someone  who  can  help  me
+			with  English  to  write  that file, to translate the
+			program and to debug this file.
+			Can *YOU* help me??? ;-)
+
+
+
+
+ --- 2. Legal Stuff ---------------------------------------------------------
+
+
+	SupaED  is  *FREEWARE*. That means, You don't have to pay me anything
+	and I'm not forced to give You support. Deal? :)
+	I  do  give  support  when  I  have  time,  but I can't guarantee You
+	anything and it might take a while before You get an answer.
+
+	NO *REGISTRATION* is needed, but I always apreciate EMail's (or snail
+	mail's) telling me that You use the program.
+
+	I take NO responsibility by *ANY* damages caused by this program! 
+
+
+
+
+ --- 3. System Requirements -------------------------------------------------
+
+
+	SupaED  for  Windows  requires  a  386  or better CPU with at least 8
+	Mbytes of RAM, running Windows 95 (or later) or Windows  NT  4.0  (or
+	later).
+
+	You also need the Visual Basic 4.0 runtime files (32 bits) installed:
+	You can freely download them from  Microsoft official site at the URL
+	http://www.microsoft.com/
+
+	System  video  mode must be set at 800x600 pixels with at least 65536
+	colors (High-Color: 16 bits).
+
+	It  is  HIGHLY  recommended to use SupaED with SPFix, an enhanced new
+	version of Supaplex. You can  freely  download  it,  with  dozens  of
+	new  levels, informations, tools, tips, tricks and secrets about this
+	amazing game,  from  http://www.stack.nl/~ep/sp/index.html  (Supaplex
+	WWW  page).  If  it's  not  working,  maybe it's moved. Check the URL
+	http://huizen.dds.nl/~ep/ for current location.
+
+	Finally,  if You want to see all the forms properly aligned, check in
+	Control Panel the heigh of the ToolWindows titles: it must be 15.
+
+
+
+
+ --- 4. How to INSTALL ------------------------------------------------------
+
+
+	Create  a  directory for SupaED, UnZip in that directory SupaED06.zip
+	or, if that is already done, move this file and  SupaED.EXE  to  that
+	directory.
+
+	Create a shortcut to SupaED.EXE in your Start Menu.
+
+	If  You  want  to  save  the  original pack of levels You must _copy_
+	LEVELS.DAT from your Supaplex directory  to  your  SupaED  directory.
+	SupaED can read and export this file (from the menu File\New\Original
+	Levels), but can not change it.
+
+
+
+
+ --- 5. How to UNINSTALL ----------------------------------------------------
+
+
+	To  UnInstall SupaED simply delete the installation directory and any
+	shortcut You added to the Start Menu.
+
+
+
+
+ --- 6. How to use ----------------------------------------------------------
+
+
+	- The Mouse -
+	-------------
+
+		I  hope  that all buttons and options are self-explanatory...
+		if they are not this is a good reason to help me to translate
+		the program and to write down SupaED.HLP!!!
+
+		You only need to know how to use mouse button.
+
+		Left Button
+		-----------
+		If  You  have  an object (You can take one by clicking on the
+		Supaplex Objects Toolbar), use the left button to place it in
+		the level You are editing.
+
+		If  You  are selecting an area press the left button to fix a
+		corner of the area. Move the mouse up to the opposite  corner
+		and unpress the left button.
+
+		If  You  are pasting an area press the left button inside the
+		area to actually paste its contents.
+
+		Right Button
+		------------
+		If  You have an object use the right button to place an empty
+		space in the level You are editing.
+
+		If  You  are  selecting  or pasting an area You can use right
+		button to move the area itself:  press  right  button  inside
+		the  area,  move  the mouse up to the location You prefer and
+		unpress the right button.
+
+
+	- The Keyboard -
+	----------------
+
+		There  are  only  few  keys  You  can use while editing a new
+		level, but they can be very useful:
+
+		Press <P> to take again your previous Supaplex Object;
+		Press <+> or <-> to change your Supaplex Object without using
+		the mouse.
+
+		Besides  You can use hotkeys for the menu commands. Look menu
+		itself for the complete list of avaible hotkeys.
+
+
+
+
+ --- 7. Feedback, Suggestions, Bug-Reports ----------------------------------
+
+
+	All feedback, suggestions and bug-reports to M.Corsolini@mclink.it
+
+	Please  include  "Supaplex Editor"  or  "SupaED"  as  well  as  "BUG,
+	SUGGESTION or FEEDBACK"	in the subject line.
+
+	Also don't forget to include the version You are using. This is found
+	in the about box or,  if You want to be precise, right click the file
+	SupaED.EXE in Explorer window, choose Properties in the context menu,
+	go to the Version tab and write down also the build number!
+
+
+
+
+ --- 8. Distribution --------------------------------------------------------
+
+
+	You  may  freely  use  and  distribute  SupaED,  although  it must be
+	distributed with all original files in their original format  intact.
+	You  may  not  charge  anyone  for it, other than a reasonable fee to
+	cover your distribution costs. SupaED may not be distributed as  part
+	of any commercial product without an agreement with the author.
+
+	Contents of SupaED06.zip:
+		SupaED.EXE	(THE Program!)
+		README.1st	(This file)
+		file_id.diz	(A short description of SupaED)
+
+
+
+
+ --- 9. Credits -------------------------------------------------------------
+
+
+	I  would  like  to thank everyone that have supplied me with valuable 
+	feedback and suggestions  for  new  features  as  well  as  the  beta
+	testers. Thanks for Your patience! :-)
+
+	Thanks  to  Mats  Ljungqvist (mlt@cyberdude.com) for the structure of
+	this file.
+
+	And, obviously, thanks to Laura!
+
+	Well, thats about it, happy playing!
+
+
+
+
+ ----------------------------------------------------------------------------
+	SupaED and Supaplex Editor are trademarks of Mario Corsolini.
+	Visual Basic, Windows NT and Windows 95 are trademarks of Microsoft.
+ ----------------------------------------------------------------------------

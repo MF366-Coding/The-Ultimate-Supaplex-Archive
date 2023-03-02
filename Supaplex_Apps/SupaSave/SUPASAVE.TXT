@@ -1,0 +1,98 @@
+Supasave is a program which aims to provide an easy way to deal with
+supaplex demo recordings.
+It was developed after I installed spfix63. This version saves demo
+files in a form 01s033$1.sp where 01 is a level set, 033 is a level and
+1 the number of the demo (depeding on the function key pressed to record
+the demo). spfix63 can also attach a signature file to a successful recording
+
+While this spfix63 file naming scheme is very convenient to record demos
+to be added to the hall of fame, it also became quite apparent that
+there were still some annoyances. The spfix63 program creates a lot
+of files, which need to be weeded manually to filter out those files
+without a signature.
+
+As I'm kind of a lazy guy, I decided to make a small program to automate
+this dull task. The result of this effort is now in your hands.
+I decided that I wanted to delete files without a signature, and copy
+files with a signature to a save directory. In order to do things neatly
+I decided to check first if the new demo is faster, and only copy the
+demo if that was the case. Furthermore while I was coding anyway, I
+decided all versions ($0 .. $9) to fold on one file (as they are demos
+of the same level).
+
+The program is a simple dos program and is invoked using:
+supasave <directory>
+where directory is the directory where the recorded demos are stored.
+The directory is optional. If it is not given the directory
+c:\spellen\supaplex is chosen (guess where my copy of supaplex lives
+:-)) (by the way: spellen is dutch for games).
+
+The following options are supported
+-D	prints extensive diagnostics. Implies -v and -t
+-d	deletes all files which are not saved
+-n	does not rename any file
+-q	prints only error messages
+-t	prints the playing time for all files
+-v	reports in more detail than you probably want, what it does.
+
+supasave calculates the running time of all .sp files in the directory 
+and compares them with its counterpart (without the $[0-9]) in the
+subdirectory save of that directory. If the .sp file consists of a demo
+with a signature attached and if it is faster than the one it is
+renamed and put in the save directory. The old version in the save
+directory is discarded. Please note that the file is renamed and not
+copied, so the version in the supaplex directory is gone.
+
+If you use the -n option no renaming takes place. This is useful if you
+want to dry-run to see what it does.
+
+The -d option removes all files which are valid demos but which do not
+qualify. Note that the validity check of the demo is quite loose.
+Basically it is a file with .sp extension and with or without a
+signature.
+
+The -q option suppresses all output except error messages.
+
+The -t option displays timing info. In combination with -n it is a
+replacement for spsig t which deals with all files in the directory at
+once.
+
+Do not use -n and -d in conjunction! If you do all *.sp files will be
+deleted as no files will be renamed (caused by -n) and all files which
+will not be renamed are deleted (caused by -d).
+
+I hope the program is useful to you. 
+However, the program comes without any warranty. Use at own risk. If you
+loose data through this program it is your problem. If you cannot deal
+with this, do not use the program. In no circumstance will the author of
+this program accept any responsibility or liability whatsoever. 
+
+Suggestions, problem reports, enhancements etc, can be directed to me at
+F.Meulenbroeks@fontys.nl
+
+Oh by the way:
+The program is distributed as postcardware. 
+If you like this program and find it useful, I would appreciate it if
+you would send me a postcard of your home town. 
+My address:
+Frans Meulenbroeks,
+Guldenekker 17,
+5541 DE Reusel,
+Netherlands.
+
+You may give away this program to anybody, providing you leave it fully
+intact and give both the executable and this file. This also includes
+making it available on WWW.
+However, it is explicitly forbidden to ask money for this program or put
+it on compilation disks to be sold for a fee larger than the media+manufacturing
+cost without prior permission of the author. Also if you put the program on a 
+compilation disk you are requested to mail a copy (free of charge) to the author
+at the above address.
+
+By the way: Under windows 95/98/nt I find it convenient to place a shortcut
+to this program on my desktop (or in the start menu). Through the properties
+of this shortcut it is quite easy to add options to the path, making them effective 
+each time you run the program. Add a nice icon from the collection found 
+under http://www.stack.nl/~ep/sp and you're settled.
+
+Have fun! Frans.

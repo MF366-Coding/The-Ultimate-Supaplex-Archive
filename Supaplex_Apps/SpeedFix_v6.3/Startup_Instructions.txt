@@ -1,0 +1,25 @@
+Supaplex Startup Instructions
+-----------------------------
+To start Supaplex, simply run the executable spfix63.exe which can be found in the Supaplex directory.
+
+It might me useful to create a shortcut if you are playing the game in Windows. To do this, you need to
+take the following steps:
+
+- Click with the right mouse button on spfix63.exe in the Supaplex directory. 
+- Select 'make a shortcut' in the popup window.
+- Now there will appear a new file in the Supaplex directory: 'shortcut to spfix63.exe'.
+- Right-click on it an select 'cut'.
+- Now to the desktop and right-click somewhere on an empty space and click on 'paste'.
+- Right-click on the new desktop item and select 'change name'.
+- Change the name of the shortcut into 'Supaplex' or something else.
+
+To have a better performance of Supaplex in Windows, you could try the Windows XP instructions on
+dosgames.com. Find it here: http://www.dosgames.com/xphints.php
+
+If you want to use certain features in Supaplex, you need to use commandline options. To find these options,
+see spfix63.doc in the Supaplex directory. To start the game with commandline options, I recommend to use
+SPLaunch. You can find it on the Supaplex page of my website.
+
+-------------------------------
+Martijn's Boulder Dash Fan Site
+http://www.bd-fans.com 
