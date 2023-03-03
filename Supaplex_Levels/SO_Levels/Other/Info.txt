@@ -1,0 +1,20 @@
+SUPAPLEX_LEVELS_NW1 wersja 0.261
+
+29 Levels Supaplex
+
+
+e-mail: nowicki86@interia.pl
+
+Nowicki Wojciech
+Ul. Koniecpolskiego 6d / 7
+78-105 Ko³obrzeg
+POLAND
+tel. 094 35-295-66
+--------------
+Wszystkie plansze wykona³em sam. Oryginalne plansze zawiera³y bardzo du¿o elementów zrêcznoœciowych. Postanowi³em, ¿e zrezygnuje z tego pomys³u. W moich planszach jest du¿o myœlenia, a ma³o zrêcznoœci (chocia¿ czasami...).
+Równie¿ do minimum zastosowa³em grawitacjê, a tak¿e zrezygnowa³em z dwóch dziwnym elementów, które czêsto widzia³em w planszach innych ludzi. Tak wiêc: na ekranie jest tylko jeden "Murphy" (nim sterujemy) oraz brak czarnych œcian (wygl¹da jak puste miejsce, ale ma cechy "miêkkiego murku"). 
+
+Nie mam pewnoœci co do tego, czy mo¿na wszystkie plansze ukoñczyæ. Uk³adaj¹c plansze nie testowa³em ich ca³ych, tylko niektóre fragmenty. 
+
+Plansze zapisane s¹ w plikach Levels.dat oraz level.lst. Gra Supaplex jest równie¿ na komputer Amiga. Niestety plansze z PC'ta nie dzia³aj¹ na Amigê. Powód: na Amigê plansze zapisane s¹ w osobnych plikach, czyli  w 111. Wyodrêbni³em z pliku levels.dat jêdn¹ planszê nazywaj¹c PHIL_10 (chyba). Niestety plansze dziwnie wygl¹da³y. Jeœli znasz jakiœ program zmieniaj¹cy ten format zapisu, to daj znaæ. Z moich doœwiadczeñ twierdzê, ¿e nawet po prawid³owej konwersji mog¹ byæ problemy. Wersja amigowa jest bardziej wraŸliwa ni¿ pecetowska (np. trudniej jest oszukaæ "no¿yczki).
+
