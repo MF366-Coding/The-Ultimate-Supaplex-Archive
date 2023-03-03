@@ -7,7 +7,7 @@ There might be some duplicates amongst the files.
 
 If you see one, please report it in the *Issues* tab.
 
-Thank you. :+1:
+Thank you for your help. :+1:
 
 ## 💁‍♂️ Want to help?
 I accept any SP, DAT, MPX files and demos and Supaplex Online links. 
