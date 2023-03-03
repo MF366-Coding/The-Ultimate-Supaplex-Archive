@@ -1,0 +1,280 @@
+<html>
+	<head>
+		<title>Emsa DiskCheck</title>
+	</head>
+	<body bgcolor="#ffffff" text="#000000" link="#0066cc" vlink="#808080" alink="#0099cc" style="FONT-SIZE: 10px; FONT-FAMILY: Verdana">
+		<table border="1" width="100%" cellspacing="0" bordercolorlight="#0099cc" bordercolordark="#0099cc" height="1056" cellpadding="4">
+			<tr>
+				<td width="100%" bgcolor="#0099cc" height="13">
+					<P><FONT color="white" size="2"><STRONG>Emsa Disk Check</STRONG></FONT></P>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" height="174" bordercolor="#0099cc" bordercolorlight="#0099cc" bordercolordark="#0099cc" valign="top" align="left">
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"><STRONG><U>EMSA 
+									Disk Check Version 1.0</U></STRONG><BR>
+						</FONT>
+					</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">Copyright 
+							(c) 2004 Emil Sasu, EMSA SYSTEMS LTD. All Rights Reserved<BR>
+							This program is FREEWARE. Please refer to the License.txt file included in the 
+							package for licensing information.</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"><STRONG><U>Introduction</U></STRONG></FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">Emsa 
+							Disk Check is a dual-purpose utility, for&nbsp;disk checking (prescan and full 
+							disk reading) and also benchmarking. What it does, is scanning/reading the 
+							entire contents of a disk (CD, DVD or hard drive; or even floppy) and show any 
+							read errors that may appear, but also show&nbsp;drive speed information, 
+							progress statistics etc. It was designed with simplicity in mind, but 
+							usefulness for the user.<BR>
+						</FONT>
+					</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">You 
+							can use it to do a full check of the surface of any disks, for example if you 
+							have just scratched a disk and want to see if it is still readable, or if you 
+							want to check all your cd library for time or usage related faults. You can 
+							also use it for drive benchmarking, easily comparing speeds through 'X' speed 
+							multiplier factor, in real conditions. You can also&nbsp;scan hard drives or 
+							even floppies - and get real condition performance information accordingly with 
+							drive performance but also with the way data is stored on it, which obviously 
+							impacts on overall performance. Make sur you clean the&nbsp;CD or 
+							DVD&nbsp;before doing tests, to remove dirt and ensure tests are accurate.</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">Benchmarking 
+							Information: By design, this application does not use direct disk access and 
+							sector reading. Instead, it uses regular disk access functions provided by the 
+							operating system, just like any usual application will do; we did this to get 
+							as close as possible to the real usage conditions. This allows the user to 
+							check the actual max speed of the drive in 'real' conditions and not the 
+							theoretical ones. This means your drive may be capable of higher speeds in 
+							theory, but what you see is how fast it actually runs.&nbsp;Something 
+							like&nbsp;'show me how fast this disk runs on my drive, using the computer 
+							configuration i have right now'. Performing a benchmark on a hard disk is also 
+							useful, and you can then make a comparison with your CD or DVD drive.</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"><STRONG><U>Features</U></STRONG></FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">Emsa 
+							DiskCheck has the following main features and characteristics:<BR>
+						</FONT>
+					</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">- 
+							useful to quicky and fully scan removable disks like CD, DVD for surface 
+							defects like&nbsp;disk scratch problems, bad CD-R/RW DVD-R/RW writes, etc.;</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">- 
+							can check CD-ROM, DVD, hard disks, even floppy disks;</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">- 
+							useful for benchmarking a drive, be it CD, DVD or HDD;</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">- 
+							shows 'locked' files on disks</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">- 
+							useful speed comparison (shows the 'X' multiplier speed comparison with CDs and 
+							DVDs) with possibility of switching in CD/DVD 'X' mode</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">- 
+							it scans/reads a disk&nbsp;fully until completion or user stop, at the maximal 
+							speed available</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">- 
+							reports progress, statistics (files, folders, time elapsed, estimated time 
+							remaining)</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">- 
+							reports any errors encountered (error count and log entry for each)<BR>
+							- prescan accesses the disk table of contents and computes file information, 
+							showing the total number of files and folders and total space on disk before 
+							running the full scan. </FONT>
+					</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">Tip: 
+							You may want to try reinserting a disk and performing more than one check, for 
+							more accurate results of benchmarking, as different reads of same disk may be 
+							performed at different speeds by the same drive.</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"><STRONG><U>User 
+									interface</U></STRONG></FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">Here 
+							is a screenshot of the program, which is pretty self-explanatory:<BR>
+						</FONT><FONT size="2"></FONT>
+					</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"><IMG height="371" src="DiskCheckShot.jpg" width="496" border="0">&nbsp;</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><BR>
+						<FONT size="2">Simply click on the main 'Check' button to begin scan. The button 
+							then turns into 'Stop' like in the above screenshot, allowing to stop scanning. 
+							Starting / stopping may take a few seconds depending on drive spinup time. 
+							Flushing cache on start also takes a few seconds to complete, depending on 
+							machine configuration.</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">Important 
+							Tip: While scan is running, click on the&nbsp;any of the two blue 
+							text&nbsp;boxes in the Statistics area, in order to toggle speed comparison 
+							between CD and DVD modes.</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"><STRONG><U>Why 
+									this product?</U></STRONG></FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">We 
+							made this program,&nbsp;because&nbsp;we needed a tool like this. There was a CD 
+							check tool we had been using for a while, but it did not scan DVDs (not 
+							to&nbsp;mention HDD or floppies) and it was lacking extensive information about 
+							the scan process, time and speed. One may usually want to know how good is the 
+							disk and how fast it can still be read, and not just if it is still readable 
+							afterall. </FONT>
+					</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">We 
+							also needed to make benchmark comparison, especially for hard drives. If data 
+							on hard drive is stored as many, smaller files, the performance of the disk 
+							goess much slower. This significantly impact the hard drive's operating speed 
+							in real conditions, so we needed to know how the drive is actually peforming in 
+							such cases.</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"><U><STRONG>Installation 
+									Notes</STRONG></U></FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">You 
+							can always find the latest version of this product at our website: </FONT><A href="http://www.e-systems.ro">
+							<FONT size="2">http://www.e-systems.ro</FONT></A><FONT size="2"> Once you have 
+							downloaded the file, unzip it (if it is zipped) then run the main 
+							executable.&nbsp;Drag the program to your desktop to create a shortcut.<BR>
+							&nbsp;&nbsp;<BR>
+						</FONT>
+					</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"><STRONG><U>How 
+									to use this program</U></STRONG></FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">This 
+							program is&nbsp;very simple to use.<BR>
+						</FONT>
+					</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">
+							First, launch it by double clicking on the main executable. Then insert the 
+							disk you want to check, unless the disk is already in. If the disk is a CD or 
+							DVD disk, allow the drive&nbsp;a few seconds to settle after inserting before 
+							starting the scan. Select the disk type from the dropdown box at the left upper 
+							corner of the program interface. Then select the drive letter below, 
+							corresponding to the disk you want to scan.&nbsp;Click the 'Check' button to 
+							start scanning. The button turns into 'Stop' allowing you to stop scanning.<BR>
+						</FONT>
+					</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">Depending 
+							on the drive type and condition, the button may momentarily turn disabled 
+							(greyed) and not be responsive for a&nbsp;couple&nbsp;seconds. This is normal, 
+							and happens while the drive (CD drive&nbsp;for example) is in the process of 
+							spinning up the disk and preparing for reading. The button will ge back on 
+							operational status when this short time has elapsed. During scanning, if errors 
+							are encountered they are shown in the left main 'log' window. Some of the files 
+							may be locked by the operating system, if you are running the scan against a 
+							local hard drive; in such cases&nbsp;you may get a 'permission denied' or 
+							similar error on those files. This will also be shown in the log window, if 
+							such files are encountered, and it is a normal behavior.</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">Important 
+							note: It is highly recommended NOT to use any other programs while DiskCheck is 
+							scanning a disk as this&nbsp;would significantly impact on the program's 
+							results.</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">Tip: 
+							By clicking on the right side 'X' multiplier text labels with blue background 
+							in the Statistics area, you can toggle speed comparison between CD and DVD 
+							modes to compare current read speed with the coresponding CD and DVD speed.</FONT></P>
+					</FONT>
+					<P><FONT size="2"><STRONG><U>What does Prescan and Flush Cache do</U></STRONG></FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">Prescan 
+							does a full read of the disk table of contents, by accessing file and folder 
+							information. It does not&nbsp;read the actual files on disk.&nbsp;This is a 
+							pre-check of the disk before scanning the surface of the disk and the results 
+							shown when this process finishes are the total bytes ocuppied by files (total 
+							file data bytes on disk) and the number of files and folders. Please note that 
+							this is not the same as the 'Total Bytes on disk' which is the total size of 
+							the disk in bytes, including portions of the disk that are not actual user 
+							files, but&nbsp;used for other things&nbsp;like table of contents. It is 
+							recommended to leave this option turned on.</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">The 
+							flush cache empties the computer filesystem cache through temporarily 
+							allocating all RAM available to DiskCheck. This leaves the operating system 
+							with no RAM for file buffering so the cached files&nbsp;will be discarded. It 
+							is recommended to leave this option turned on.<BR>
+						</FONT>
+					</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">There 
+							is a known issue with cache flushing which may occur in some cases. 
+							Ocasionally, it may be possible that the free memory changes during this 
+							operation if other programs are running, or the operating system decides to 
+							store some of the data in its virtual memory;&nbsp;so not all 
+							data&nbsp;actually gets&nbsp;flushed. This will be visible to user as 
+							a&nbsp;fast reading at the beginning of the read operation, and affects only 
+							re-scanning the same disc if scan has just been aborted shortly after start.</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">If 
+							you are experiencing this, you may&nbsp;use the following tricks. If you are 
+							scanning a removable disk (like CD or DVD), eject and re-insert the disk. (This 
+							is anyway recommended before checking a disk). This will make the operating 
+							system consider that you are using a new disk. If you are scanning a hard 
+							drive, do a temporary scan on a different drive then get back to the drive you 
+							are scanning.</FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"><STRONG><U>More 
+									information</U></STRONG></FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">Emsa 
+							DiskCheck does not use direct disk access and&nbsp;sector reading. Instead, it 
+							uses the same operating system disk access functions that are used by most 
+							programs, and runs at max speed available under the current configuration. This 
+							appears to the user as a 'true' read speed, the actual&nbsp;read speed expected 
+							for that drive in regular usage on the system, and not the theoretical maximal 
+							drive speed. This means that the benchmark shows real performance of the disk 
+							and drive on the current system, rather than their theoretical capabilities.
+							<BR>
+							<BR>
+							The flush cache function allows flushing operating system cache before starting 
+							the test; this is useful if you abort and restart a scan, because it instructs 
+							the operating system to discard cache data and perform a new read on disk. You 
+							can temporarily disable it if you want to do a comparison of speed with/without 
+							system caching, and&nbsp;see how much speed you gain when OS caches 
+							something&nbsp;(works up to filling the total available RAM on the machine).
+							<BR>
+						</FONT>
+					</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">This 
+							program does not use heavy API calls, in an effort to ensure maximal 
+							compatibility with most Windows OS and machines. This program runs virtually on 
+							all 32-bit Windows operating systems. </FONT>
+					</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"><STRONG><U>Contact 
+									Information</U></STRONG></FONT></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">Bug 
+							Reports:<BR>
+							While we have made every effort to ensure that there are no known bugs, some 
+							always tend to slip through testings. If you find any bugs, please email us at:<BR>
+						</FONT><A href="mailto:support@e-systems.ro"><FONT size="2">support@e-systems.ro</FONT></A><BR>
+						<BR>
+						<FONT size="2">If you have any comments, possible suggestions or remarks concerning 
+							to the program, please feel free to e-mail us. We will respond based on our 
+							available time.<BR>
+						</FONT>
+					</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">E-Mail:
+						</FONT><A href="mailto:support@e-systems.ro"><FONT size="2">support@e-systems.ro</FONT></A><FONT size="2">
+							<BR>
+						</FONT>
+					</P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2">WWW:
+						</FONT><A href="http://www.e-systems.ro"><FONT size="2">http://www.e-systems.ro</FONT></A><FONT size="2">
+							<BR>
+							<BR>
+						</FONT><A href="http://www.e-systems.ro"><FONT size="2">EMSA SYSTEMS Homepage</FONT></A></P>
+					<P class="MsoNormal" style="MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%"><FONT size="2"></FONT>&nbsp;</P>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" height="13">
+					<P><FONT size="2">© 2004 EMSA SYSTEMS LTD</FONT></P>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

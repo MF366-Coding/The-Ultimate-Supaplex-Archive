@@ -1,6 +1,14 @@
 # 💻 The Ultimate Supaplex Archive
 ## 📃 The Biggest SP Archive Ever
 Find anything reated to Supaplex, from levels to executable of level editores and much more!!! You can also find Supaplex Online links.
+
+## Warning!
+There might be some duplicates amongst the files.
+
+If you see one, please report it in the *Issues* tab.
+
+Thank you. :+1:
+
 ## 💁‍♂️ Want to help?
 I accept any SP, DAT, MPX files and demos and Supaplex Online links. 
 
