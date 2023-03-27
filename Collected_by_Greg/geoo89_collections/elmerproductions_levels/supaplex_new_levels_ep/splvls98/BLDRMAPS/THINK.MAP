@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Grant Walker
+name THINK
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WP.m..m.r...mdmm...dmm....m.m...m.mdmm.W
+W.mmr....mrdm.r.....md..m......r.rm.rmmW
+W..m.m.rm...rm...m.mm......mmm....mm.m.W
+W.m..rm..dmrmmm.mmmr..m.mmm.mm.mmm.m.r.W
+W...mm.dm.m...d...m...m.mdm.....m..m..mW
+Wmmr........md.mm.....dmmrm...m..m.mm..W
+X..mm.........mmm.m.m.mmm...m..rm.mm...W
+W....mmdmm....m......mmmmr...mrm..m.mm.W
+W..m..mmm...mr....m..mm..d...mmmrd...d.W
+W...mdm.......rm.mmm.m....m..mmmr.m..m.W
+W...mm.rr..m..md......mm.m....m.mmm....W
+W..r..m..m.mr.m..mm....m.........m.rm.mW
+W........r.....mmm..mmr.mmd..mm.m.m....W
+Wdm.m....rmmm.m...m..m.......m.r.....dmW
+Wmm..m.m...r...m.r.mmmmmm.m.mmm..m.mmm.W
+W...rmm.mm.m..m.m.m.m..mdmm.m..........W
+W.m...rmm...mmm.....m..m.m.d...m.mmdmm.W
+W.mmmm...mm..mrr.r.........m....mmrrrrmW
+W...dm.r.mmmm....mmm.m...m..mm.........W
+Wm..mmm.......mmm......m...........m.mdW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 35
+time 140
+require 35
+dpoints 10
+dextra 99
+permeable 9
+amrate1 1
+amoeba 23
+milltime 125
+colour1 0
+colour2 0
+colour3 9
+colour4 2
+colour5 3
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

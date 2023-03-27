@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Brett Allen
+name RAIN
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Wr r rrdrr rrdrrrr drrrrrrrrrdr rrr  d W
+W r rr  r r r r rr r rdrr rrrrrrrdrrrrrW
+Wr rrdrrrrdr rrr drrr rdrrdrdrrdrrrdrdrW
+WssssssssssssssssssssssssssssssssssssssW
+W                                      W
+W                                      W
+WP                   d                 W
+Wsssssssssssssssssssssssssssssssss     W
+W rr rrdr rrr rrrrrr rr rr r r rds     W
+Wrd rr r rdrrrr rdr rddrrdr rddr s     W
+Wsssssssssssssssssssssssssssssssss     W
+W                                      W
+W                                      W
+W                  d                   W
+W   sssssssssssssssssssssssssssssssssssW
+W                                      W
+W  r                                  XW
+WssssssssssssssssssssssssssssssssssssssW
+W                                      W
+WmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 35
+time 75
+require 20
+dpoints 10
+dextra 15
+permeable 2
+amrate1 1
+amoeba 23
+milltime 1
+colour1 0
+colour2 0
+colour3 8
+colour4 6
+colour5 3
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

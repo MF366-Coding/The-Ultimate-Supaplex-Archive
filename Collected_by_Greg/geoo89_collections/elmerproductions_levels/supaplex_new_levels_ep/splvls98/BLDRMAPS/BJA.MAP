@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Brett Allen
+name BJA
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W.....................................rW
+W...    Q ........r....................W
+W.................r.......www..www.www.W
+W...   Q  ........r.......w.w...w..wXw.W
+W.................r.......ww....w..www.W
+W...  Q   ........r.......w.w.w.w..w.w.W
+W.........................www..w...w.w.W
+W... Q    ........r....................W
+W......................................W
+W.............r.......r................W
+W.............wwwwwwwww................W
+W.............w...r...w................W
+W.............w.......w................W
+W.............w.......w................W
+W.............w.......w................W
+W.............x.mmmmm.w................W
+W.............x.mmmmm.w................W
+W.............x.......w................W
+W.............x.......w................W
+WP............x.......w................W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 30
+time 70
+require 5
+dpoints 20
+dextra 40
+permeable 9
+amrate1 1
+amoeba 23
+milltime 3
+colour1 0
+colour2 0
+colour3 10
+colour4 4
+colour5 7
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

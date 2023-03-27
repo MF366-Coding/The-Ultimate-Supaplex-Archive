@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author PL
+name Cave F
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Wwwwwwwwww....r.r..r........r.wwwwwwwwwW
+Ww        ...........r....r...        wW
+Ww dQ     ..r..........r...r..     Qd wW
+Wwwwwwwwww..r........r......r.wwwwwwwwwW
+Ww        ......r...r.......r.        wW
+Ww dQ     ....r......r.rr.....     Qd wW
+Wwwwwwwwww.rr........r.rr.....wwwwwwwwwW
+Ww        ....r.r....r..r.....        wW
+Ww dQ     ....r.r....r..r..r..     Qd wW
+Wwwwwwwwww.rr.r..r....r...r...wwwwwwwwwW
+Ww        .rr.r..r............        wW
+Ww dQ     ....r..r........r...     Qd wW
+Wwwwwwwwww.....r...r....r..r..wwwwwwwwwW
+W....r.r..r........r.....r............rW
+W......r....r....r..r.r...r..r.........W
+W..r....r.....r...r.......r..r.........W
+W..r........r......r.rr.........r......W
+Wr.P...r...........r.rr.........rr..r.XW
+W....r......r.rr......r........r..r....W
+Wrr.........r.rr.........r..r.r.r..r...W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 40
+time 150
+require 4
+dpoints 40
+dextra 60
+permeable 7
+amrate1 3
+amoeba 23
+milltime 20
+colour1 0
+colour2 0
+colour3 13
+colour4 4
+colour5 1
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

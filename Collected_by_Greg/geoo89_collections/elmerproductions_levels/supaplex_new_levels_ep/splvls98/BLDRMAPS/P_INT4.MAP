@@ -1,0 +1,37 @@
+# Boulderoid v1.15
+author PL
+name Final Intermission
+intermission
+width 20
+height 12
+mapstart
+WWWWWWWWWWWWWWWWWWWW
+W..P.......rrr.....W
+W..........rrr.....W
+W..................W
+W..........mmm.....W
+W.......r..   .....W
+W........r.   .....W
+W.........r   .....W
+W........X.mmm.....W
+W..........   .....W
+W..........   .....W
+WWWWWWWWWWWWWWWWWWWW
+mapend
+noscroll
+delay 40
+time 20
+require 6
+dpoints 30
+dextra 0
+permeable 7
+amrate1 3
+amoeba 23
+milltime 3
+colour1 0
+colour2 0
+colour3 9
+colour4 11
+colour5 1
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

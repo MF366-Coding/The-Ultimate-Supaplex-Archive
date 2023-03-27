@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Dean Morris
+name DEAN1
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WddrrrwrrxPx....x..........rdrdrdrdr...W
+Wdrrwwwddr..dx.a.w..dxdwdx..rdrdrdr....W
+Wrrww..r...w.....w...........rdrdr.....W
+Wrwx......wwww...w..    c......d.......W
+Wr.....wmmwddw..d... ... ..............W
+W...........dxwwwwxd dxd dxwmwmmwxddddxW
+W........d.......d.. ... .r.    .......W
+Wwwwww.......x.....rc    rrr  d .......W
+Wx.......c  www  cdr..drrrrrr . ....   W
+W........   wQw   .......rrr.......... W
+W....rr...  www  ..... ...rr.......... W
+WQ  .rr......x........ ..... ..dxxd.c  W
+W.. .  .........x..... ...m............W
+W   .  .....rrrrrrrrr   ..x......d.....W
+W .....rr.....ddddd.r....dx.X..xw.w....W
+Wd.......rrr.........xwwww.....d.cw...dW
+W.......d.....rrrrr..w.d........w wwww.W
+Wxd...dxwddr.rrrrrrr.d..d..dwwwwwd.d...W
+Ww..d.dc wwx.ddd.dd.dx...dx.w.....w....W
+Wwwwwwwwwww..mmmmmmmmwa..dw.a.waw.w..a.W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 0
+time 95
+require 75
+dpoints 20
+dextra 40
+permeable 8
+amrate1 1
+amoeba 23
+milltime 140
+colour1 0
+colour2 0
+colour3 12
+colour4 2
+colour5 7
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

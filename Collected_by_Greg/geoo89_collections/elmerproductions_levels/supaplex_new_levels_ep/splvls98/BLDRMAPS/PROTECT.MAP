@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Michael Cawley
+name PROTECT
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WP.......Xwwwwwww.........w............W
+W.........wdddddwQw.......wQwwwwwwwwwwQW
+W.........wdddddwQw.......wQw........wQW
+W.........wrrrrrw w.......wQw........wQW
+W.........w.....w.w.......wQw........wQW
+W.........w.....w.w.......w w........wQW
+W.........w.....w.w.......w.w........wQW
+W.........w.....w.w.......w.w........w W
+W.........w.....w.w.......w.w........w W
+W.........w.......w.........w........w W
+W.........wwwwwwwwwwwwwwwwwww........w W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 35
+time 130
+require 10
+dpoints 15
+dextra 15
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 11
+colour3 15
+colour4 12
+colour5 4
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

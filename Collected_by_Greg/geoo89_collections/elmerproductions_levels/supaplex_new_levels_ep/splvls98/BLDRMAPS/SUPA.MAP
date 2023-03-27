@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Brett Allen & Grant Walker
+name SUPA
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W...wwwwwwwwwwwwwwww...................W
+W...waaraaWQ Waaraaw..........r..r..r..W
+W...wawwwaW QWawwwaw...................W
+W..rwawcwaWWWWaw wawr......... .. .. ..W
+W...waw waWWWWaw waw.......... .. .. ..W
+W...waw wadxxdaw waw.......... .. .. ..W
+W...waw waWrrWawcwaw...................W
+W...wawwwaWrrWawwwaw...................W
+W...waaaaaWrrWaaaaaw...................W
+W...wwwwwwwwrwwwwwww...................W
+W......................................W
+W.................... . . . . .........W
+Wwwwwwwwwwx.w........ . . . . .........W
+Waaaaaaaaxw.w........ . . . . .........W
+Wwwwwwwwaxw.w........ . . . .Q.........W
+W  Q...waxw.w........ . . .Q. .........W
+W  Q...waxw.w........ . .Q. . .........W
+W..r....aww.w........ .Q. . . .........W
+W.......adwdw........Q. . . . .......ddW
+WP.....wddddw........................dXW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 35
+time 200
+require 70
+dpoints 10
+dextra 75
+permeable 8
+amrate1 1
+amoeba 23
+milltime 175
+colour1 0
+colour2 0
+colour3 6
+colour4 15
+colour5 3
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

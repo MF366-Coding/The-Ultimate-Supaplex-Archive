@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Michael Cawley
+name EXX
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WwP......d.dr..............d..d.......wW
+Wwwr......r.d.d..rr......d..r..r...r.wwW
+W.wwdr...d.r..dr......r..r..r...r...ww.W
+W..ww.d.....rr........r..d....rrr..wwd.W
+W..rww.....rdd.d......d.....d..d..wwr..W
+Wr..rww.......r.d............r.d.wwd...W
+Wr....ww.ddd.r.d...r.....r...d..ww.....W
+W......ww.d...d.dd.....d.d.....ww......W
+Wd......wwwwwwwwwwrr..wwwwwwwwww....r..W
+W.......r...........d.....rr...d....d..W
+W..d...d....r..r.ddd.r.........r....r..W
+W.r.r.r.wwwwwwwwww...dwwwwwwwwwwr....d.W
+W....r.ww......r.....r.dd....d.wwd..r..W
+W.....wwd.r.................r...ww..r..W
+W....wwr.r............r.d....r.drww.d..W
+W.rrwwd.r....dr.r.....d.r.r.......ww.d.W
+W..wwr...d.d...r.....d.d.d.......drww.dW
+W.ww....r.............d....rr...d...ww.W
+Www....rd..d.rr......dr..........d..rwwW
+Ww........r.....r..rr....rd......r...XwW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 35
+time 150
+require 70
+dpoints 10
+dextra 10
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 11
+colour4 14
+colour5 6
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

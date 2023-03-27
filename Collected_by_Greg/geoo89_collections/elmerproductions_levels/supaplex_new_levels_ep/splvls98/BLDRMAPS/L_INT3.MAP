@@ -1,0 +1,37 @@
+# Boulderoid v1.15
+author PL
+name Intermission III
+intermission
+width 20
+height 12
+mapstart
+WWWWWWWWWWWWWWWWWWWW
+W       P          W
+W                  W
+W                  W
+W                  W
+W                 XW
+W                  W
+W              qqqqW
+W              qqqqW
+W              qqqqW
+WddddddddddddddqqqqW
+WWWWWWWWWWWWWWWWWWWW
+mapend
+noscroll
+delay 40
+time 20
+require 14
+dpoints 10
+dextra 0
+permeable 7
+amrate1 3
+amoeba 23
+milltime 4
+colour1 0
+colour2 0
+colour3 9
+colour4 11
+colour5 1
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

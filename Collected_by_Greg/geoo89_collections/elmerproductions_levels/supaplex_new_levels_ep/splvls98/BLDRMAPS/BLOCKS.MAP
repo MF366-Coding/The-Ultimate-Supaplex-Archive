@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Brett Allen
+name BLOCKS
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W....w dww..dw.w.www.wwdQww.w..w..wwww.W
+W.P.w. ..w....w.ww.wwwd. ..w...w...QQwwW
+W....wQw....w.ww...w..w..w..ww.....w.d.W
+Www..w...ww..... wdw....w..www...w.....W
+W.w....w..w..w..Q.w..wQw.d...w.w....wwwW
+W.ww..wdww.....w.ww..w.www......ww.w.w.W
+Ww....w....ww..w..w.w......www...ww...wW
+Wd.w....w.ww...........ww.....Q.w...w..W
+Ww...w..wQ.w..ww..d..w..ww..w.d...ww..wW
+W.w...www...w.w...w....dw.w..wdww.....wW
+W..w..d.ww..w..w.w..w.ww.....www....w..W
+Wd..w.ww....w...d.............w...w.w..W
+W..w.....w....wwww..Qww.w.ww...w..d.wQwW
+W...w.w........w.w.w.w..w.w..w....w.. .W
+Ww..Qw...www.d.Qww...w..w.....ww..... .W
+W...wwww.Q.w..Q...w....wQw.w.w..w..ww .W
+Ww.ww...........w.....w  w.wwdw.w.ww.QwW
+Ww....ww....w.....ww..  wwwww..w..w..w.W
+W.w.ww..w.wwd.ww...w.w..wd..ww.ww.w.ww.W
+Wd....w Q....w...wwd..wd.ww.......w.d.XW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 35
+time 100
+require 20
+dpoints 15
+dextra 25
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 9
+colour4 4
+colour5 7
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

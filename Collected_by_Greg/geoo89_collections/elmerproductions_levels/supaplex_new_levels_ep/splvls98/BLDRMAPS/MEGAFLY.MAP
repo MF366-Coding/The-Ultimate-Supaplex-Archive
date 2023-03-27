@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Grant Walker
+name MEGAFLY
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Xr         r                 r        rW
+Wc.........c.................c........cW
+Wc.........c.sssss...s...s...c........cW
+Wc.........c.s.......s...s...c........cW
+Wc.........c.s.......s.s.s...c........cW
+Wc.........c.s..sss..s.s.s...c........cW
+Wc.........c.s...s...s.s.s...c........cW
+Wc.........c.sssss...sssss...c........cW
+Wc.........c.................c........cW
+WccccccccccccccccccccccccccccccccccccccW
+Wc......... rrrrrrrrc........c........cW
+Wc.........cra....arc........c........cW
+Wc.........cr.r..r.rc........c........cW
+Wc.........cr......rc........c........cW
+Wc...aa....cr..Pr..rc...aa...c...aa...cW
+Wc...aa....cr......rc...aa...c...aa...cW
+Wca........cr.r..r.rc........c........cW
+W .........cra....arc........c........cW
+W ......... rrrrrrrr ........ ........ W
+WmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 0
+time 200
+require 99
+dpoints 5
+dextra 1
+permeable 4
+amrate1 1
+amoeba 23
+milltime 1
+colour1 11
+colour2 11
+colour3 5
+colour4 10
+colour5 1
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

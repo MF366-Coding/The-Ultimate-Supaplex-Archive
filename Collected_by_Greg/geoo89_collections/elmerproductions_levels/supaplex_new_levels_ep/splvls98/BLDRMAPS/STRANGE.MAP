@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Ken McLaren
+name STRANGE
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W......................................W
+W......................................W
+W..rr..................................W
+W..........r........r..................W
+W.rrrr.................................W
+W...........  Q    Q ..................W
+Wrrrrrr.....wwwwwwwww..................W
+W...........wcccccccw..................W
+W...........wc  c  cw..................W
+W...........wrrrr   w......r.r.r.r.r.r.W
+W...........wccccc  w..................W
+W...........wwwwwwwww......            W
+W......w...................            W
+W......w...................            W
+W......w.....aaaaaaa.......  Q Q Q Q   W
+W......w.....c..c..c.......  wwwwwwww  W
+W......w...................  w......w  W
+W...aaaw...................  w......w  W
+W...aaaw...................  w......w  W
+WP..aaaw...................  w..X...w  W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 40
+time 200
+require 70
+dpoints 5
+dextra 10
+permeable 8
+amrate1 23
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 12
+colour4 14
+colour5 1
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

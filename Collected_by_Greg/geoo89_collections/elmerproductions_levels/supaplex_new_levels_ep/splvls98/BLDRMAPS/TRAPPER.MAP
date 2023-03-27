@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Grant Walker
+name TRAPPER
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WP x        xd.xxxxx......xx.......xxxxW
+W..x        x.x..........x...x.....xx..W
+Wx.......xx......x.x....xx..x..........W
+W..x....dx..x.x......x.x.xx.xx...x...dxW
+W.x.x.x..xxx.xx........xxx..x..x......xW
+Wx.......xxx......x.x.x....x....x......W
+W.......xx.xxxx..dxdxx......x..x..xx...W
+W.xxdxx...x.....x.....x....x.x.d..x...xW
+Wd.x.....x.x.x.x.x..x......x..dx..x..x.W
+W.xx....x.....x.x..d....x..x.x..dx..xd.W
+W......xd...x.x....xx........d.x.......W
+W.......x.x..xxxxx..x.....x..x.x.xx....W
+W..x.xx.xx....x..xxx..xxx.........x....W
+Wxxx.x......x...d....x.x.xx.xx...x...x.W
+W..x..x...x.x.x....xxx.x...x.xxx....xx.W
+W............dx.....xd........x.......rW
+W....xx....x.x.xx.....x....dx..x.x....QW
+W......x..x.xxx.x.x.x...x.xx...x..dx..rW
+W....x....dx...x..x.x.x......x........ W
+WX.x...xxx.....x...x.x......xxx.......mW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 35
+time 100
+require 20
+dpoints 10
+dextra 0
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 11
+colour4 5
+colour5 1
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

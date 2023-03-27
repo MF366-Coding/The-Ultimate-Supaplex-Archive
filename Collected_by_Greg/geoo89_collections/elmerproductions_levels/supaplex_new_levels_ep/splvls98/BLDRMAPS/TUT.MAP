@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Fernando Herrera
+name TUT
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WX..................r.................PW
+W......................................W
+W......................................W
+W.x.x.x.x.x.x.x.x.x.w.w.x.x.x.x.x.x.x.xW
+W......................................W
+Wx.x.x.x.x.w.w.x.x.x.x.x.x.x.x.x.x.x.x.W
+W......................................W
+W.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.w.wW
+W......................................W
+Wx.x.x.x.x.x.x.w.w.x.x.x.x.x.x.x.x.x.x.W
+W......................................W
+W.x.x.x.w.w.x.x.x.x.x.x.x.x.x.x.x.x.x.xW
+W......................................W
+Wx.x.x.x.x.x.x.x.x.x.x.w.w.x.x.x.x.x.x.W
+W......................................W
+W.x.w.w.x.w.w.x.w.x.x.w.w.x.x.x.x.x.x.xW
+W..........   ...   .....   ...........W
+W.......... .c... .c..... .c...........W
+W.......... . ... . ..... . ...........W
+W..........   ...   .....   ...........W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 55
+time 255
+require 9
+dpoints 99
+dextra 0
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 4
+colour4 9
+colour5 5
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

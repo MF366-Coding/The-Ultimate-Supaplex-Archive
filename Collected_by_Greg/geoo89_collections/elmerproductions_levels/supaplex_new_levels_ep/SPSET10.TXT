@@ -1,0 +1,54 @@
+Welcome to the COMPLETED! version of Supaplex levelset 10.
+Inside this levelset, contains 111 levels of my own creation.
+These levels were designed using the "Any Level" mode of
+Speedfix 6.3 in mind -- or, use Megaplex.
+
+All levels are written in varying difficulty, which means
+that if you get truely stumped in one level, go play a
+different level and come back to the troublesome one later.
+
+Yes, if you've looked at this levelset 10 earlier in the
+levelsets archive, there was a #70 stuffed in there that
+wasn't mine. This level was "Through the Pipes" and, sadly,
+this was removed so I can get 111 levels in.
+
+However, if you are new to this levelset and wondered what
+this mysterious, alternate "Level 070" was, there is a
+single-level "PIPES.SP" that is attached to this archive.
+
+All levels up to 69 were built up to 1998; levels 70-111
+were built in 2003. The final level, 111, was developed on
+October 8, 2003 at 12:01am EDT. Talk about nailing the time!
+
+Special thanks to:
+
++ Maarten "Elmer" Egmond for SPEDIT,
++ Herman Perk for (I believe) Speedfix 6.3, kill me if I'm
+  wrong,
++ Nathan "Noise" Albright, you know who you are.
++ Keri, though that's not her name, actually it's Holly :).
+  She taught me the patience required to do these levels.
++ Time for letting me tweak the problems in the new levels.
++ The Half-Quake gang for showing me the true meaning of
+  sadism. (http://farm.muddasheep.com/)
++ Frank Schindler for developing Megaplex, which allowed
+  me to play the developed levels without problems.
+
++ ..that guy who wrote "Through the Pipes", I'm gonna be
+  in that time and place developing a clever level like
+  that someday, we'll just see ;)
+
+-------------------------------------------------------------
+WARNING - HINTS - WARNING - HINTS - WARNING - HINTS - WARNING
+-------------------------------------------------------------
+
+I will give just a few hints per level just to push you in
+the right direction.
+
+001> 
+
+Actually, they're in s10hints.txt, to keep this archive text
+short.
+-------------------------------------------------------------
+
+$# Psychopheles 10-08-2003 12:20 EDT | SPSET10.TXT

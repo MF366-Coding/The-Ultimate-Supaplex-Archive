@@ -1,0 +1,50 @@
+------ This file: Comments to Kim Minsoo's level set 78 by: Herman Perk ------
+
+This extremely difficult Supaplex level set 78 (finished April 4, 2002) is
+something special. View LEVELS.D78 with SupaShow and you'll get the picture!
+
+
+Note to level 088:
+
+  See Kim Minsoo's "manual" 78S088.TXT for how to solve this level.
+
+  To level 088 there is no demo available, because the length of such a demo
+  would be around 700 kilobyte long, which is way beyond the Supaplex/SpeedFix
+  possibilities.  The demo-less 78S088.SP is provided for those who play from
+  the separate SP files (like with Megaplex) instead of the level file.
+
+  --- Addition to this note by Frank Schindler: ---
+  Actually the demo size is 'only' 471 KByte. MegaPlex does not know the demo
+  size limitations of Supaplex/SpeedFix. Hence I added a solution for level 88
+  in MegaPlex file format *.mpx.
+
+
+Note to level 111:
+
+  As with his level set 77, level 111 should also be viewed with an ordinary
+  text viewer (Notepad, Wordpad, ...) to see another text message.
+  The remark about this being his third set is obviously a typo.  This is his
+  second complete set, of course.
+  In this level set this level is also playable, which was not really the case
+  with level 111 from Minsoo's set 77.
+
+
+Minsoo's words, taken from an e-mail:
+
+  Finally, I finished creating set 78 with solutions.
+  Now I can do things that I piled up behind supaplex.
+  I'll not be able to play supa for one or two years.
+  But I never quit, and I'll be back with the three-set project.
+
+(That third planned set is supposed to be a normally playable set, although
+- knowing Kim Minsoo - it will be something special again.)
+
+
+
+For Supaplex, SupaShow, MegaPlex and a lot more, see following web sites:
+
+    http://www.elmerproductions.com/sp
+    http://www.matemaster.de/mpx
+
+
+--END--

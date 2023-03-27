@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Fernando Herrera
+name GYRO
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W......................................W
+W...           .........           ....W
+W...           .........           ....W
+W...                               ....W
+W...    Q   Q             Q   Q    ....W
+W...               Q               ....W
+W...      P                 X      ....W
+W...                               ....W
+W...    Q   Q             Q   Q    ....W
+W.....           Q   Q             ....W
+W.....                           ......W
+W.....  Q          d          Q  ......W
+W.....             .             ......W
+W.....           Q   Q           ......W
+W.....      Q             Q      ......W
+W.....                           ......W
+W.....                           ......W
+W.....             Q             ......W
+W.....                           ......W
+W.....                           ......W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 45
+time 60
+require 1
+dpoints 99
+dextra 0
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 5
+colour4 6
+colour5 1
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

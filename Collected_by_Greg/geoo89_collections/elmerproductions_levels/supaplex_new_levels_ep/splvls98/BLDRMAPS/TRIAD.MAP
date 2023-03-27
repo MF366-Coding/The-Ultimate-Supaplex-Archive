@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Brett Allen
+name TRIAD
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W.......r......c .....rdr.........r...dW
+W...P..............d...r...............W
+W.r..........................r.........W
+W..........d........r..................W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWwwwWWWW
+Wa...w........r..r..r..rr..r..r.rQQQ...W
+W....w.....r....r.....r.........r..r...W
+W....w..r......r..r.......r.r...r......W
+W...........r.......r  cr.....r........W
+WxwwwwWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W........................QQ  d.......r.W
+W..........d Q.........................W
+W..... .............r..................W
+W.....Q.............dQ  ......rd.......W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWwwwW
+WW.....................................W
+WW....  d  ....... QQ .......   .......W
+WW.... ... ....... dd ....... dQ.......W
+WH....Q...Q....... .. ....... . .......W
+WW.....................................W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 30
+time 175
+require 40
+dpoints 15
+dextra 25
+permeable 8
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 10
+colour4 4
+colour5 3
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

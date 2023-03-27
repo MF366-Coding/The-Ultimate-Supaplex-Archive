@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Grant Walker
+name COVER
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Xrrrrrrrrrrr...r...........rr.....r.W..W
+WrrrrrrrrrrWr.............r............W
+WrrrrrrrrrrW........r.r.r...rr.r....W..W
+WrrrrrrrrrrW.........r......r.......WWWW
+WrrrrrrrrrrWr.......r.........r.......rW
+W..........W.......Qrr.....rr....r.....W
+W          w...... r.....r.....r.......W
+W          W..............r...r........W
+W          W.....r........r.r..........W
+W          W..r.....r.........r........W
+Ww        wW.r...r.....rQ.rr..........rW
+WwwsssssswwW......r.....r.....r.rr.r.r.W
+Wwww    wwwW.r.rr.Q...P......r....r...rW
+Wwwww  wwwwWr.....r.....r...r.rrr..r.rrW
+WwwwwmmwwwwW.rr.r..rQr.....r....r...r..W
+W          Wr..r.rr.r.r...Q..........r.W
+W          W....r........ r............W
+W          w....... .r.............rr..W
+W          w..........r.......r........W
+WmmmmmmmmmmWxxxxW............r.r...r...W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 30
+time 200
+require 40
+dpoints 10
+dextra 50
+permeable 5
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 14
+colour4 6
+colour5 3
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

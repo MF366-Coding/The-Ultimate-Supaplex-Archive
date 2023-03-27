@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Fernando Herrera
+name JAIL
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WP.....................................W
+W......................................W
+W......................................W
+W...w.www....w.www....w.www....w.www...W
+W...w   w....w   w....w   w....w   w...W
+W...wQ  w....wQ  w....wQ  w....wQ  w...W
+W...w.www....w.xww....w.xww....w.www...W
+W...w  dw....w  dw....w  dw....w  dw...W
+W...wwwww....wwwww....wwwww....wwwww...W
+W......................................W
+W......................................W
+W...w.www....w.www....w.www....w.www...W
+W...w   w....w   w....w   w....w   w...W
+W...wQ  w....wQ  w....wQ  w....wQ  w...W
+W...w..ww....w.xww....w.www....w.xww...W
+W...w  dw....w  dw....w  dw....w  dw...W
+W...wwwww....wwwww....wwwww....wwwww...W
+W......................................W
+W......................................W
+W.....................................XW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 35
+time 130
+require 4
+dpoints 99
+dextra 99
+permeable 9
+amrate1 89
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 9
+colour4 8
+colour5 5
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

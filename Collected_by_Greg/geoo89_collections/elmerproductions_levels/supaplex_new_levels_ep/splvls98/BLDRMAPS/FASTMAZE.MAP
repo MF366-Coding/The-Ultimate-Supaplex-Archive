@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Grant Walker
+name FASTMAZE
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W   PXWrrW...W           WW           rW
+W WWWWW..W...W WWWWx..xW.xx.WWWWWWWWW..W
+W W    ..W...W W     r W    W..W..W.W..W
+W W W  ..W..aW W WWWWW.WWWWWW..W..W.WW.W
+W W W WWWWWWWx.W.xWWWW W....W..w..w..w.W
+W W W W d      W WWWWd W.W..W..w..w..w.W
+W W W W W WWWW W WWWWW W.W.QW..wr.wr.w.W
+W W W W W WWWW W Wa  W W.W..W..w..wc.w.W
+W W W W W WWWW W W   W W.W..W..w..wd.w.W
+W W W W W WWWW W WWWWW W.W..W..w .w..w W
+W WcW W W WWWW W    QW W.W..W..w .w..w W
+W W W W WQWWWW W WWW W W.W..W..w .w..w W
+W W W W W      W WWW W W.W..W..w .w..w W
+W W W W W WWWW W WWW W W.W..W..w .w..w W
+W W W W W WWWW W WWW W W.W..W..w .w..w W
+W W W W W WWWW W.xWW W W.W..W..w .w..w W
+W W W W W WWWW W WWW W W.W..W..w .w..w W
+W W W W W WWWW W WWW W W.W..W..w .w..w W
+W W W W WQWWWW W WWW W W.W..W..w .w..w W
+W   W   W      rdWWWdW  .Wx....Wc.W..WcW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 20
+time 200
+require 30
+dpoints 5
+dextra 99
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 0
+colour4 11
+colour5 5
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

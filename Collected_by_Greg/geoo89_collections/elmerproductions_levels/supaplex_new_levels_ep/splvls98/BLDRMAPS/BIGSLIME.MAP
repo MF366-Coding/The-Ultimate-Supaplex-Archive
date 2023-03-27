@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Grant Walker
+name BIGSLIME
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Waaaaaaaaaaaaaaaaaaaaaaaaaa          r W
+Waaaaaaaaaaaaaaaaaaaaaaaaaa         PWQW
+Waaaaaaaaaaaaaaaaaaaaaaaaaa         WccW
+Waaaaaaaaaaaaaaaaaaaaaaaaaa         WccW
+Waaaaaaaaaaaaaaaaaaaaaaaaaa         WccW
+Waaaaaaaaaaaaaaaaaaaaaaaaaa         WccW
+Waaaaaaaaaaaaaaaaaaaaaaaaaa         WccW
+Waaaaaaaaaaaaaaaaaaaaaaaaaa         WccW
+Waaaaaaaaaaaaaaaaaaaaaaaaaa         WccW
+Waaaaaaaaaaaaaaaaaaaaaaaaaa         WccW
+WaaaaaaaaaaaaXaaaaaaaaaaaaa         WccW
+W...................................WccW
+W...................................WccW
+W...................................WccW
+W...................................WccW
+W...................................WccW
+W...................................WccW
+W...................................WccW
+W............a......................WccW
+WmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmWc W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 30
+time 130
+require 99
+dpoints 2
+dextra 10
+permeable 9
+amrate1 75
+amoeba 51
+milltime 999
+colour1 0
+colour2 0
+colour3 11
+colour4 5
+colour5 4
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

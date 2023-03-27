@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Fernando Herrera
+name MAZE
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WXP.w         . . c              . . . W
+W...w.wwwwwwwww.w w.wwwwwwwwww.w w.www.W
+W ... .   c   w w . .        . . w w w W
+W .wwww w.wwwww.w w.wwwwwwwwww.w w wcw W
+W       . .   . . w w        w w w w w W
+W w.wwwww.wwwww.w w w w.wwwwww.w w w w W
+W . .   . .    .  w wc.d.    . . w w w W
+W w.wwwww.w w.wwwww.w w.wwwwww.w w w w W
+W w w       . .   . . w w        w w w W
+W w w w.wwwww.wwwww.w w w w.wwwwww.w w W
+W w wc.d.   . .    .  w w.. .    . . w W
+W w w w.wwwww.w w.wwwww.w w.wwwwww.w w W
+W w w w w       . .   . . w w        w W
+W w w w w w.wwwww.wwwww.w w w w.wwwwww W
+W w w w w . .   . .       w w . .      W
+W w w w w w.wwwww.w w.wwwww.w w.wwwwwwwW
+W w.www.w w w    c  . .   .d. w wddd   W
+W . . . . w w w.wwwww.wwwww.w w.wwwwww.W
+W w.www.w w.www.    . .       . .    . W
+W . c     . . . .wwww.wwwwwwwww.wwwwww.W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 30
+time 230
+require 6
+dpoints 99
+dextra 99
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 15
+colour4 6
+colour5 4
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

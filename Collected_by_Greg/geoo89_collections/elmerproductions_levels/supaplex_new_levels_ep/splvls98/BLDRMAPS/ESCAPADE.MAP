@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Fernando Herrera
+name ESCAPADE
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WXw..dw   w   w   w   w...w...w...wd...W
+W.w.r.w w w w w w w w w.w.w.w.w.w.w.r  W
+W.w.w w w w w w w w w w.w.w.w.w.w.w.ww W
+W.w.w w w w w w w w w w.w.w.w.w.w.w..w W
+W.w.w w w w w w w w wPw.w.w.w.w.w.w..w W
+W.w.w w w w w w w w w.w.w.w.w.w.w.w..w W
+W.w.w w w w w w wQw w.w.w.w.w.w.w.w..w W
+W.w.w w w w w w w w w.w.w.w.w.w.w.w..w W
+W...w   w   w   w   w...w...w...w.w..w W
+Wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.w..w W
+W w.w...w...w...w...w...w...w...w.w..w W
+W w.w.w.w.w.w.w.w.w.w.w.w.w.w.w.w.w..w W
+W w.w.w.w.w.w.w.w.w.w.w.w.w.w.w.w.w..w W
+W w...w...w...w...w...w...w...w...w..w W
+W w.wwwwwwwwwwwwwwwwwwwwwwwwwwwwwww..w W
+W w....w...w...w...w...w...w...w.....w W
+W w..w.w.w.w.w.w.w.w.w.w.w.w.w.w.w...w W
+W w..w...w...w...w...w...w...w...w...w W
+W wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww W
+W                   c                  W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 0
+time 120
+require 11
+dpoints 50
+dextra 50
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 6
+colour4 4
+colour5 1
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Fernando Herrera
+name RAMBO
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W                   .r...X.............W
+W ...................w.................W
+W   c                 .................W
+W....................w.................W
+W    c              .r.................W
+W ...................w.................W
+W                     .................W
+W....................w.................W
+W                   .r.................W
+W ...................w.................W
+W              c      .................W
+W....................w.................W
+W c                 .r.................W
+W ...................w.................W
+W                     .................W
+W....................w.................W
+W                   .r...P.............W
+W ...................w.................W
+W       c             .................W
+W....................w.................W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 25
+time 60
+require 45
+dpoints 20
+dextra 0
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 9
+colour4 6
+colour5 1
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

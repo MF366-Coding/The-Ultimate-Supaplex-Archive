@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Brett Allen
+name PUSH
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WXP....w.......r...............r.......W
+W...r..w....Q ...........r.............W
+Wr.....w...........r...................W
+W.....rw.......r.......................W
+W.r.r..w...........................rQ..W
+W.r..r.w.......m.......m.......m.......W
+W.r..r.w...............r......r........W
+W..r...w........r..........r...........W
+W.r....w...............................W
+W....r.w...............................W
+W.r....w.......r.....r.................W
+W...r..w.......................r.......W
+W.....rw............................r..W
+W..r...w.......m.......m.......m.......W
+Wr.....w.......................r.......W
+W.....rw.............r.....r...r.......W
+W...r.rw........r......................W
+W.rr..rw...............................W
+W...r...................r..Q.........wwW
+W.r..................................wdW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 35
+time 150
+require 12
+dpoints 25
+dextra 50
+permeable 9
+amrate1 1
+amoeba 23
+milltime 75
+colour1 0
+colour2 0
+colour3 5
+colour4 4
+colour5 3
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

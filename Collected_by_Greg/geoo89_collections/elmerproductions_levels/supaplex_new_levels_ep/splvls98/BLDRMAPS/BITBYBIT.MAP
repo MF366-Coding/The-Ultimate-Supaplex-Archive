@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Brett Allen
+name BITBYBIT
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WP......................rrrrrrrrw......W
+W...............................w......W
+W......c   ...... .......wwwwwwww......W
+W................ .......wwwwwwww......W
+W................ .......wwwwwwww......W
+W................c.......wwwwwwww......W
+W........................wwwwwwww......W
+W..c......c..............wwwwwwww......W
+W.. ...... ..............wwwwwwww......W
+W.. ...... .....   c.....wwwwwwww......W
+W.. ...... ..............wwwwwwww......W
+W........................wwwwwwww......W
+W........................wwwwwwww......W
+W.................. .....wwwwwwww......W
+W..c   .....c   ... .....wwwwwwww......W
+W.................. .....wwwwwwww......W
+W..................c.....wwwwwwww......W
+W........................wwwwwwww......W
+W........................wwwwwwww......W
+W........................wwwwwwww.....XW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 35
+time 150
+require 72
+dpoints 7
+dextra 99
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 2
+colour4 8
+colour5 1
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

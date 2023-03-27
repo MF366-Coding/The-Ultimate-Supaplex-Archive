@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Grant Walker
+name DIAMOND
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+QQWd...WWrrrW.....rs...................W
+QQW....W........  wsw..................W
+QQWx..xW.......  ws sw.................Q
+QQW...........  ws   sw................W
+QQW..........  ws     sw...............W
+WQW.........  ws       sw...........P..Q
+WQW........  ws  sssss  sw.............W
+WQW......r. w    s   s    w............W
+WQW........ s    s X s    s............Q
+WQW         .s   s   s   s.............W
+QQW...........s  sssss  s..............W
+QQW............s       s...............W
+QQW.............s     s................W
+QQW..............s   s.................W
+QQW...............sas..................W
+QQW................s...................W
+QQW....................................W
+QQW....................................W
+QQW....................................W
+QQWmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 30
+time 255
+require 1
+dpoints 99
+dextra 0
+permeable 5
+amrate1 85
+amoeba 23
+milltime 1
+colour1 0
+colour2 0
+colour3 4
+colour4 3
+colour5 7
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

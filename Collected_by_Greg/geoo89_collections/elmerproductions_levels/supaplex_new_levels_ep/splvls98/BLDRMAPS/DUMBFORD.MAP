@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Ian Bradtke, Ken McLaren & Grant Walker
+name DUMBFORD
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W                                      W
+W ...WWWWWWWWWWWWWWWWWWWWWWWWWWWXW.... W
+W WWWW..rw..rw..rw..rw..rw..rw..rr.... W
+W W......w...w...w...w...w...w...W.... W
+W Wx.W...w...w...w...w...w...w...W.... W
+W ...Wc  w  cw  cw  cw  cw  cw  cW.... W
+W ...W . w . w . w . w . w . w . W.... W
+W ...W . w . w . w . w . w . w . W.... W
+W ...W . w . w . w . w . w . w . W.... W
+W ...W . w . w . w . w . w . w . W.... W
+W ...W . w . w . w . w . w . w . W.... W
+W ...W   w   w   w   w   w   w   W.... W
+W ...WWWWWWWWWWWWWWWWWWWWWWWWWWWWW.... W
+W .................................... W
+W ..............rrrrrrr............... W
+W .................................... W
+W ..............mmmmmmm...........P... W
+W .................................... W
+W .................................... W
+W              c Q F                   W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 20
+time 150
+require 67
+dpoints 5
+dextra 1
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 8
+colour4 9
+colour5 3
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

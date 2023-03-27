@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Grant Walker
+name GLUE
+width 40
+height 22
+mapstart
+WGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGW
+W                                     dW
+W WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W......................................X
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+WQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQW
+W.....................................rW
+W.....................................PW
+W.........................rrrrrrrrrr...W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 30
+time 100
+require 1
+dpoints 99
+dextra 0
+permeable 9
+amrate1 100
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 9
+colour4 10
+colour5 4
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

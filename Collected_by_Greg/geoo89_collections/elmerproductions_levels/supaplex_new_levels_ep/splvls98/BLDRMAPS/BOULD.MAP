@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Brett Allen
+name BOULD
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WPr..r..r . r..r.r.... r .rrr.r.. . ..XW
+Wr....r.....  r.rr ...rrdrrr..r. r..r..W
+W ..r.....r.. .rQ.rr.r..r  .rr.r.....r.W
+W ...r.r.Q. r ..rr.. r.rr.r.Q. .....r..W
+W..r   .r.r..r ..rrr ...r.r....r. .Q..rW
+W..r.Q.r....r.rrr..rr..Q . . r ..r.....W
+Wr. .r..rr..... ..r....Q...  ..r.....r.W
+W.. .r.  ...r rQ.r..r.......... r.. rr.W
+W.....r. ... r.r .....r..r..r..r....rrdW
+W..r..r.  . . ...... .r... .r.rr.rrr..rW
+W.r.QQ . r....r .rrr..d. r .r r...Q...rW
+W.....r....r....rr .r. ..r.Q..r.rr.r. .W
+W. ..r...rrr.rrr .... .r..Q......r....rW
+W..r..r.r. .rrr...Qr.rQ.....r ... rr. .W
+Wr. .r... r.. .r r. ..r... r..r... .r..W
+W ..r.d. . .  ... . ..r.r.r .. ....r..rW
+W....rrrQ . r.r r.. .. .... ..Qr..r ..QW
+W..r.. rr. r.rr rr  ....rr r. ...r ...rW
+W ..r.Qrr...r.. . .r.r.....r...... ...dW
+WQrrr ..r .. Q.rr.r... .rr....r.r    ..W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 35
+time 100
+require 5
+dpoints 25
+dextra 0
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 6
+colour4 2
+colour5 7
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

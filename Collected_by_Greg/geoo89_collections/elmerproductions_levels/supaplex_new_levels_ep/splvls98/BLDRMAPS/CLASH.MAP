@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Fernando Herrera
+name CLASH
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W.......rr..r..r...............r.......W
+W.r.............rr..r..rr........r..r..W
+W....r....r..r..rr....r..r..r...r......W
+Wr.r...r....r..rrr...r.rrrr.......r....W
+W........r.....rrr.............rrrr....W
+Wr.wwwwwwwwwwwwwrr....r.wwwwwwwww...Q..W
+W.rw....r..r...wr....r.rwcccccccw.. Q..W
+W..w.r.........w.. .....wcccccccwr.  ..W
+W.rw....r...a..w.... Q.rwcccccccw..  ..W
+W..w.........r.w.. .  ..wcccccccw..  ..W
+W..w...........w. ..  ..wcccccccwr. Q..W
+W.rw...........w.. .  ..wcccccccw... ..W
+W..w...........w ...  ..wcccccccw...  .W
+W..w...........w........wwwwwwwwwr..  .W
+W..wwwwwwwwwwwww.r..................Q .W
+W........r....  ....P................ .W
+Wr.r........    ......    ....r...... .W
+W........   .   .r....     ......r.r...W
+Wr...r... Q . r..... Q    Q............W
+WX.......  ..........      ....r...r...W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 35
+time 110
+require 75
+dpoints 10
+dextra 90
+permeable 9
+amrate1 85
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 2
+colour4 6
+colour5 5
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

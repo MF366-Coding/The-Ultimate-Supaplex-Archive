@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Brett Allen & Grant Walker
+name ROCKY
+width 40
+height 22
+mapstart
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+w.......d.......d...wPw...rd.....rdr..dw
+w.......d...........www..d...drd..r.d..w
+w...................w....r...r..d.d..r.w
+w...................w..d.r.dr...r.r.d.dw
+w..c  ........c.....w..r.d....d...d....w
+w............. .....wrd...r..r..d.r.d..w
+w............. .....w...d..d..d.r......w
+w...................wrrrrrrrrrrrrrrr.www
+w...................wd...............wPw
+w...............d...wmmmmmmmmmmmmmmmmwww
+w..c..d.............wH.....w....w...w.Ww
+w.. ................w.....w........w...w
+w.. .........  c....w.w.w..w..w..w...w.w
+w...................w........w.....w...w
+w...................w..w..w.....w......w
+w...................ww...ww...w........w
+w...................w.......w...w...w..w
+w...................w....w.............w
+w...................w........w.w....w..w
+wP..................wWw...w.......w...Ww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+mapend
+delay 35
+time 218
+require 60
+dpoints 3
+dextra 15
+permeable 9
+amrate1 1
+amoeba 23
+milltime 1
+colour1 0
+colour2 0
+colour3 2
+colour4 14
+colour5 7
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

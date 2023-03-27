@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Brett Allen
+name MINES
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Wd.....r..dr...r.r......r...  Q.c  ....W
+W.r..r...r...r.....r........ ..... ....W
+W...............rd...r...... ..... ..P.W
+W..r..d.r.r.......r....d.... ..... ....W
+W..r.r......r.r.....r....r..   .   ....W
+Wr...WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W..........w...........................W
+W.......w..w.       ...www.www.www.ww..W
+Ww..w..wx..w. ..... ...ww..w.w.ww..w.w.W
+Wx..w...w..w.       ...w...www.w.w.ww..W
+Ww..xw...w..w... ......................W
+Ww..w.w...w..w.. ..F....F..............W
+Ww..w..w...w..w. ...........Ww.wW......W
+Ww..w...w...w... .....F.....WwawW......W
+Ww..w....x...w.. .F.........W w W......W
+W.....F......    .........FW     W.....W
+W.F......F................W     a W....W
+W....................F....Wwwwwww W....W
+W....F.......F............W   a  aW....W
+WF......F........F.......FWWWWdHWWW...QW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 35
+time 100
+require 25
+dpoints 5
+dextra 6
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 6
+colour2 6
+colour3 4
+colour4 10
+colour5 7
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

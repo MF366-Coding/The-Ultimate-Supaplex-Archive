@@ -1,0 +1,47 @@
+# Boulderoid v1.15
+author Brett Allen
+name BLACK
+intermission
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Wd.dd.d.dd.dd.dddddWdWWWWdWdWWWWWWdWdWWW
+W.d..dd.d.d.d.d..ddWWWWWWWWdddWdWWdWWWdW
+Wd.ddd.d..dd.d.d.ddWWWWWWdWWWWWdWWWWWWWW
+Wd..d...d...d.d....WWWWWWWdWWWddWdWWdWWW
+W....d...P...d.....WWdWWWWWdWWWdWWdddWdW
+Wd..d..d..d...d.d..WWWWWWWWWWWdWdWWWWWWW
+W...........d......WWWWWWWdWWdWdWWWWWWdW
+W.d.......d...ddd.dWWWWWWWWWWddWdWWWdWWW
+Wd.d.d.d...d.d...d.WWWWddddWWWWWWWWWWWdW
+Wd..d....d..d.d...XWdWWdWWddWWdWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWdWdWWdWWWWdWWWWdddW
+WWWddddWWWdWdWWWWWWWdddWWdWWWWWWWWWWWWWW
+WWWWdddWWWWddWWWWWWWWdWdWdWWWddWWWWdWWdW
+WWdWdWWWdWdWWWWWWWWddWWWdWWWdddWWdWdWdWW
+WdWWWdddWdWWWWWWWdWWWWWdWWWdWWdWWWWWdWWW
+WddWWWdWdWWWWWWWdWWWddWddWddWWWWWdWdWWdW
+WWWWWWWWWdWWdWWWdWWWdWWdWddWdWWWdddWdWdW
+WWWWWWWWdWWWdWdWWWddWddWWdWWWWWWddWdWWWW
+WWWWWWWWdWWdWWdWWWWWWWWWWWWWWWWddWdWdWWW
+WWWWWWWdWWdWWWWdWWWWWWdWWWWWWWdWWdWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+noscroll
+delay 0
+time 10
+require 25
+dpoints 10
+dextra 25
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 0
+colour4 0
+colour5 0
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

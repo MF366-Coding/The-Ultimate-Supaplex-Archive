@@ -1,0 +1,25 @@
+# Special Demo Map
+author Grant Walker
+name The Demo Map
+width 20
+height 12
+mapstart
+WWWWWWWWWWWWWWWWWWWW
+W r.dr..........dr W
+W Wdr.r.....d....W W
+W W...r...r......W W
+W Wr.r..www...r.rW W
+W W...r.wXw.....dW W
+W W.....www.....rW W
+W W......P......dW W
+W W.d.......r....W W
+W W..............W W
+Wc....r.....r.d...OW
+WWWWWWWWWWWWWWWWWWWW
+mapend
+noscroll
+delay 40
+time 100
+require 10
+dpoints 5
+dextra 50

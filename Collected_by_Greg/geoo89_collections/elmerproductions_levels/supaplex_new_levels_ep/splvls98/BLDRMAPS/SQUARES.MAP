@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Grant Walker
+name SQUARES
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W................wxrrXrrxw.............W
+W................wwwrrrwww.............W
+W................wwwwrwwww.............W
+W....................P.................W
+W..........wwwwwwwwww wwwwwwwwww.......W
+W..........wa      aw wccccccccw.......W
+W..........w        w wccccccccw.......W
+W..........w        w wccccccccw.......W
+W..........w        wQwccccccccw.......W
+W..........w        wQwccccccccw.......W
+W..........w        wQwccccccccw.......W
+W..........w        wQwccccccccw.......W
+W..........w        wQwccccccccw.......W
+W..........wwwwwwwwww wwwwwwwwww.......W
+Wwwwwwww.xww                   www.xwwwW
+W..........mmmmmmmmmmmmmmmmmmmmm.......W
+W......................................W
+W..........m...................m.......W
+W..........mmmmmmmmmmmmmmmmmmmmm.......W
+W......................................W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 30
+time 100
+require 99
+dpoints 1
+dextra 2
+permeable 9
+amrate1 90
+amoeba 23
+milltime 255
+colour1 0
+colour2 0
+colour3 11
+colour4 4
+colour5 5
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

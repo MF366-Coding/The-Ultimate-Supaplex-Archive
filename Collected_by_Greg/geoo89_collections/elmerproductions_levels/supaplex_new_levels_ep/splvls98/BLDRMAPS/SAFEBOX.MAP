@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Fernando Herrera
+name SAFEBOX
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WP.....................................W
+W...r....................r.............W
+W......................................W
+W....         ............         ....W
+W.... wwwwwww ...w.xwww... wwwwwww ....W
+W.... w.....w ...wd...w... w.....w ....W
+W.... w..a..w ...wd...w... w.....w ....W
+W.... w.....w ...wd...w... w.....w ....W
+W.... w.....w ...w....w... w.....w ....W
+W.... w.....w ...w..X.w... w.....wQ....W
+W.... w.....w ...w....w... w.....w ....W
+W.... w.....w ...w....w... w.....w ....W
+W.... w.....w ...w....w... w.....w ....W
+W....Qw.....w ...w....w... w..a..w ....W
+W.... w.....w ...w....w... w.....w ....W
+W.... w.....w ...w....w... w.....w ....W
+W.... wwwwwww ...wwwwww... wwwwwww ....W
+W....         ............         ....W
+W......................................W
+W......................................W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 35
+time 85
+require 59
+dpoints 10
+dextra 99
+permeable 9
+amrate1 89
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 8
+colour4 9
+colour5 3
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

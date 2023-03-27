@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author PL
+name Cave L
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Wr. ...rr.....r.r..r........r.....r..d.W
+W.....d.r....... ....r....r..r..... ..rW
+W.......rdw.r.w.. w...wr...r... q.. .. W
+Wdwwwwwwwwwww.w...w..rw.....r..  ......W
+Wr........w...w.r.w d.w.....r..........W
+Wrr..r....w...w...w..rwrr......r..d....W
+W..r.....rwrr.w...w..rwrr.........r...rW
+W.wwwwwwwwwww.w.r.w .rw.r....r. q...d.rW
+Wr.r......w...w.r.w..rw.r..d...  ...r..W
+W.r.......wrr w..dw.. w...r.......d.r..W
+W ........wrr w..rw...w... ..r.....r...W
+W.wwwwwwwwwwwwwwwrw...w...r........r.  W
+W...r.r...w...wr..wr..w.r..r.r. q......W
+W....r r..w...w...wd..w..r ....  .....dW
+W.... .r..w.d.w..rw.r.w...r. r.........W
+W.wwwwwwwwwww.w...w...w...r. r.........W
+W..r......w.r.w...wr.rw...... ..r......W
+Wr.P...r. w...w...wr.rw.........rd..r..W
+W....r....w.r.wd..w...w.... ...r..d. ..W
+Wrr.......w.r.wd..w...w..r..d.d.r..r...X
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 40
+time 180
+require 19
+dpoints 20
+dextra 0
+permeable 7
+amrate1 3
+amoeba 23
+milltime 20
+colour1 0
+colour2 0
+colour3 12
+colour4 10
+colour5 1
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

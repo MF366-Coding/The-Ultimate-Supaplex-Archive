@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Grant Walker
+name SLIME
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W.d.d.d.d.d.d.d..d..d.d.d.d.d.d.d.d.d.dW
+W......................................W
+WPmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmW
+W......................s               W
+W......................s               W
+W......................s               W
+W......................s               W
+W......................s               W
+W......................s               W
+Wssssssssss............s     ssssssssssW
+Wsc      cs............s     sQQQ   QQsW
+Ws WWWWWW s............s     sQddddddQsW
+Ws WWWWWW s............s     sQWWXWWWQsW
+Wsc      cs............s     sQQ      sW
+Wssssssssss............s     ssssssssssW
+W......................s               W
+W......................s               W
+W......................s               W
+W......................s               W
+W......................s               W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 30
+time 255
+require 25
+dpoints 10
+dextra 20
+permeable 7
+amrate1 1
+amoeba 23
+milltime 999
+colour1 3
+colour2 11
+colour3 5
+colour4 7
+colour5 0
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

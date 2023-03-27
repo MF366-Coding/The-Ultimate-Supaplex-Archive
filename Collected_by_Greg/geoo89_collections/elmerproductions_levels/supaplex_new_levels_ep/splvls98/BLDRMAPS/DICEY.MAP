@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Brett Allen
+name DICEY
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WP.c.a.....c..a.....................a..W
+W.....c.........c..a..c..c..a....c.....W
+W..a....c.c...........a......c...cc...cW
+W...................c..cc.c............W
+W...cc.........ca..................c.a.W
+W.......c..a......c...c.........a..c...W
+W.........c................c....cc.....W
+W........c......c..c..........cc.....ccW
+W.c............c.a........cc.......c...W
+W.......c...........c...........c...c..W
+W.......c....a..c...........a...ac....aW
+Wc.a........c.........c.........c.c....W
+W..........cc.....a....c.............c.W
+W......a......cc...c.....c..a.......dddW
+W..c.a.........a.c..................dddW
+Wcc.c.........ccac..a...c.....a.c...dddW
+W...c...c.c...c.............c....c.....W
+W.....c......c.c..ac..................cW
+W...a.........................c..c.....W
+W..c...c..............c................X
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 35
+time 75
+require 99
+dpoints 1
+dextra 2
+permeable 9
+amrate1 1
+amoeba 23
+milltime 999
+colour1 0
+colour2 0
+colour3 10
+colour4 11
+colour5 5
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN

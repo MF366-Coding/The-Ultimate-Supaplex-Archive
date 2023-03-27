@@ -1,0 +1,45 @@
+# Boulderoid v1.15
+author Grant Walker
+name MIXSLIME
+width 40
+height 22
+mapstart
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W...........rrrrrr...rrrrrr............W
+W............rrrr.....rrrr.............W
+W......................................W
+W.............rr.......rr..............W
+W......................................W
+W......................................W
+W............s..sssssss..s.............W
+W...... .....s..saaaaas..s...... ......W
+W.....   ....s..s     s..s.....   .....W
+W....c    ...s..s     s..s....    Q....W
+W.....   ....s..s     s..s.....   .....W
+W......c.....s..s     s..s......Q......W
+W............sssssssssssss.............W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+WP....................................XW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+mapend
+delay 30
+time 125
+require 50
+dpoints 5
+dextra 10
+permeable 3
+amrate1 93
+amoeba 23
+milltime 54
+colour1 9
+colour2 9
+colour3 5
+colour4 1
+colour5 0
+timepercent 100
+teleport 1234567890,YYYYYYYYYY,NNNNNNNNNN
