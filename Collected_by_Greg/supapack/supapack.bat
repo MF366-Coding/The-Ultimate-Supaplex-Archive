@@ -1,0 +1,2 @@
+cd dosbox
+dosbox -noconsole
