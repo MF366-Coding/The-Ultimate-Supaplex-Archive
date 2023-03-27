@@ -1,0 +1,440 @@
+HINTFILE.TXT
+edt 10 Sep 2020
+
+----------------------------------------
+RE: RETURN TO PROMOTEK
+ISSUER: ASSISTANT DR I. NOAH FEUTHEENGS
+DATE 04 SEP 2130
+MESSAGE:
+
+Dr. Pudewercsi didn't fully lock me out of
+the communications, so I was actually able
+to glean what you might encounter during
+your troubleshooting of Experiment 4.
+
+Again, this is the machine that is causing
+the hyperdimensional outbreak, so this is not
+going to be as easy as the prior Promotek Incident.
+
+If you don't want to know the knowledge of what you
+are about to face, I suggest you discard this memo
+posthaste. But if you find yourself in a little bit
+of a pickle, I figured I might lend you a hint or
+two.
+
+Best of luck,
+I. Noah Feutheengs
+
+----------------------------------------
+
+LEGEND OF CHARACTERS FOUND AT THE END OF EACH LEVEL
+TITLE ARE AS FOLLOWS:
+
+B - Red Disk Bombing in use
+C - Knowledge of chain explosions required
+D - Some snik dodging required
+E - Electrons to be smashed
+G - Gravity is present
+H - May encounter bugged base
+I - Invisible Wall Navigation
+J - Red Disk / Explosion Jumping required
+K - Must finish or defuse swiftly
+    (on the clocK)
+O - Enemy riding is required
+P - Problem Solving Level
+R - Run-thru level and zonk dodge in use
+S - Chased By Sniks or Electrons
+T - Trapping by ill manipulation possible
+V - Volatile Walling (Touching Console = Death)
+W - Knowledge of Sokoban required
+    (MOVING OBJECTS TO DESTINATION)
+X - Manipulation of gravity, zonk and/or enemy
+    behaviour is present
+Y - Yellow Disk manipulation in use
+    (NON-SOKOBAN ARRANGEMENT)
+Z - Zonk shift manipulation required
+? - Results greater than quota to be expected
+! - MURPHY copies to be protected
+* - Infotrons are sacrificed as part of solution
+
+---------------------------------------
+
+001 "EVRYTHNG U KNOW IS WRNG" GI
+
+002 "VOLATILE MEMORY" PT
+
+003 "LEGACY SOFTWARE" PR
+
+004 "OVERPROBLEMATIC" PRTZ
+
+005 "CITAMELBORPREVO" PRTZ
+Note the second column's lights. This might be
+useful later.
+
+006 "KINESTHESIA" BDGJO
+Do not attempt a ride when the snik is close
+to the red lamp! Practice makes perfect.
+
+007 "ABORT, RETRY, FAIL?" PTZ
+
+008 "THIS IS MADNESS!" DPTZ
+
+009 "HIDDEN SECRETS" I
+
+010 "ETCHOGON-S" BPTZ
+Title is an Autechre track.
+It is Track 1 from the "Move Of Ten" EP.
+
+011 "MITIGATION PROTOCOLS" EP
+There are exactly as many zonks as there are
+electrons. Be careful.
+
+012 "SNAKE CHARMER" RS
+
+013 "YEESLAND" T
+There are exactly as many zonks as there are
+sniks. All cells must be cracked open.
+"Yeesland" is the first track of Autechre's
+"Cichlisuite" EP.
+
+014 "SNAKE EATER?" ES?
+
+015 "TERMINAL FATALITY" BDV
+
+016 "EMPTY RESPONSE" BDP!
+The lamps provide a hint.
+
+017 "MODUS OPERANDI?" PX
+
+018 "! VERIFY INPUT CODE 17" GP!
+Read the right wall in level 017.
+Convert to binary. 1 = drop zonks.
+
+019 "ICE BREAKER" DTX
+
+020 "DIMENSIONAL ANOMALY" EHI?*
+
+021 "LOCKBREAKER" BDPTWX
+Time the entry to the bottom of the
+vertical shaft to freeze the sniks
+in the right way so as to both navigate
+and grab the red disks!
+
+022 "SYSTEM HANG" DPTX?
+
+023 "RECURY" CE
+Track 7 off of the Autechre LP "Chiastic Slide".
+
+024 "BLACK ICE" D
+
+025 "ACCESS DATA" ET
+All electrons must be solo-smashed. One must also
+break the pipe-wall in order to progress.
+
+026 "CODE BLACK" CEVY
+A 'code black' in institutions is a bomb threat.
+
+027 "FOR GREAT EFFECT" R
+
+028 "THE FIREWALL" DHRTZ
+
+029 "NEXT LEVEL LESSON 3" BEJPT
+You must not only jump on the disk, but jump onto
+the explosion afterward to get the extra height.
+This is a remix of Levelset 10 #051.
+
+030 "CHECK ON ROCKFORD?" RTZ
+Rockford is the player character of Boulder Dash.
+Level size is in the Boulder Dash level dimensions.
+
+031 "POINT THE GUN AT YOU!" KS!
+If you don't kill the snik with the disk, you'll
+never get to finish the Vault before the snik hits
+the dumb Murphy to kill you. That snik is the "gun".
+
+032 "IS THE LOCK SECURE?" BEGJTWZ
+
+033 "IN THE FINAL BREATHS..." DET
+
+034 "LEVEL THE PLAYFIELD" CEPT?
+Arrange orange disks into chains for the electrons
+to chain explode into. It's harder than it looks!
+
+035 "FIVE" BDT
+
+036 "SECURITY CHECK." PE
+"ACCESS CODE FOR THE NEXT CHECK POINT IS IN
+LEVEL FIVE." Check the lamps in the second column
+in "CITAMELBORPREVO".
+
+037 "SOKOBANIC NIGHTMARE" CTYZ
+
+038 "HEART BREAKER" EHPTZ
+
+039 "PART MAKER" TW
+
+040 "INSTABILITY DETECTED." R
+
+041 "REBOOT REQUIRED" EY
+
+042 "F.U.B.A.R." HI
+While it's a military term, it's also the title
+of a Hardfloor track.
+
+INCOMING MESSAGE:
+"WHAT ARE YOU DOING! THE STABILITY IS NOT
+YET VERIFIED! SHUT DOWN THE DEVICE"
+
+043 "SAFE CRACKER?" BD
+
+044 "BOULDERDASH VI" RTZ
+
+045 "LETS NOT BYTE THE DUST?" TZ
+
+046 "LETS NOT DUST THE BYTE?" RTZ
+
+047 "Public Announcement" D
+'This is a message from Dr. Yldab Pudewercsi. Read.'
+
+048 "Broken Feed" S
+'The whole system has gone to hell.'
+
+049 "Malware Effects" DI
+'The dimensional array has failed!'
+
+050 "Stack Corruption" PY
+'It can be fixed on channel three.'
+Note the lamps in this level.
+
+051 "MIGHT SEEM HANDY!"
+"THE CODE IS: 'B6A9'" -- note this too
+
+052 "BAD CONFIGURATION" DS
+
+053 "CRAPAGE" TZ
+Title of a Front 242 track.
+
+054 "UNADULTERED CHAOS" CDEHSTYZ?
+My response to the "Chaos" level in Supaplex.
+
+055 "SPATIAL K" BEHT
+
+056 "COULD THIS BE" EST?
+
+057 "HOW IT ENDS," CJK
+This is the first of two "Jacob's Ladder" explosion
+climbing sequences. You must also ride the top
+chain explosion and land on the RAM at the end.
+
+058 "AND WE WILL" CW
+
+059 "NEVER COME TO" BCDEIT
+
+060 "NOTICE THE" CE
+Complete the fuse. Work from the top down.
+
+061 "EXACT REASONS WE ARE" D!
+
+062 "LEFT WITH THIS MESS?" TZ
+
+063 "FOR WHAT IT IS," TZ
+
+064 "OUR MINDS ARE" RZ
+
+065 "UNDER NO CIRCUMSTANCES" BHP
+
+066 "READILY FOOLED." BHR
+
+067 "STRANGE SCIENCE" CEGP!
+Note the letters in this level.
+
+068 "NEON TIP DEMO TRICK" RTZ
+An anagram of "Promotek Incident".
+
+069 "RITE OF PASSAGE, ZWEI" CDJKRTZ
+This is the second "Jacob's Ladder" sequence. You are
+on a timer to reach the end of the gauntlet before
+the zonks block your path forward.
+
+070 "LAYING OF HANDS, DREI" EGTZ
+Arrange the zonks to be dropped on the second
+gravity pass, so the orange disk can be pushed to
+the exit.
+
+071 "GRID WORK" DTZ
+
+072 "S.N.A.F.U." T
+A military term.
+
+073 "BLUTGARTENARBEIT" EST
+"Blood Gardening" in German.
+
+074 "BACKDOOR ACCESS" T
+A "Corner To Corner" level. Graphic on the right
+is the Interesting Output insignia.
+
+075 "BRUTE FORCE" BETY
+The electrons must break all three RAM-blocks.
+
+076 "ANTIVIRUS" DS
+Corral the sniks using the space to the left, to
+make it easier to collect the infotrons.
+'Intruder detected'
+
+077 "HOPE YOU HAVE THE CODES" BRTZ
+'Init channel lock.'
+
+078 "MAY NEED TO BACKTRACK" CERT?
+Make sure you get the quota BEFORE hitting that
+terminal! All the yellow disks will explode!
+
+079 "PREPARE TO ENTER CODES."
+Uh oh! Dr. Pudewercsi locked us out!
+'ACCESS IS DENIED. CHECK CHANNEL LEVELS!!'
+
+080 "CHANNEL ONE: PAGE 50" P
+Code is in level 050 "Stack Corruption".
+
+081 "CHANNEL TWO: INF  52&53" GP!
+181 + 108 = 289. Convert to binary
+
+082 "CHANNEL THREE: [DENIED]" GP!
+Read Pudewercsi's message, or check Level 051.
+
+083 "CHANNEL FOUR: PAGE 67" GP!
+Hope you observed those letters in 067.
+
+084 "ADMIN ACCESS GRANTED?" D
+Pac-Man, except you're Murphy.
+
+085 "IS IT COMPULSION?" RTZ
+
+086 "IS IT OBSESSION?" DRTZ
+This is 085 rotated 180 degrees, and modified
+for solveability.
+
+087 "PUDEWERCSI'S DILEMMA" CG
+Arrange the fuse, and don't let any zonks drop down
+on your way back. Otherwise, you're blocked!
+
+088 "PUDEWERCSI'S FOLLY" CDERTXYZ
+Stop the tumblers (sniks) so you can go across,
+using the ports nearby to manipulate.
+
+089 "DIE FANTASTISCHEN VIER" BRTZ
+It is a German group of the same name, and it means
+"THE FANTASTIC FOUR", which references the level
+being split into four parts.
+
+090 "THE CRUEL MISTRESS" GTZ
+Gravity is a cruel mistress. Don't get too comfortable
+
+091 "HE OVERCLOCKED IT" H
+Consider this the Aftermath version of "Minefields!".
+
+092 "NO SHUFFLE" RSTZ
+The electron requirement is a reference to Front 242,
+of which this level's title is a track of.
+
+093 "DON'T CRASH" DV
+The electron requirement is a reference to Front 242,
+of which this level's title is a track of.
+
+094 "JUNKDROME" EKT?!
+Yes, the minimum requirement is 242, this is also
+a Front 242 track title, and you better not take too
+much time!
+
+095 "DUMPING THE STACK" RTZ
+Beware the sniks, or you'll fail the level from
+detonating infotrons. YOU NEED EVERY SINGLE ONE!
+
+096 "SEGMENTATION FAULT?" DS
+Alter-Maven, when I had the hyphen in my name.
+
+097 "HASTE MAKES WASTE" ET
+Don't chain electron explosions!
+
+098 "BOOT SEQUENCE" D
+Oh look, I think Dr. Pudewercsi is trying to
+restart Experiment 4. I hope it fails.
+
+099 "WE BROKE THE LOOP" D
+'Fault in spatial parameters. HALT!'
+HAHA! We locked him out!
+
+100 "A SIGH OF RELIEF?" DT
+We're in the home stretch. He left 12 real nasty
+surprises. And by 12 surprises I mean 'tests'..
+
+101 "ACCESSING IDLE MYTHS?" TZ
+An anagram of "Alchemystics Design".
+
+102 "HINGE CAM DISC STYLES" RT
+An anagram of "Alchemystics Design".
+
+103 "MAKE THE CONNECTION" CEPW
+
+104 "SHAPE THE RANDOM" RTZ
+A track by the drum & bass artist Phace.
+
+105 "ZIP BOMB!" EGTZ
+A track by Robert Armani.
+
+106 "ANGSTFABRIK" CETW?
+Set up chains, detonate with electrons, but beware!
+You can't make too many mistakes!
+Level title is "Fear Factory" in German.
+
+107 "GOTTERDAMMERUNG, II" RTZ!
+Dr. Pudewercsi set up a real pain of a gauntlet for
+you. Shift the zonks carefully or you'll be blocked!
+
+108 "ADMINISTRATOR CONTROL" DERTX
+He isn't even letting you SUDO yet.
+
+109 "DAISY CHAIN" CEWXY
+That electron will give us all the data we need.
+Better assemble the fuse before using the port to
+unfreeze the zonk!
+
+110 "CRASH THE SYSTEM!" EY
+Just like "REBOOT REQUIRED", except your disks
+are in a sokoban arrangement...
+
+111 "AUS DEM RAUM..." DRTZ
+'I TRULY DID NOT THINK YOU COULD PULL IT OFF!!'
+'YOU WIN, I LOSE!!'
+
+Gathering all the data you needed, you find the
+main system control panel of Facility 131. Using
+the codes you are given, you patch in the poke
+codes for the panel's main frame and hit the
+execute button. Ceremoniously, Dr. Pudewercsi's
+systems all crash one by one, writing all forms
+of corrupt data on the system's drives, causing
+the operating systems to refuse to work.
+
+However, with the data you've obtained, the
+Promotek Incident is truly resolved, and you
+prepare what you've gleaned with Noah, who in
+turn would make a case to end Dr. Pudewercsi's
+career -- and that of Promotek -- permanently.
+
+However, Dr. Pudewercsi would be found with
+ozone coming out of his head with a frizzled
+wire connected to a jackport. Turns out he got
+hit with the trip as the response of the codes,
+but it couldn't be traced to you. Promotek,
+however, is forced to fold, and the next day,
+dimensional parameters snap back to their
+original configuration.
+
+It's a blue sky, sunny day. You try to find
+out the result of what happened to Promotek...
+
+But somehow, Promotek didn't exist at all?
+
+You pack up MURPHY, but you leave your tel line
+open, in the hopes Noah might give you another
+job. It's not easy being a bug hunter ace...

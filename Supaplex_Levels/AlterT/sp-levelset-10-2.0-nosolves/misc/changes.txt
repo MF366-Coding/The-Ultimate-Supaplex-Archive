@@ -1,0 +1,14 @@
+Since the original version of 'Complete Levelset 10' has a few mistake,
+2 levels were unsolvable. We tried to contact with AlterT, but failed.
+So I changed the 2 levels slighly, to be solvable.
+Below are descriptions for changed levels.
+
+--------------------------------------------------------------------
+105 OUTPT, I added an Exit.
+109 ZEISS CONTAREX, I moved 2 infotrons.
+--------------------------------------------------------------------
+
+Now all levels are solvable. I hope for AlterT's understanding and...
+Enjoy!
+
+Ahn Young-Seob in Seoul, Korea

@@ -1,0 +1,24 @@
+What you can do with this program:
+With this program, you can edit the Moving.dat graphics file from Supaplex.
+----------------------------------------------------------------------------
+
+Using the program:
+
+1) Start the program
+2) Type the save path and the load path
+3) Type the filename of the first part of Moving(.gif) to convert.
+4) Type the filename of the 2nd part of Moving(.gif) to convert.
+5) Type the filename of the 3th part of Moving(.gif) to convert.
+
+
+Read How.txt for more information about editing .Gif
+files for Gif2Dat.
+--------------------------------------------------------------------
+
+Other programs I made:
+ 
+ SpDat V1.0
+ Gif2Dat
+ 
+SpMov (Special Gif to Dat converter for Moving.dat) By Mark Zwaneveld
+E-mail: Zwaan@hi.nl

@@ -1,0 +1,62 @@
+<gui>
+	<button
+		name="btn_to_main_menu"
+		x="20"
+		y="540"
+		text="Back to Main menu"
+		type="text"
+		size="big"
+		tab_id="6" />
+	<button
+		name="btn_to_play_menu"
+		x="600"
+		y="480"
+		text="Play"
+		type="text"
+		size="big"
+		tab_id="3" />
+	<button
+		name="btn_replay_demo"
+		x="600"
+		y="510"
+		text="Replay Demo"
+		type="text"
+		size="big"
+		tab_id="4" />
+	<button
+		name="btn_save_demo"
+		x="600"
+		y="540"
+		text="Save Demo"
+		type="text"
+		size="big"
+		tab_id="5" />
+	<listbox
+		name="levelsets"
+		x="20"
+		y="100"
+		height="300"
+		width="300"
+		tab_id="1"
+		type="files_list" />
+	<listbox
+		name="levels"
+		x="350"
+		y="100"
+		height="300"
+		width="400"
+		tab_id="2"
+		type="levels_list" />
+	<label
+		name="l_level_set"
+		x="25"
+		y="75"
+		text="Choose level set"
+		type="type2" />
+	<label
+		name="l_level"
+		x="360"
+		y="75"
+		text="Choose level"
+		type="type2" />
+</gui>

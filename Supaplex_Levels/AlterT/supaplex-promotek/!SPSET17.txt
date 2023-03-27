@@ -1,0 +1,186 @@
+----------------------------------------
+      ALCHEMYSTICS DESIGN PRESENTS
+
+	      A SUPAPLEX LEVEL SET
+		 DESIGNED BY ALTERMAVEN
+		 
+		 YOU KNEW HIM AS BASTIGE
+		    OR MAYBE ALTER-T
+	      OR EVEN PSYCHOPHELES
+		...or something like that
+----------------------------------------
+This levelset was started in October
+2019 and has completed on 16 June 2020
+
+interesting{dot]output|AT|gmail[dot}com
+
+All levels designed by Altermaven.
+
+     FOR FREE, NON-COMMERCIAL USE.
+           BY THIS I MEAN...
+
+YOU MAY:
+- use this levelset for personal use
+- include this levelset in a bundle for
+  distribution with a free Supaplex port
+- record and stream gameplay of this
+  levelset, provided you acknowledge me,
+  Altermaven, as the author of the set
+
+YOU MAY NOT:
+- include this level set as part of a
+  commercial or "freemium" Supaplex port
+  - "freemium" means free but comes with
+    purchase options/microtransactions.
+- modify this levelset without explicit
+  permission from me
+
+I HAVE THE RIGHT TO:
+- instruct you to remove my level set
+  from your compilation if it part of a
+  commercial or "freemium" port
+- request app stores to remove the
+  offending material if not resolved
+  
+REPORT TO EMAIL IF:
+- you find an upload missing this README
+- you find this package in a commercial
+  or "freemium" port's distribution
+  - please also forward the author's
+    email in your report and report the
+	app to the distribution medium as
+	having an add-on w/o author's perms
+- spam email not discussing anything
+  regarding this levelset will be
+  discarded without reading. Your mail
+  may also be filtered if offensive.
+- email with attachments are auto-sent
+  to delete. Please don't attach.
+  
+Without further ado. Hopefully my ass is
+covered and you are legit.
+----------------------------------------
+Story...
+----------------------------------------
+
+RE: BUG BOUNTY PROGRAM
+ISSUER: DR. IMA ALCHEMOSA, PROMOTEK LABS
+DATE: 04 AUG 2130
+MESSAGE:
+
+CONGRATULATIONS!
+You have been selected as one of the
+individuals who may now participate in
+the use of the Modular User-Responsive
+Portable, HYperdimensional (MURPHY)
+Tester System! You will be put to your
+ambidexterital skill as you will show
+our trained observants how well you
+can use the MURPHY Tester to solve one
+of our biggest gauntlets.
+
+It so happens to be our primary
+laboratory relay that needs testing, and
+after 16,383 individuals who had shown no
+promise, we have decided you might be the
+lucky individual who will not only be
+able to fix our machine with the use of
+the MURPHY Tester, but be able to finally
+finish deciphering what our relay was
+reading in the first place that caused
+this grand mess.
+
+If you finish this test with flying
+colours, you will not only be certified
+as a MURPHY Tester Ace, but with your
+newfound skills, can be deployed to fix
+the machines of the world with your new
+device! Consider it payment for your job.
+----------------------------------------
+Considering you have indeed managed to
+fix the Supaplex Mainframe with a
+standard MURPHY Tester system which was
+not handed to you upon finishing, your
+dreams of becoming a MURPHY Tester Ace
+may yet be realised. But why would such
+an incompetent corporation such as
+Promotek want you to troubleshoot their
+primary lab relay? And what the hell
+were they looking for, anyway?
+
+You accept the job, since nobody else
+is going to..
+
+After all, isn't it going to BSOD anyway?
+----------------------------------------
+
+TO USE:
+
+* Please place LEVEL.L17 and LEVELS.D17
+into the directory that contains both
+LEVEL.LST and LEVELS.DAT. This is usually
+your base Supaplex directory, if you have
+chosen to run either DOSbox Supaplex,
+Megaplex, or OpenSupaplex.
+
+IF YOU ARE NOT USING THE SPEEDFIX, BUT
+THE ORIGINAL SUPAPLEX EXECUTABLE,
+please copy LEVEL.LST and LEVELS.DAT, then
+move these files to a safe directory.
+Then, rename LEVEL.L17 to LEVEL.LST and
+LEVELS.D17 to LEVELS.DAT.
+Start Supaplex at DOS prompt.
+
+IF YOU ARE USING THE SPEEDFIX, OR ARE
+USING OPENSUPAPLEX, click the DISK icon to
+switch to LEVELSET 17.
+
+IF YOU ARE USING MEGAPLEX, access Options
+and choose to restrict view size to default
+Supaplex. This is for maximum enjoyment.
+Open "LEVELS.D17" from the menu.
+
+IF YOU ARE USING A COMMERCIAL PORT, please
+feel bad because you have been scammed.
+There is no legitimate difference between
+SPEEDFIX/Megaplex/OpenSupaplex and the
+commercial variant. None. Nata. I cannot
+support you.
+
+Remember, "Commercial" means either paid
+or "freemium". READ DISCLAIMER AT TOP.
+----------------------------------------
+Now you have accessed your shiny new
+levelset, please have fun solving.
+However, if you need a nudge, please
+read HINTFILE.txt for helpful details from
+your partner in crime who is using the
+alias "I. Noah Feutheengs".
+
+Some basic trick knowledge is recommended
+to fully complete this levelset. Please
+look up videos on how to complete these
+tricks:
+
+Snik Dodging -- shifting MURPHY as an enemy
+is about to make contact, forcing it to turn.
+
+Disk Jumping -- placing a red disk and using
+the resulting explosion to reach a ledge in
+a gravity environment.
+
+Zonk shifting -- using the zonk moving
+behavior to your advantage.
+
+Explosion chaining -- starting a chain by
+creating a fuse and then setting off an
+explosion at the start of it -- usually
+an Electron explosion which then creates
+a series of infotron explosions.
+
+With practice and a bit of persistence,
+you will be able to complete this levelset.
+
+Have fun!
+
+-Altermaven a.k.a. AlterT

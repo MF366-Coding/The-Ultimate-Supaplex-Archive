@@ -1,0 +1,32 @@
+<gui>
+	<button
+		name="btn_to_main_menu"
+		x="20"
+		y="540"
+		text="Back to Main menu"
+		type="text"
+		size="big"
+		tab_id="3" />
+	<button
+		name="btn_to_play_menu"
+		x="600"
+		y="540"
+		text="Play"
+		type="text"
+		size="big"
+		tab_id="2" />
+	<listbox
+		name="demos"
+		x="20"
+		y="100"
+		height="300"
+		width="300"
+		tab_id="1"
+		type="files_list" />
+	<label
+		name="l_demos"
+		x="25"
+		y="75"
+		text="Choose demo to play"
+		type="type2" />
+</gui>

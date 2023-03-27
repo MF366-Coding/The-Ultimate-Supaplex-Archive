@@ -1,0 +1,488 @@
+HINTS FILE FOR LEVEL SET 10
+READ ONLY IF YOU ARE STUCK AND OR ARE UNSURE OF WHAT
+YOU MUST DO FOR THE LEVEL
+YOU ARE ENCOURAGED TO TRY EACH LEVEL BY YOURSELF ONCE!!
+--------------------------------------------------------
+
+001> "Lesson 1".
+
+Demonstration of the trick which allows Murphy to stick
+on an up-port, in gravity.
+
+002> "Try This 1".
+
+More demonstration of the trick. Experiment because you
+will need this for the next level.
+
+003> "DISK PLATFORM".
+
+Gravity environment, however the area with the electrons
+is not. There are gravity switches to and from the area
+with the electrons. The one going to turns off gravity.
+The one going from turns on gravity.
+
+You can either destroy the "gravity on" port, or use the
+spare red disk as a stepping stone to make Murphy grab
+the base, permitting him to touch the exit.
+
+004> "Corner To Corner".
+
+Take your time. While some false moves make you
+backtrack, some false moves will lock you in.
+
+005> "Minefields!".
+
+To ensure maximum safety vs. bugs, treading with caution
+is advised.
+
+006> "Boulderdash 1".
+
+Your standard "Run as fast as you can and grab all the
+infotrons" level inspired by the good ol' Boulderdash
+that I've played when I owned a Commodore 64.
+
+007> "Open Fuse".
+
+Connect the fuse. You only have enough room for one
+misplaced disk.
+
+008> "Destruction".
+
+Timing is everything with red disks vs. electrons.
+
+009> "Detonator".
+
+Work from the top down.
+
+OR:
+
+Detonate a piece of the RAM-wall, allow some of the fuse to
+clear the base next to the yellow disks, rearrange some
+yellow disks into a fuse, and light it with an electron.
+(Thanks Jens)
+
+010> "Another Step for Murphy".
+
+If you know snik-dodging, you don't need the yellow disk.
+
+012> "THE BRIDGE".
+
+The bridge is best left broken ;)
+
+013> "OH NO..".
+
+CLEAR YOUR WAY OUT WITH EXTREME CAUTION.
+
+014> "POWER!!".
+
+Step aside. Quickly.
+
+016> "Tempestein".
+
+Concentrate on the electrons and not the snik-snaks.
+
+017> "Seek N Destroy".
+
+It is possible to get past the first electron wall.
+Keep trying.
+
+018> "SHOCKWAVE!!".
+
+"PROCEED WITH CAUTION -- GROUND LACED WITH DEFECTIVE MINES"
+
+019> "Kill 'em All!"
+
+You don't need to kill 'em all -- just enough to get your
+infotron quota. It wouldn't hurt to have a little less pain
+getting to your exit, though -- since your electrons are
+guarding it.
+
+020> "Danger zone 1".
+
+The long way out takes too long.
+
+021> "Doubt it All".
+
+If you played the first Boulderdash, this is familiar.
+
+022> "VANISHING ACT 1".
+
+Tread with caution, or it will be lights out for you.
+
+023> "Zapoholic".
+
+See "Minefields!".
+
+025> "Take a Break!".
+
+Do NOT take a break, or you find that you won't have enough
+infos to leave the level.
+
+027> "Flytrap II".
+
+If you don't chain-kill your electrons, you just might make it
+through by eliminating one side only.
+
+028> "Revolution 1".
+
+Avoid or destroy the snik-snaks, it's your choice.
+
+029> "Track Targeter1".
+
+Kinda like "Kill 'em All!", but you have to kill 'em all.
+
+030> "Visibility!".
+
+Remember how this is set up, you'll need it for "Invisibility!"
+later.
+
+031> "Boulderdash 2".
+
+This takes a little more thought than speed.
+
+032> "Free Cell 1".
+
+Outrun the fuse, then break open the cells.
+
+033> "senilepiP".
+
+It's "Pipelines", only turned 180 degrees.
+
+034> "A Little Creative".
+
+Don't play Sisyphus(?) with the yellow disk..
+
+035> "Normal!".
+
+This level has more variations than "Flytrap". See for yourself.
+
+036> "Here is a clocker".
+
+Your head spins less if you find the "gravity off" port in the
+room full of base and diamonds (and electrons and sniks).
+
+037> "User's Delight 1".
+
+Run.
+
+038> "Manic!!", and 039> "Psychotic!!".
+
+Add more electrons, then change boulderfield and add more
+electrons.
+
+040> "Industrial!".
+
+1> Save the electron in the far wall to detonate the yellow disk.
+2> In the gravity trail, you can save time by cutting a corner.
+3> You don't need to play Sisyphus(?) with the yellow disk to
+   get the red one guarded by the snik-snak, but you need to
+   push the other yellow disk to block Murphy from the other snik!
+4> The final vertigo trail has shortcuts if you can dodge well.
+
+041> "End of the Terminal".
+
+You will need a few red disks to unblock other obstructions in
+this level, which requires you to break the wall leading to the
+exit with a few orange disks.
+
+042> "Diabolism".
+
+No hints here, because I'm a sadist.
+
+043> "At a Simple Degree".
+
+Yes, you must finish with three red disks left.
+
+044> "Dodge City!".
+
+If in case you can't go around a snik-snak, blow it up.
+
+045> "Another Tempestein".
+
+Sorry. You have to play Sisyphus(?) with the yellow disk. But to
+make your life easier after pushing, save a snik-snak and use that
+to blow up the terminal instead of the resulting red disk after
+eliminating the RAM-wall.
+
+047> "Simple!".
+
+You need to disrupt the dropping of the zonks with timing so the
+orange disk can break the RAM-wall leading to the next.
+
+Expect to snik-dodge on your way to the exit.
+
+048> "TEST!"
+
+BE CAREFUL.
+
+049> "Lesson 2".
+
+Experiment with: using snik-snaks to cross gaps. If you're still
+unsure, download the trick at www.elmerproductions.com/sp/
+(go to tricks, but find the site map first).
+
+050> "DO OR DIE 1".
+
+The bridge remains closed.
+
+051> "Lesson 3".
+
+This time, you will use the red disk to make an explosion, where
+Murphy will jump up just before the explosion occurs, then will use
+the explosion frame to go up one higher. Timing is everything.
+
+052> "infection".
+
+Just use the electrons.
+
+053> "Lesson 4 / Try This 2".
+
+Experiment with: using snik-snaks to cross gaps. Move over just as
+the snik-snak enters the space below the area you must cross.
+
+You must finish the first (Bottom) as quickly as possible to ensure
+the fewest complications. The second may be done with suitable
+timing.
+
+054> "TT2 / EAT STATIC!".
+
+Destroy the gravity-on port.
+
+055> "Trans-Murphy Express!".
+
+Don't derail the sniks.
+
+056> "Troubled Murphy..".
+
+Move quickly and without error pushing the yellow disks away from
+the fake Murphies, so you don't die.
+
+057> "INSANITY!".
+
+See "Psychotic!", then rinse, repeat.
+
+058> "Invisibility!".
+
+Remember "Visibility!"?
+
+059> "Testing...."
+
+Timing is everything.
+
+060> "Testing 2...."
+
+Timing is everything is everything.
+
+061> "Not Normal..."
+
+Remember "Normal!"? HAHA! Eat static!
+
+062> "Not Easy..."
+
+The exit is in the left of the LOWEST pair of RAM-walls.
+
+063> "small chaos".
+
+It's a repeat of "DODGE CITY!".
+
+064> "Beware of Cutters".
+
+Expect -HEAVY- snik-dodging.
+
+065> "AUGH!".
+
+I've turned up the voltage to 120,000. Thankfully, there is a
+"safe path" which is clear of bugs. Expect the path to the
+electrons and zonks to be very buggy, though.
+
+Prevent digging a hole too deep where fake Murphy's will be
+exposed to death. You must kill ALL of the electrons single.
+
+066> "Flytrap III".
+
+Yes. Like the previous Flytraps, but with bugs.
+
+067> "Systematic Doom 1".
+
+Yay. Play Sisyphus(?!) with the yellow disk while avoiding
+contact with all terminals until the yellow disk is against
+the RAM-wall -- then by all means touch the terminal.
+
+068> "RE/DECONSTRUCTION."
+
+You only need to reconstruct part of the fuse in order to
+leave, but you can reconstruct the intended fuse to build
+your assembly skills.
+
+069> "Flytrap IV".
+
+No red disk needed to kill the RAM-wall blocking the exit.
+
+071> "Yet Again".
+
+Ten electrons. Ten zonks. You must use each.
+
+072> "DISRUPTION!".
+
+Greed will be the death of you.
+
+073> "Bastardized".
+
+Avoid the sniks and get the infotrons.
+
+074> "Boulderdash III".
+
+Careful steps are the only means necessary to complete the
+zonk bridge!!
+
+075> "7, 5... 3??".
+
+Fuse assembly must be done from the top down.
+
+076> "Binary Logic 1.0!".
+
+10110101110000101101.
+
+077> "Endless".
+
+Move fast, but not too fast.
+
+078> "Hex to Binary".
+
+10101100101.
+
+079> "Laying of Hands".
+
+You must carve your second path on your first.
+
+080> "Rite of Passage".
+
+Be careful where you place those red disks.
+
+081> "1 and 3 make 25.."
+
+1 and 3 make 25.. through the use of stray infotrons.
+
+082> "PATIENCE!"
+
+Yes, this can be done.
+
+083> "Mind the Gap!"
+
+The yellow disk DOES have a purpose!
+
+085> "Running with Scissors".
+
+If you're careful, you won't get cut. Snik-dodging? Good.
+
+086> "Detpacker", 087> "Sentinel (DET5)".
+
+TIMING IS EVERYTHING!
+
+088> "Wire Up (DET20)".
+
+Ensure that each electron has enough room to spawn 9 infotrons
+when destroyed by detonating the yellow disks.
+
+089> "CTRL-ALT-DELETE (DET50)".
+
+Timing will get you through. Chain kills extra.
+
+090> "NOISE IS BACK!".
+
+Separate the sniks from the electrons and you're OK. (Nathan)
+
+091> "FASTLOAD V1.0".
+
+Fuse assembly must be done from the ground up. Assemble
+quickly, or prepare to die.
+
+092> "VI scose poise" AKA "Credendum".
+
+Rushing fools deserve to die.
+
+093> "Cfern" AKA "User's Delight 2".
+
+You'll need to move a zonk to continue the path.
+
+094> "Pen Expers" AKA "Telling of Beads".
+
+Use infotrons to smash electrons, but beware of stray bugs.
+
+095> "Sim Gishel" AKA "Boxing Day".
+
+Dodge, dodge, dodge. The only safe place is in the boxes.
+
+096> "Parhelic Triangle" AKA "Gravity Bomb".
+
+Work is best done from the top down to minimize gravity impact.
+
+097> "Bine" AKA "Diffusion".
+
+Patience and a keen eye are key to breaking the electrons and
+dodging the bugs. Work on the electrons from the top down.
+
+098> "Eidetic Casein" AKA "Corner2Corner Revised".
+
+Be careful.
+
+099> "Uviol" AKA "Wire Tapping".
+
+Snik dodging might come in handy. Break the walls dead center.
+
+100> "Lentic Catachresis" AKA "Too Buggy to Exist".
+
+No help here, because I'm a sadist. :)
+
+101> "Rpeg" AKA "Free Cell 2".
+
+Time to play "Corner to Corner" by breaking open cells.
+
+102> "Ccec" AKA "The Dark Adherent".
+
+Break the curtains, but be sure to get your infotron fix.
+
+103> "Squeller".
+
+If you can get the sniks to circle open air, you'll do fine.
+
+104> "Left Blank" AKA "Vanishing Act 2".
+
+It's "Bastardized" but instead has become a second Vanishing Act :)
+
+105> "Outpt" AKA "Systematic Doom 2".
+
+Get all three yellow disks to the other side, then make the electron
+circle the yellow disks. Then, smack the electron with the zonk and
+you'll get enough infotrons to leave.
+
+106> "Dropp" AKA "Hand of Midas".
+
+It's better to start from the ground up than from the top down.
+
+107> "Liccflii" AKA "Powergrid".
+
+Remember "AUGH!"? Well, I've put a "safe path" here, too.
+
+108> "Maphive6.1" AKA "Containment Cells".
+
+You must box at least 15 of the 20 electrons to generate the
+required 135 infotrons to leave. Box the electrons with four yellow
+disks dead center in a cell in order to generate the most infos.
+
+You can also use two yellow disks to trap an electron between cells,
+but you must do this to all 20 and with sufficient space so each will
+spawn 7 infotrons separately -- thus giving you 140 infotrons, five
+over the required limit.
+
+109> "Zeiss Contarex" AKA "Bane of Midas".
+
+Clear each cell of infotrons, but avoid the snik-snaks.
+
+110> "Netlon Sentinel" AKA "!llA me' lliK".
+
+Yes. A revisitation of "Kill 'em All!", but upside-down.
+
+111> "Pir" AKA "Thank You Keri!".
+
+And a final goodbye. Have patience. After all, Holly taught me that.

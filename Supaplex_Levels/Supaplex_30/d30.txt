@@ -1,0 +1,13 @@
+and these more complicated versions are the first 70+ levels of d30
+since he copied the "=" thing from d95, I reintroduced it
+a few of the levels in d30 were also incorrectly changed to be several words instead of one, likely by an auto-spellcheck, I reverted this because these titles (except for the first level) are references to the original titles of d98
+like "BITBYBIT", "MIXSLIME" and such
+(but I did change "MORE DIFICTLY" to "MORE DIFFICULT" because it's pretty clear what was meant, same for "Merphy" to "Murphy" in a few of the later levels, and changed ".." to "..." in a few of the later levels for spelling corrections, although I think I missed the remaining incorrect spelling of "Shumaher", which should be "Schumacher", but whatever)
+the most important fixes are early-game infotron changes for a few levels, IIRC, level 1 and level 5 had the worst problems here (a "no infotrons, many electrons" level shouldn't have 0 infotrons to collect)
+note that literally no checks have been done to see if all the levels are SP-possible (indeed, I haven't even checked to see if all of them were possible in their original WinPlex - I have my doubts about a few)
+oh, one more thing, the original Darlok.d03 collection used | as a padding symbol for level 46 (since it's the only one he simplified instead of making it more complex, he never solved the original), but my Supaplex Editor can't handle it and I don't even know if the game can... replaced it with question marks, which fits Darlok's drawn question marks in the level :smile:
+fixes are all based on comparing to the original levels (Darlok.d03 + Filoz.dat + a few levels from Droz.d01 inbetween)
+
+but d30's first 70+ levels are modifications of d98
+spelling mistakes like Merphy/Murphy were mostly fixed in later levels (obvious what was meant), and there's ONE level from the Filoz.dat section near the end where I put it as 11 infotrons (it was "all" or 12 previously) because that's how it was in the original, even though all 12 are collectable
+all other serious modifications (there are very few) were in the d98-like section

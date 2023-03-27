@@ -1,0 +1,455 @@
+RE: BUG BOUNTY PROGRAM
+ISSUER: ASSISTANT DR I. NOAH FEUTHEENGS
+DATE 04 AUG 2130
+MESSAGE:
+
+Greetings. I know Ima Alchemosa might be somewhat of
+a prickly individual and because of his tartiness,
+16383 testers couldn't fix what happened to our
+primary laboratory relay. However, I have peered
+into the general schematics of his proposed
+'gauntlet' and the fact he made it out of various
+contained 'dimensions' is the reason this is
+happening.
+
+If you don't want to know the knowledge of what you
+are about to face, I suggest you discard this memo
+posthaste. But if you find yourself in a little bit
+of a pickle, I figured I might lend you a hint or
+two.
+
+Happy Testing,
+I. Noah Feutheengs
+----------------------------------------
+
+LEGEND OF CHARACTERS FOUND AT THE END OF EACH LEVEL
+TITLE ARE AS FOLLOWS:
+
+B - Red Disk Bombing in use
+C - Knowledge of chain explosions required
+D - Some snik dodging required
+E - Electrons to be smashed
+G - Gravity is present
+H - May encounter bugged base
+J - Red Disk Jumping required
+K - Must finish or defuse swiftly
+    (on the clocK)
+P - Problem Solving Level
+R - Run-thru level and zonk dodge in use
+S - Chased By Sniks or Electrons
+T - Trapping by ill manipulation possible
+W - Knowledge of Sokoban required
+    (MOVING OBJECTS TO DESTINATION)
+X - Manipulation of gravity, zonk and/or enemy
+    behaviour is present
+Y - Yellow Disk manipulation in use
+    (NON-SOKOBAN ARRANGEMENT)
+Z - Zonk shift manipulation required
+? - Results greater than quota to be expected
+! - MURPHY copies to be protected
+* - Infotrons are sacrificed as part of solution
+
+----------------------------------------
+
+001 "THE BEGINNING ---------" DRTZ
+
+002 "HUNTER AND HUNTED -----" S
+
+003 "EXACTLY ONE PATH ------" TZ
+
+004 "  AUGMATIC DISPORT ----" EGP
+Autechre, "Untilted", track 4
+
+005 "CONDITION RED ---------" DTY!
+
+006 "OMNINOUS MESSAGE ------" DRTZ
+
+007 "DEMONIC LANGUAGE ------" D
+
+008 "EXIT STAGE RIGHT? -----" DKS!
+
+009 "  YOU HAVE 5 MINUTES! -" KP!*
+----------------------------------------
+Incoming message:
+"IN THE END, THEY WOULD NOT LISTEN.
+ GREED WAS THEIR OWN UNDOING."
+----------------------------------------
+
+010 "INFILTRATION ----------" DPT
+
+011 "SOME WEIRD GLITCH... --" HRZ
+
+012 "  THROUGH THE LOOP ----" S
+
+013 "4 THE ONE AND ONLY ----" DT
+
+014 "6 MILLION WAYS TO DIE -" P
+
+015 "1 MUST CHOOSE WISELY --" HP!
+
+016 "8 TOO MUCH? -----------" D
+
+017 "3 MARBLES OF DROPPING -" EP?*
+
+018 "-- CODE 1 IN BINARY? --" EPY!
+The code is 46183.. always perform the binary
+input using the rightmost digit first and work
+left.. 1 = push disk. 0 = don't push
+
+019 "BREAK THROUGH? --------" EP?
+
+020 "ALTERED STATES --------" TZ
+A track by Ron Trent
+
+021 "SAFETY MEASURE? -------" CTW
+A reprise of "The Bridge" except you have
+to now complete the yellow disk fuse and ride
+the explosions.. Sorry!
+
+022 "TIME TO MOVE! ---------" RT
+
+023 "INTEGRITY BREACH ------" DTZ
+
+024 "GREAT SCOTT!! ---------" K!
+
+025 "EXTREME CIRCUMSTANCES -" HR
+
+026 "  PYROTECHNOPHOBIA ----" RT
+
+027 "LICHT UND SCHATTEN ----" DX
+'Light And Shadow'
+----------------------------------------
+Incoming message:
+"IN THE NOTHING WAS ONCE A STONE
+INSIDE WATER. BY UNSEEN HAND CAME
+LAND, AND BY WORD CAME LIGHT THAT
+SPLIT DARKNESS."
+This is an interpretation of the opening of the
+Book of Genesis! Profound!
+----------------------------------------
+
+028 "INITIATE SWITCHES -----" S
+
+029 "VERIFY SWITCHES? ------" PY
+The diagram of solution is in 028 just before
+the field with the snik chase sequence.
+
+030 "EREPIRRUS -------------" CEP?
+Reverse of next level's title
+
+031 "SURRIPERE -------------" CYZ?
+Autechre "Draft 7.30", track 5
+Starting chain near bottom and using diagonals
+in your setup yields greatest results
+You just need at least 100 at the end
+having Dodging experience makes for a better start setup
+
+032 "!!WARNING, WARNING!! --" HRT
+
+033 "-- NOW DEAL WITH IT! --" RT
+The electrons are filling the "Interesting Output"
+shortlogo. I heard it has something to do with game streams?
+
+034 "--- GLITCH HOPPING! ---" HRTZ
+
+035 "----- BREAK OUT!! -----" BT
+
+036 "-- DER ABREITSPLATZ ---" W
+"The Workplace"
+
+037 "--------- LCC ---------" BEPSTXY
+Autechre, "Untilted", track 1
+Incorrect yellow disk shift will cause softlock.
+
+038 "- RESOURCE MANAGEMENT -" EP*
+
+039 "---- WE R ARE WHY -----" DPTY!
+040 "---- ARE Y ARE WE? ----" DPTY
+A mail-order EP by Autechre. 040 is a reprise of 039
+
+041 "CAN YOU? --------------" D
+6x6 table
+
+042 "OH, IT'S NOT HARD.. ---" RZ
+8x8 table. 
+
+043 "DROP TABLE SNIKS ------" D
+10x10 table.
+
+044 "EXPLOSIVE EDGE? -------" W
+12x12 table.
+
+045 "  IPACIAL SECTION -----" DRT
+14x14 table.
+Autechre, "Untilted," track 2.
+
+046 "THE DROP OFF ----------" EG
+16x16 table.
+
+047 "WIPE ALL DATA? Y/N ----" RT
+18x18 table.
+
+048 "OH, FOR SAKES! --------" WY
+20x20 table.
+
+049 "  CHISELED GYMNASTICS -" RTZ
+22x22 table.
+Title is an anagram of ALCHEMYSTICS DESIGN.
+
+050 "IRIS WAS A PUPIL ------" EX
+Using the top two ports, manipulate the electrons
+until all are above the zonk. Use bottom shute
+to unfreeze zonk and smash electrons.
+Sidenote: zonks prefer to roll left first. May be useful!
+Autechre, "Move Of Ten", track 6.
+
+051 "SPLITRMX --------------" RDT
+An autechre EP which contains the more recognisable
+track where they carefully mash up Neu!'s
+"Weissensee" and "Im Glück" ("white sea" and "in luck").
+
+052 "  CACHED STYLE MISSING " RTZ
+Work in a counter-clockwise order.
+Title is an amusing anagram of ALCHEMYSTICS DESIGN.
+
+053 "306.617.583  CODE FAULT" E
+
+054 "-- CODE TWO IN HEX? ---" EPY!
+The code is 306617583.
+Yellow disks are in the order of 0123456789ABCDEF.
+Fill in yellow disks that are part of the HEX result.
+
+055 "-- IV VV IV VV VIII ---" CEHTYZ
+Make orange disk explode while snik is next to port.
+Incorrect yellow disk shift will cause softlock.
+Autechre, "Draft 7.30", track 2
+
+056 "------ PRO RADII ------" R
+Autechre, "Untilted", track 3.
+
+057 "------- plYphon -------" RT
+A remix of 056.
+Autechre, "Quaristice", track 4.
+
+058 "----- VIRAL RIVAL -----" RTZ
+This level uses the Supaplex Editor's SHUFFLE function.
+It has been modified in such a way that the level is
+able to be solved.
+Title is a Gescom track.
+
+059 "---- BIT CRUSHING -----" ES
+The reduction of sonic value to the point it is rendered
+into its most basic of waveforms. A type of sound filter
+in music machines.
+
+060 "------ BIG CHAOS ------" HT
+This level's answer to levelset 10 "SMALL CHAOS" but
+it doesn't look big, does it? Watch your step.
+
+061 " DYING LESS SCHEMATIC? " DRT
+No, it's not.
+Title is an amusing anagram of ALCHEMYSTICS DESIGN.
+
+062 "-- SOLVE IT QUICKLY ---" EK
+You have plenty of time, despite what the snikfuse tells you.
+
+063 "--- BOULDERDASH IV ----" DRTZ
+Continues where Levelset 10 leaves off at "BOULDERDASH III".
+
+064 "----- GARLIC CAR ------" BDET
+An anagram of CARL CRAIG. The pipetext "JAM THE BOX" is
+the name of a track by Carl Craig's "69" alias.
+
+065 "-- SWITCH THE PHASES --" BDPTZW*
+Place given red disk between infotrons in upper hallway, and
+zonks will move in and be consumed by explosion, leaving
+flat surface to move orange disk.
+
+066 "--- HERE-THERE-HERE ---" BTZ
+It's as what the title implies. Go there, then work your way
+back to here.
+
+067 "-- DON'T GET BURIED! --" TZ
+You might need to enter further in to get the infotrons, but
+don't block your way back out!
+
+068 "--- SCISSOR SOCIAL? ---" DRT
+This is not a Knife Party.
+"Knife Party" is an EDM act.
+
+069 "-- INFOTRONICAL DROP --" GRP
+This nonsensical title is a nod to an independent developer
+group who designed the precursor of Portal which was named
+"NARBACULAR DROP" for the sole purpose of getting first hit
+on the search engines. The group was later merged into Valve.
+
+070 "-- TAUTOLOGICAL STOP --" RT
+This is what happens when you replace the bugs in "MINEFIELDS!"
+with zonks. I had to shift the playfield a little bit in SPEDIT
+so it could be solveable.
+Tautology is the study of repetitive nature. But I think
+repeatedly studying the repetitive nature of repeating things
+is quite repetitive indeed.
+Insanity is doing the same thing over and over and expecting
+different results, after all, is it not?
+
+071 "-- PSEUDOMAGICAL BOP --" TZ
+What is it with these nonsensical titles. I expected better from
+Dr. Alchemosa but.. ahem, right, where was we..
+
+You have to shift the presented object in such a way that you
+can clear the middle of the field without being trapped!
+
+072 "- ALCHEMYSTICAL FLOP? -" EPS?*
+Do carry on, Dr. Alchemosa... I mean, use your excess
+infotrons sparingly.
+
+073 "-- SYSTEMATIC GLITCH --" HR
+I warned you, Dr., not to use spacial hyperdimensions in your
+gaunlet! Oh, drek... Ahem, do proceed carefully, some void can't
+exactly be crossed..
+
+074 "---- BOULDERDASH V ----" RTZ
+
+075 "----- Box Rocking -----" ETZ
+
+076 "----- Rock Boxing -----" ETZ?
+Do not let the electrons chain-explode for best results.
+
+077 "---- Snik Mocking? ----" DT
+
+078 " Laying Of Hands, Zwei " EGHTW*
+Just like its predecessor, you must carve your 2nd trip
+the first time.
+
+079 "- MURPHY, Bomb Expert -" BETW
+Beware the roaming sniks! The red disks are at the
+Sokoban section!
+
+080 "--- nth Dafuseder.B ---" CEY?
+A reprise of "SURRIPERE".
+Autechre, "Move Of Ten", track 5.
+Read "SURRIPERE" for the hint.
+
+081 "-- RENEGADE HARDWARE --" BJHTY!*
+
+082 "---- SORTIERANLAGE ----" TZ
+You need only 255 infotrons. There are exactly 27 extra.
+There's a reason it's called "sorting system"! There's
+a lot of zonk shifting here!
+
+083 "----- FILL ME IN? -----" WZ
+
+084 "A TABLE-FLIPPING MOMENT" D
+A 16x16 table. It's like 041, but turned up to 11.
+
+085 " MARAUDER'S RUN, LAP 1 " RT
+086 " MARAUDER'S RUN, LAP 2 " RTZ
+
+087 "----- DEATH RALLY -----" DHRTZ
+.llaw knoz eht ta kins a hsams ,pal eht etelpmoc oT
+
+088 "---- MASTERTRONIC! ----" E*
+You need exactly what is remaining in infotrons to pass.
+
+089 " !NI YAW EHT TUO GNIOG " DRTXZ
+?gnihctilg tahW
+
+090 "- SELECT * FROM ZONKS -" RTZ
+091 "-- DROP TABLE ZONKS ---" DS
+Oh, glitch!
+
+092 "---- THIS IS FINE. ----" KY
+
+093 "--- GURU MEDITATION ---" BDEGJXY!?*
+Hm, I think that's a yellow, not a red.. keep testing.
+
+094 "------ FRAGILITY ------" RTWY
+
+095 "---- BLEND MACHINE ----" BDGJPRTWYZ
+Turn the windmill.
+Incorrect shifting of yellow disks will cause a softlock.
+
+096 "---- RENIFORM PULS ----" DRT
+Autechre, "Draft 7.30", track 10.
+
+097 "--- Götterdämmerung ---" BDK!
+Be on side two before two minutes and you can shift the
+yellow disk to stop the chain killing the clone MURPHY!
+Also, title is the German version of the swear "GOD DAMNIT!"
+
+098 "- The Daedalus Factor -" D
+You are now in the Labyrinth and the sniks are minotaurs.
+Watch it!
+
+099 "- PROGRAMMATICAL MESS -" GTWYZ!
+Failure to make the path will cause the death of clones!
+Remember that zonks prefer to swing to the left!
+
+100 " AND ALL THAT EVER WAS " CDEPRTWYZ!
+Unfortunately the descriptive hints end here.
+----------------------------------------
+RE: RE: BUG BOUNTY PROGRAM
+ISSUER: ALTERMAVEN
+DATE: 16 Jun 2020
+MESSAGE:
+
+101 "-- THIS LEVELSET WAS --" TXZ
+102 "-- BROUGHT TO YOU BY --" DETZ
+103 "- ALCHEMYSTICS DESIGN -" TZ
+104 "----- ALL LEVELS ------" PR
+105 " CREATED BY ALTERMAVEN " ES?
+106 "YOU KNEW HIM AS BASTIGE" TZ
+107 "-- OR MAYBE ALTER-T ---" BTZ
+This is reprise of the README.
+
+108 "- REPORTS OF MY DEATH -" KTZ
+109 "WAS BUT AN EXAGGERATION" RTZ
+This line is a familiar saying by someone who was famous
+and people no longer saw him around so they thought the
+individual dead. His return was comprised of this line.
+
+110 "THANK YOU FOR PLAYING!!"
+Seriously, thank you.
+
+Incoming Message:
+"You monster..
+THE TESTING IS NOW OVER.
+YOU ARE NOW A BUG HUNTER ACE!"
+
+Yay! The primary lab relay machine is fixed! Let's go find
+out what hap--oh, you were right after all. Again, a Blue
+Screen of Death, followed by some reality glitching, turns
+the machine into a final LEVEL! Get to work, MURPHY!
+
+111 "-- TIME TO UNPLUG IT --"
+Let's really crash Dr. Ima Alchemosa's primary lab relay,
+which is actually a laptop, that indeed bluescreened the
+moment you solved the entire goddamned mess, and reality
+glitched into a level upon the laboratory's floor. Maybe
+the infotrons here can help shut down Promotech!
+
+-------------------------------
+The epilogue
+
+Well, you found that he's been a mad scientist and the whole
+thing regarding the testing is a gig. Thankfully, you
+now have your own portable testing system, and Dr. Alchemosa
+has been driven out of business and locked away to the
+point he will never use a machine again. Satisfied, but
+feeling your work was not at all proper, you refuse the
+money handout and, you take a moment of them not looking
+to stash the device.
+
+Turns out 'everyone' was but a robot clone of Dr. Alchemosa,
+except for I. Noah Feutheengs who was really your partner
+in crime that helped you with the Supaplex incident.
+
+The moment Dr. Alchemosa was extracted and the rest of the
+machinery smashed, the clones disappeared. Time dials back
+to the present. You feel good. Even Dr. Alchemosa himself
+disappeared.
+
+You finally have it! Your new shiny MURPHY Tester!
+
+...or was it all a dream?

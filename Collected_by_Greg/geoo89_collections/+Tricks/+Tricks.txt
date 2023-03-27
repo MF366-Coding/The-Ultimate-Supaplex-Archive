@@ -1,0 +1,105 @@
+Additional trick collection
+
+Changes from version of 26-05-05 to version of 23-07-05
+Modified: +Trick07.sp, +Trick12.sp, addition +Trick06(2)
+New: +Trick 15 thru +Trick23, descriptions/explainations, this text file ;)
+
+
+Descrptions/Explainations
+
+Notes:
+(1) With the "'sliding'-move" it's meant the summary of the horizontal and the vertical sliding.
+ Each part of the "sliding"-move takes 8 frames.
+(2) With "Zonk is falling (not visible)" it's meant the status of a zonk like when Murphy does the  move of trick2 (Delaying falling zonks; after move away and immediately back is done). This status  should be known.
+(3) A special port activates its functions when Murphy has completely passed it.
+
++Trick01
+If a dummy Murphy is hit by a zonk, only zonk is possible, and at the time of the hit an electron is placed or is moving into the field left to dummy Murphy, the dummy Murphy will explode with an infotron explosition, and game is not over i.e. you have unlimited time to continue playing.
+If electron moved into the field from the left, the left part of it will remain.
+
++Trick02
+If a zonk or info slides, no matter whether freeze zonks is on (See freeze zonks giude how to do there) or off (has to be the second frame sliding), a wall is created in the field the zonk or info slides into. This field can be destroyed by explosition. If later the other part of the zonk/info is destroyed, the field it was sliding into is cleared. That means, if there is an object (in rest, or moving/falling into; special cases: orange disk, this one must fall out of the field; pushed object, doesn't work) in this field, it will disappear.
+
++Trick03
+If two yellow disks are placed side by side or touching diagonally and the terminal is hit, the upper one, or, if they are placed in the same row, the one on the left, explodes at the time the terminal is hit, but the other one explodes 12 frames later.
+
++Trick04
+If a yellow disk is not placed within the calculation field (24*60, borders included) i.e. it is placed in the hidden track area, it won't explode when terminal is hit.
+So it can be pushed back into the field, but it's impossible to activate it hitting the terminal a second time.
+
++Trick05
+Already known that a pushed object (no matter whether moving or not) cannot be destroyed by an explosition (it can only explode itself later if it's a disk in the right position), a pushed object (no matter whether moving or not) also can't disappear, neither using the original disappear trick nor using the trick of +Trick02.
+
++Trick06
+If a zonk or info falling (not visible) is placed on another zonk/info*, it is possible to let the upper one slide on the other without using anything for the lower zonk/info to lay on:
+You need the lower zonk/info almost to hit Murphy, short before it does, move DOWNWARDS (sideways is NOT possible). The upper zonk/info will slide on the other one (of course only, if there are two spaces at the side for it to slide).
++Trick06.sp is only a special case of it but found out first.
+*) also combination info-zonk or zonk-info is possible.
+
++Trick07
+If the field* under a sliding object is empty, and behind it there is another zonk or info placed on a RAM-chip/zonk/info, and the sliding object is destroyed by explosition in the 7th frame of sliding, the zonk/info behind will stuck in the air.
+If it was a zonk, also the field* below the sliding object get an invisible wall if it isn't destroyed by the explosition.
+*) with "field of the sliding object" the field it is sliding from is meant
+
++Trick08
+Doublepush a zonk under another one or info, or do anything else for that, important is, that the upper zonk/info has already started falling (not visible).
+If you destroy the lower zonk then when it is in its 7th sliding frame with an explosition*, the upper one will stuck in mid-air.
+*)not destroying upper zonk/info and not getting into the field below the upper zonk/info
+
++Trick09
+The second part (part in the field enemy is moving from) of a moving enemy is destroyed while freeze enemies is on. When freeze enemies is turned off, the enemy will continue its move.
+If at the moment of the completion of the move a zonk/info* is falling into, or an orange disk* is falling out of the field scissor is moving from, the part of the zonk/info/disk in the field scissor moved from will disappear.
+*) zonk/info/disk must be already at least partly in the field.
+
++Trick10
+If a falling zonk is freezed in the frame it is going to continue falling, the field the zonk is in and the field below are blocked.
+If a sliding zonk is freezed in the first or second sliding frame, it will block the field it is in and the field it is sliding into.
+
++Trick11
+If an explosition has just happened that the explosition clouds are still there, and anywhere next to the explosition an enemy is killed by zonk or info, every status of the explosition clouds (or infotron clouds, if electron explosition) of the enemy explosition in the fields where also the first explosition happened will be 4 frames earlier than the ones not being in fields the first explosition happened.
+
++Trick12
+Actually, this behaviour has already been shown in the level 78s104 "VERTICAL DISK INTERFERE". This demo just shows the third way of unnormal moves amongst going through pipe and pushing object.
+Whereas Murphy is killed when he does a normal move into explositions, to an enemy or a falling object, he isn't if he eats a read disk VERTICALLY doing such a move.
+
++Trick13
+This is just an addition to the "U NEVER FIND THE SECRET"-trick, here the zonk or info stucks without doing anything actively.
+It depends neither on the object* that shall stuck, nor on the object* that delays fall of the stucking object, nor on the positions of the disk (left or right).
+It only depends on the object falling onto the disk, because this must be an info.
+The trick also works with yellow or red disk instead of the orange one.
+*) zonk or info
+
++Trick14
+The zonk cloning for half zonk trick, "U NEVER FIND THE SECRET"-trick, +Trick08 and disappear tricks also work for enemies moving into the field.
+
++Trick15
+This is a two-frame trick which has a similar effect like the follow-me trick.
+If the zonk/info begins to slide in one of the two right frames, the scissor will follow it before the other zonk/info above falls.
+But there is a little difference between the effect of the two frames: If it is done in the first frame, the zonk/info above scissor already started falling (not visible), so it cannot be pushed (if it is zonk) and the zonk/info above this one doesn't slide (see box 3). In the second frame this zonk/info will slide because zonk/info under it hasn't started falling yet, and the zonk itself (if zonk) can be pushed (see box 4).
+Also, this trick works with an orange disk above the sliding zonk/info, but only in the second frame. (see box 2)
+
++Trick16
+This is another critical timing trick like in 01s011 "ROMANCING THE STONES". Whereas Murphy can get up by a zonk or infotron if he does first zapping and then moving, or goes away and quickly back under zonk/info, he can't if he simply goes under the zonk in the case shown in the demo.
+
++Trick17
+Whereas an infotron, which is sliding horizontally (later than second frame) will stop after the horizontal sliding move when the field it is sliding into gets filled with an explosition cloud (no matter whether normal explosition or infotron explosition), a zonk will also continue its vertical sliding move in that case.
+
++Trick18
+If Murphy does an unnormal move into to the field, pushes an object into the field or moves doing a normal move out of the field under a zonk or an info, the zonk/info will stuck in mid-air. There are only a few exceptions, if the move is in the wrong frame, but that happens not very often. 
+This trick also works with other disappearing method (+Trick02).
+
++Trick19
+When a zonk hits a disk, it explodes 5 or 6 frames (probably 6) later as if an infotron would fall onto the disk instead.
+
++Trick20
+If an enemy is IN or moving INTO a RELEASED red disk, and the disk explodes at that time, there will be only one explosition, unlike when the enemy is next to the disk that the disk explodes first and the enemy 12 or 13 frames later.
+
++Trick21
+Actually this is another addition to trick 13: Not only normal red disks behave like the yellow disks of trick 13, but also released red disks. The only different thing is, that the red disk explodes after the normal amount of time (~38 frames after release) once again. To show that, in the demo a zonk is pushed over the cloud. In the other case (without) info, either the zonk falls down and gets destroyed by the explosition or it isn't enough time to transport it to the right over the cloud.
+
++Trick22
+When a zonk is pushed (not moving yet) when the field under it gets empty, it falls one frame later then if it wouldn't have been pushed. If you look closely (at low speed) in the lower part, you can see it. In the upper part you see a possible result because of the difference (first time the upper zonk slides, second tome it doesn't).
+
++Trick23
+An enemy can also cause a 4*3 explosition. But the electron won't create 12 infos but only 9.
+So, if the enemy is moving horizontally into a field, in this field it is overcome by an explosition, at the same moment the other part of the enemy is hit by a zonk, there will be two explositions around the two fields of the enemy, as it would be in both fields (but the actual enemy is only in one field /move theory/).

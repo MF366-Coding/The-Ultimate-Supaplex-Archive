@@ -1,0 +1,22 @@
+What you can do with this program:
+With this program, you can edit .dat graphics files from Supaplex.
+--------------------------------------------------------------------
+
+Using the program:
+
+1) Start the program
+2) Type the save path and the load path
+3) Choose witch file you want to edit.
+4) Type the filename of the .Gif file to convert.
+
+Read How.txt for more information about editing .Gif
+files for Gif2Dat.
+--------------------------------------------------------------------
+
+Other programs I made:
+ 
+ SpDat V1.0
+ SpMov
+ 
+Gif2Dat (Gif to Dat converter) By Mark Zwaneveld
+E-mail: Zwaan@hi.nl

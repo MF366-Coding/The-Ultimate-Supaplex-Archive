@@ -1,0 +1,70 @@
+<gui>
+	<button
+		name="btn_to_main_menu"
+		x="20"
+		y="540"
+		text="Back to Main menu"
+		type="text"
+		size="big"
+		tab_id="1" />
+	<label
+		name="lbl_options"
+		x="20"
+		y="40"
+		text="Options"
+		type="type2" />
+	<label
+		name="lbl_game_speed_desc"
+		x="40"
+		y="70"
+		text="Game speed, ticks per second:" />
+	<label
+		name="lbl_game_speed"
+		x="240"
+		y="70"
+		text="50" />
+	<label
+		name="lbl_music_volume_desc"
+		x="40"
+		y="95"
+		text="Music volume:" />
+	<label
+		name="lbl_music_volume"
+		x="240"
+		y="95"
+		text="100" />
+	<label
+		name="lbl_sound_volume_desc"
+		x="40"
+		y="120"
+		text="Sound volume:" />
+	<label
+		name="lbl_sound_volume"
+		x="240"
+		y="120"
+		text="100" />
+	<button
+		name="btn_change_game_speed"
+		x="280"
+		y="220"
+		text="Change game speed"
+		type="text"
+		size="big"
+		tab_id="2" />
+	<button
+		name="btn_change_music_volume"
+		x="280"
+		y="250"
+		text="Change music volume"
+		type="text"
+		size="big"
+		tab_id="3" />
+	<button
+		name="btn_change_sound_volume"
+		x="280"
+		y="280"
+		text="Change sound volume"
+		type="text"
+		size="big"
+		tab_id="4" />
+</gui>

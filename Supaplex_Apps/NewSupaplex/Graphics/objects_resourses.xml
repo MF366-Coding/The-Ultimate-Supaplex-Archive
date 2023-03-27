@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<resources>
+	<section name="Graphics">
+		<section name="Objects">
+			<!-- comment -->
+			<sprite name="murphy_moving_left">
+				<image file="objects/murphy_moving_left.png">
+					<grid pos="0,0" size="32,32" array="16,1" />
+				</image>
+			</sprite>
+			<sprite name="murphy_moving_right">
+				<image file="objects/murphy_moving_right.png">
+					<grid pos="0,0" size="32,32" array="16,1" />
+				</image>
+			</sprite>
+			<sprite name="murphy_moving_up">
+				<image file="objects/murphy_moving_up.png">
+					<grid pos="0,0" size="32,32" array="16,1" />
+				</image>
+			</sprite>
+			<sprite name="murphy_moving_down">
+				<image file="objects/murphy_moving_down.png">
+					<grid pos="0,0" size="32,32" array="16,1" />
+				</image>
+			</sprite>
+			<sprite name="murphy_eating_left">
+				<image file="objects/murphy_eating_left.png">
+					<grid pos="0,0" size="32,32" array="8,1" />
+				</image>
+			</sprite>
+			<sprite name="murphy_eating_right">
+				<image file="objects/murphy_eating_right.png">
+					<grid pos="0,0" size="32,32" array="8,1" />
+				</image>
+			</sprite>
+			<sprite name="murphy_eating_up">
+				<image file="objects/murphy_eating_up.png">
+					<grid pos="0,0" size="32,32" array="8,1" />
+				</image>
+			</sprite>
+			<sprite name="murphy_eating_down">
+				<image file="objects/murphy_eating_down.png">
+					<grid pos="0,0" size="32,32" array="8,1" />
+				</image>
+			</sprite>
+			<sprite name="murphy_pushing_left">
+				<image file="objects/murphy_pushing_left.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="murphy_pushing_right">
+				<image file="objects/murphy_pushing_right.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="murphy_pushing_up">
+				<image file="objects/murphy_pushing_up.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="murphy_pushing_down">
+				<image file="objects/murphy_pushing_down.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="murphy">
+				<image file="objects/murphy.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="murphy_seting_red_disk">
+				<image file="objects/murphy_seting_red_disk.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="sniksnak_moving_left">
+				<image file="objects/sniksnak_moving_left.png">
+					<grid pos="0,0" size="32,32" array="7,1" />
+				</image>
+			</sprite>
+			<sprite name="sniksnak_moving_right">
+				<image file="objects/sniksnak_moving_right.png">
+					<grid pos="0,0" size="32,32" array="7,1" />
+				</image>
+			</sprite>
+			<sprite name="sniksnak_moving_up">
+				<image file="objects/sniksnak_moving_up.png">
+					<grid pos="0,0" size="32,32" array="7,1" />
+				</image>
+			</sprite>
+			<sprite name="sniksnak_moving_down">
+				<image file="objects/sniksnak_moving_down.png">
+					<grid pos="0,0" size="32,32" array="7,1" />
+				</image>
+			</sprite>
+			<sprite name="sniksnak_rotating_left_to_up">
+				<image file="objects/sniksnak_rotating_left_up.png">
+					<grid pos="0,0" size="32,32" array="2,1" />
+				</image>
+			</sprite>
+			<sprite name="sniksnak_rotating_up_to_right">
+				<image file="objects/sniksnak_rotating_up_right.png">
+					<grid pos="0,0" size="32,32" array="2,1" />
+				</image>
+			</sprite>
+			<sprite name="sniksnak_rotating_right_to_down">
+				<image file="objects/sniksnak_rotating_right_down.png">
+					<grid pos="0,0" size="32,32" array="2,1" />
+				</image>
+			</sprite>
+			<sprite name="sniksnak_rotating_down_to_left">
+				<image file="objects/sniksnak_rotating_down_left.png">
+					<grid pos="0,0" size="32,32" array="2,1" />
+				</image>
+			</sprite>
+			<sprite name="electron_moving_left">
+				<image file="objects/electron_moving_left.png">
+					<grid pos="0,0" size="32,32" array="4,1" />
+				</image>
+			</sprite>
+			<sprite name="electron_moving_right">
+				<image file="objects/electron_moving_right.png">
+					<grid pos="0,0" size="32,32" array="4,1" />
+				</image>
+			</sprite>
+			<sprite name="electron_moving_up">
+				<image file="objects/electron_moving_up.png">
+					<grid pos="0,0" size="32,32" array="4,1" />
+				</image>
+			</sprite>
+			<sprite name="electron_moving_down">
+				<image file="objects/electron_moving_down.png">
+					<grid pos="0,0" size="32,32" array="4,1" />
+				</image>
+			</sprite>
+			<sprite name="electron_rotating_left_to_up">
+				<image file="objects/electron_rotating_left_up.png">
+					<grid pos="0,0" size="32,32" array="2,1" />
+				</image>
+			</sprite>
+			<sprite name="electron_rotating_up_to_right">
+				<image file="objects/electron_rotating_up_right.png">
+					<grid pos="0,0" size="32,32" array="2,1" />
+				</image>
+			</sprite>
+			<sprite name="electron_rotating_right_to_down">
+				<image file="objects/electron_rotating_right_down.png">
+					<grid pos="0,0" size="32,32" array="2,1" />
+				</image>
+			</sprite>
+			<sprite name="electron_rotating_down_to_left">
+				<image file="objects/electron_rotating_down_left.png">
+					<grid pos="0,0" size="32,32" array="2,1" />
+				</image>
+			</sprite>
+			<sprite name="terminal">
+				<image file="objects/terminal.png">
+					<grid pos="0,0" size="32,32" array="16,1" />
+				</image>
+			</sprite>
+			<sprite name="nothing">
+				<image file="objects/nothing.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="hardware">
+				<image file="objects/hardware.png">
+					<grid pos="0,0" size="32,32" array="11,1" />
+				</image>
+			</sprite>
+			<sprite name="ram">
+				<image file="objects/ram.png">
+					<grid pos="0,0" size="32,32" array="5,1" />
+				</image>
+			</sprite>
+			<sprite name="disk_red">
+				<image file="objects/disk_red.png">
+					<grid pos="0,0" size="32,32" array="16,1" />
+				</image>
+			</sprite>
+			<sprite name="disk_red_tumb">
+				<image file="objects/disk_red_tumb.png">
+					<grid pos="0,0" size="16,16" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="disk_yellow">
+				<image file="objects/disk_yellow.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="disk_orange">
+				<image file="objects/disk_orange.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="zonk">
+				<image file="objects/zonk.png">
+					<grid pos="0,0" size="32,32" array="16,1" />
+				</image>
+			</sprite>
+			<sprite name="base">
+				<image file="objects/base.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="base_charging">
+				<image file="objects/base_charging.png">
+					<grid pos="0,0" size="32,32" array="16,1" />
+				</image>
+			</sprite>
+			<sprite name="base_eating">
+				<image file="objects/base_eating.png">
+					<grid pos="0,0" size="32,32" array="16,1" />
+				</image>
+			</sprite>
+			<sprite name="exit">
+				<image file="objects/exit.png">
+					<grid pos="0,0" size="32,32" array="2,1" />
+				</image>
+			</sprite>
+			<sprite name="explosion">
+				<image file="objects/explosion.png">
+					<grid pos="0,0" size="32,32" array="16,1" />
+				</image>
+			</sprite>
+			<sprite name="exploding_infotron">
+				<image file="objects/exploding_infotron.png">
+					<grid pos="0,0" size="32,32" array="16,1" />
+				</image>
+			</sprite>
+			<sprite name="infotron">
+				<image file="objects/infotron.png">
+					<grid pos="0,0" size="32,32" array="16,1" />
+				</image>
+			</sprite>
+			<sprite name="infotron_tumb">
+				<image file="objects/infotron_tumb.png">
+					<grid pos="0,0" size="16,16" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="infotron_eating">
+				<image file="objects/infotron_eating.png">
+					<grid pos="0,0" size="32,32" array="16,1" />
+				</image>
+			</sprite>
+			<sprite name="port_cross">
+				<image file="objects/port_cross.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="port_l_to_r">
+				<image file="objects/port_left_to_right.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="port_r_to_l">
+				<image file="objects/port_right_to_left.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="port_u_to_d">
+				<image file="objects/port_up_to_down.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="port_d_to_u">
+				<image file="objects/port_down_to_up.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="port_horizontal">
+				<image file="objects/port_horizontal.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+			<sprite name="port_vertical">
+				<image file="objects/port_vertical.png">
+					<grid pos="0,0" size="32,32" array="1,1" />
+				</image>
+			</sprite>
+		</section>
+		<section name="Cursors">
+			<surface name="sur_cursor" file="Graphics/cursors/cursor.png" pos="0,0" size="32,32" array="16,1" />
+		</section>
+	</section>
+</resources>

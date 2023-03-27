@@ -1,0 +1,70 @@
+<gui>
+	<button
+		name="btn_to_main_menu"
+		x="20"
+		y="540"
+		text="Back to Main menu"
+		type="text"
+		size="big"
+		tab_id="1" />
+	<label
+		name="lbl_credits"
+		x="20"
+		y="40"
+		text="Credits"
+		type="type2" />
+	<label
+		name="lbl_graphics"
+		x="40"
+		y="70"
+		text="Graphics: Blacky Gray" />
+	<label
+		name="lbl_me"
+		x="40"
+		y="95"
+		text="Programming: Sergey Antonov aka zz_sergant" />
+	<label
+		name="lbl_web_site"
+		x="20"
+		y="130"
+		text="Web site"
+		type="type2" />
+	<label
+		name="lbl_game_site_new"
+		x="40"
+		y="155"
+		text="http://www.newsupaplex.pp.ru" />
+	<label
+		name="lbl_clanlib"
+		x="20"
+		y="200"
+		text="Created with a game library"
+		type="type2" />
+	<label
+		name="lbl_clanlib_url"
+		x="40"
+		y="230"
+		text="ClanLib 0.7.x, http://www.clanlib.org" />
+	<label
+		name="lbl_bass"
+		x="20"
+		y="280"
+		text="Music and sounds are played using Bass library"
+		type="type2" />
+	<label
+		name="lbl_bass_url"
+		x="40"
+		y="310"
+		text="Bass, http://www.un4seen.com/bass.html" />
+	<label
+		name="lbl_hugi"
+		x="20"
+		y="350"
+		text="Music tracks are taken from the Hugi magazine"
+		type="type2" />
+	<label
+		name="lbl_hugi_url"
+		x="40"
+		y="380"
+		text="Hugi, http://www.hugi.us/" />
+</gui>

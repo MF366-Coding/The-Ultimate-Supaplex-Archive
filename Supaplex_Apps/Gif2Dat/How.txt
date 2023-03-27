@@ -1,0 +1,22 @@
+How to edit .Gif files for gif2Dat?
+
+ I use Microsoft Paint for editing .Gif files for Gif2Dat.
+ 
+ Palette:
+  Each Supaplex .dat graphics file has his own palette.
+  That's why you must use the same colours I use in my sample
+  .Gif files.
+
+ Fixed.dat:
+
+  Edit fixed.dat in two lines
+  One line of 20 sprites (Each sprite is 16*16)
+  Edit the 2nd line also that way.
+   Between those lines you have to make one line.
+
+ Moving.dat:
+ 
+  You can use my program SPMOV to edit this file.
+
+Gif2Dat (Gif to Dat converter) By Mark Zwaneveld
+E-mail: Zwaan@hi.nl

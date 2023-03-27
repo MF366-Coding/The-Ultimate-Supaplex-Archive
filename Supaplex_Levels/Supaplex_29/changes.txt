@@ -1,0 +1,9 @@
+Changes in WinPlex Collection 02
+--------------------------------
+
+- Level 42: changed it a bit to make it solvable (by Herman Perk).
+
+
+-------------------------------
+Martijn's Boulder Dash Fan Site
+http://www.bd-fans.com

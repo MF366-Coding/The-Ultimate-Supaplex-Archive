@@ -1,0 +1,38 @@
+(        )    ~~~~~~~~    )
+(        )        |       (
+(~~~~~~~~)        |       )
+(        )        |       (
+(        )        |       )
+(        )    ~~~~~~~~    0
+
+
+
+hello and thanx for downloading my first supaplex map!!!! :)
+yeah, this IS my first supaplex map and this zip only contains one map! (the
+other maps are original supaplex maps)
+to in stall the map SONIC, make sure you made a backup copy of your level.lst
+and levels.dat files beacause the files in the .zip will overwrite these files.
+
+and then unzip SONIC into your supaplex directory
+note:when you start supaplex,be sur to scrool the level list to the upper
+section, where there is the first map!
+other note:this map will replace the map entitled WARMUP!!! 
+
+i must warn you!
+this level is VERY HARD!!!! i spent one month making it!!!!!
+if you finish it, contact me by e-mail at smogon350@yahoo.com (theres a reward
+waiting to be won!!!)
+
+thanx again
+Nadim Kobeissi, a 11 yrs old Houmongous supaplex fan!!!
+(check if im on mirc on weekends, my nick is SUPREME-VAMPIRE and the channels i
+founded are #potterquiz and #supaplex !)
+hope you enjoy my map! ;)
+
+
+-------------------------END OF ORIGINAL TEXT--------------------------       
+
+Note from Herman Perk:
+
+Above info does not apply anymore, because that single map (=level) is now
+sonic.sp, with demo attached.
