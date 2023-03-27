@@ -1,0 +1,545 @@
+
+
+
+
+
+                                 SPEDIT v3.2
+                           (released: 26 august 1996)
+
+
+
+                              Copyright 1994-96
+
+                              Elmer Productions
+
+
+
+
+
+Spedit is a program to make your own SUPAPLEX levels. It is very easy to use
+and pretty powerful. Now you can distribute your own levels to your friends
+all over the world!
+
+The SPEDIT32.ZIP package should contain these files:
+  SPEDIT.EXE  - The main program
+  SPEDIT.CFG  - Configuration file (you can edit it with a text-editor)
+  SPEDIT.VER  - What's new in this and previous versions
+  SPEDIT.DOC  - This file
+  FILE_ID.DIZ - Short description of SpEdit
+  SP2BMP.EXE  - Program to make a 256 color .BMP file from any .SP file.
+  SETDEMO.EXE - Program to change the levelnumber for DEMO?.BIN files.
+  HONEST.PPL  - List of all people who have registered SpEdit (See section 4)
+
+This document contains nine sections:
+
+0) Important note
+1) Basic command tutor
+2) Advanced command tutor
+3) Technical information
+4) Registration
+5) Legal stuff
+6) Other software from Elmer Productions
+7) Troubleshooting
+8) How to contact the Author
+
+You should read them in this order, unless you've found a problem already. (In
+this unlikely case go directly to section 7: Troubleshooting.)
+You may also try to use the program without reading any of this, but I strongly
+suggest you don't, because you may get dizzy when you press F1 (=help).
+
+                      -----------------------------------
+                      =-> SECTION 0 - IMPORTANT NOTE! <-=
+                      -----------------------------------
+
+The Supaplex level editor makes excellent use of some of the features used
+in Herman Perk's Supaplex Speed Fix. The speed fix is fully compatible with
+the normal Supaplex, but has a lot of useful features. It was originally
+meant for those with 386 or higher machines, on which Supaplex runs too
+fast, but since it now contains so many features, it's really advisable to
+get it anyway.
+
+You can download the SpeedFix from my Supaplex on the WWW:
+http://www.elmerproductions.com/sp
+If the address does not work, do a websearch for 'Supaplex'.
+
+                    ---------------------------------------
+                    =-> SECTION 1 - BASIC COMMAND TUTOR <-=
+                    ---------------------------------------
+
+This section contains a tutor for the basic commands. You may print it so you
+can try the commands out and read this at the same time.
+
+First, I need to mention something. Supaplex (the game) has some levels with
+gravity in it. This can be set in the editor. But the way Supaplex organizes
+the gravity-logic, I needed to add a few (new) sprites (some more tubes) to
+the Supaplex sprite collection (murphy, hardware, zonks, etc.)
+Everybody knows the tubes trough which Murphy can travel. The one-way tubes
+have a special feature in the game. Sometimes they turn gravity on or off.
+But Supaplex uses the same sprite so you can't see it. This editor uses 8
+additional sprites to show it to you.
+There are the 4 normal one-way tubes (which don't change gravity) and
+additionally there are 4 tubes with 'S ON' and 4 with 'S OFF' written on them.
+You can use these as switches to switch gravity on or off. No more than
+10 special tubes may be used in any one level (Supaplex restriction) and the
+'gravity' setting at the bottom of the screen in the editor is actually the
+starting value (when Murphy enters the level).
+
+Before I explain the basic commands, you will have to start the editor first:
+If this is the first time you are playing, you should edit SPEDIT.CFG (with
+any text-editor) and change the "PATH=" line to the correct path (don't worry
+about the other settings) otherwise, SpEdit will not be able to find your
+datafiles. Save the file, and exit the text-editor.
+
+Now run SPEDIT. Some lines of text are shown to indicate the programs
+initialization. You will see this text if all goes well:
+
+[Top of screen]
+BE SURE TO MAKE A BACKUP OF THE DATAFILES (LEVELS.D?? AND LEVEL.L??), this
+program saves your changes directly to these files!
+
+And REMEMBER THIS PROGRAM IS CARDWARE! DO NOT FORGET TO REGISTER!
+
+Initializing Supaplex Level Editor v3.1:
+Max_Undo_Clear=15.
+Reading SPEDIT.CFG...
+  DOS-Shell: C:\COMMAND.COM
+  Supaplex path: C:\GAMES\SUPAPLEX\
+  Supaplex commandline: C:\GAMES\SUPAPLEX\SUPAPLEX.EXE &20
+  Renaming level-datafile on execution of SUPAPLEX.EXE
+  Creating testplayer on execution of SUPAPLEX.EXE
+
+No commandline parameters.
+
+Reading sprites...
+Press any key to continue...
+[End of text]
+
+A few notes:
+ - You should create a backup of the two (or more) datafiles, because the
+   editor modifies them (if you save your new level). So if you don't have a
+   backup of these, you won't be able to recover the original levels.
+ - Registration information can be found in section 4 (Registration) of this
+   document.
+ - The number behind 'Max_Undo_Clear=' may be different (5-15). This number
+   is the total of undo's you can perform on a clear screen/change sprites/
+   block put function. (Every time you use one of these functions it will
+   be saved to a special undo buffer) The number depends on the amout of
+   base memory available.
+   (Other (more simple) undo functions can always be undone 1000 steps).
+ - Reading SPEDIT.CFG: This file may not exist. That's ok, the editor will
+   assume default configuration. You can change this CFG file with any
+   ASCII-text editor. (See SPEDIT.CFG for more info on the settings)
+ - The lines "DOS-Shell" until "Creating testplayer" may be different,
+   depending on your personal settings in SPEDIT.CFG. Normally, you don't
+   have to worry about this, but you can always check out SPEDIT.CFG to see
+   what it all means (and how to change it)
+ - Commandline parameters are discussed in the ADVANCED COMMAND TUTOR.
+
+Now press any key to start the editor. You will first see an 'Elmer
+Productions' logo fading in and fading out, after that, the editor will fade
+in and you can start editing. The logo can be skipped by pressing ESCAPE
+in stead of any other key on startup. Also, pressing a key with the logo
+on screen will continue before the delay is over.
+
+The editor screen is made up of four sections:
+1) The biggest part of the screen is taken up by the playfield (the level you
+   are currently editing). It is at the left-top side of the screen.
+2) At the right side of the screen, a few columns with sprites are shown, with
+   a fading blue/white box pointer on one of these. This pointer points to the
+   selected sprite.
+3) The third section are the lines of information at the bottom of the screen.
+   From left to right the line displays the title, the number of the dataset
+   you are editing (see ADVANCED COMMAND TUTOR) the number of infotrons
+   needed to complete the level, gravtiation yes/no, your (the pointers)
+   location, and the number of the level you are currently editing.
+4) The last section is hidden. It is a popup window used by a lot of different
+   functions. When necessary it will pop up from the bottom of the screen.
+
+The most important keys you will use are the Arrow keys (up, down, left and
+right). These are used (how did I ever think of that???) to move the pointer
+around in the edit window.
+
+Press the left Arrow a few times... See? It works! When you move around a
+little more, you can see that once you approach one of the edges, the playfield
+will scroll (if there's more level in that direction). This trick also works
+if you have a mouse-driver installed. You can move the mouse, and if you get
+to the edge, the playfield starts scrolling.
+
+Ok? Then the next important key is Space, because walking across the field is
+a fun thing to do, but we DO want to make our own level, right?
+
+Walk back to Murphy and move the pointer on top of him. now press Space (or
+move the mouse pointer on top of him and press the left button).
+You will see that Murphy has vanished and an empty circuit board appeared!
+Great trick, huh? Well actually it is very simple. All the Space key does is
+place the selected sprite (the sprite under the pointer in the right window)
+under your pointer in the edit window, erasing everything underneath it.
+
+For practice, move around a bit, and 'remove' some more objects by moving on
+top of them and pressing space (or using the mouse).
+
+Now, we have a problem. (Don't look in the troubleshooting section!) If we
+want to play a level, we'll have to place a Murphy back on the playfield.
+
+This can be accomplished with the help of the Ctrl-Arrow keys (or by clicking
+the mouse on one of the sprites in the right window).
+Move your eyes over to the right window (not with the Arrow keys!) and press
+Ctrl-Right one time. You'll see that the pointer has moved one sprite right. It
+covers Murphy. Move the pointer in the editwindow to the position where
+Murphy was before (or any other location you fancy) and press Space once more.
+Murphy is back now. What a relief! (You can actually put several Murphies in
+the playfield, but you can play with only one of them. They make great
+decoration though :)
+
+Move around with the Ctrl-Arrow keys some more. You will soon get the hang of
+it...
+
+Now you know the very basics of level-editing, see if you can create a little
+puzzle or obstacle for Murphy (he really likes these). You'll know what to do.
+
+Lastly, we'll need to save the level. BE SURE THAT YOU HAVE MADE A BACKUP OF
+LEVELS.DAT AND LEVEL.LST, BECAUSE THESE WILL BE MODIFIED NOW! Press Ctrl-S
+to save your level. You will see the fourth window (the popup window,
+remember?) pop up from the bottom of the screen, indicating that your level
+has been saved (if you get an error message, something is wrong (you guessed
+that) You can try out the TROUBLESHOOTING section, or see if you can fix
+the problem yourself.)
+
+Press any key to pop the popup window down. I imagine that you want to see
+your level in live action, right? So there are two ways to do that.
+ - You can quit the editor (Press Alt-X) and start Supaplex, then choose your
+   level and play. This is very much typing...
+ - Press Ctrl-A in the editor. Supaplex will be started on two conditions:
+    - SUPAPLEX.EXE can be found in the directory specified in SPEDIT.CFG.
+      If it can't be found, you'll get an error message. In that case, exit
+      SpEdit, and edit the "PATH=" (and "CMDLINE=") line(s) in SPEDIT.CFG so
+      they are correctly pointing to your Supaplex.
+    - You have enough memory. If you don't, you'll get an error message. In
+      that case, exit SpEdit, and try to free up more BASE memory (see your
+      DOS-manual for more information about that). You can also try to change
+      the SWAPXMS= and SWAPDISK= settings in SPEDIT.CFG, but these should be
+      (default) on YES already...
+   If Supaplex is started, you'll be able to play your level. If you can't
+   access it, don't worry, that's where the TESTPLAYER comes in: move the
+   select-player down, until you hit player number 20. He's called TESTPLAY
+   and gives you access to any level. Try it... If you are done playing,
+   exit Supaplex, and you'll be returned to the editor.
+
+If you are satisfied with your level then you can edit any other one of the
+111 by pressing the plus (+) or minus (-) key while editing.
+
+Once you have edited for a short time, I think you will rapidly become used
+to the editor.
+
+IMPORTANT: if you edit the border (the outermost sprites) of any level, this
+can create strange effects on the game. It is therefore not advised to edit
+the border. (BORDER_EDIT can be changed in SPEDIT.CFG or by pressing F5 in the
+editor)
+
+                  ------------------------------------------
+                  =-> SECTION 2 - ADVANCED COMMAND TUTOR <-=
+                  ------------------------------------------
+
+In this section the rest of the commands (Advanced commands) are explained.
+If you are not yet familiar with the basic commands, I strongly suggest that
+you read Section 1 (Basic command tutor) first. You may get dizzy from reading
+about all the commands in this chapter, and many of them are not often used.
+
+Since you are a beginning-advanced user, I won't tell you exactly what to do.
+You are probably smart enough to figure it out yourself anyway. Therefore the
+descriptions here are shorter.
+
+Tip: This list contains all keys, so it might be handy to print it out as a
+quick reference sheet.
+
+"Arrow" means both sets of arrow keys.
+"Diagonal" means both sets of Home, End, PgUp and PgDn keys.
+"Pad" means both Arrow and Diagonal
+
+Key          - What can you do with it
+------------------------------------------------------------------------
+          Pad - Move the pointer around in the playfield.
+    Shift-Pad - Move pointer and place selected sprite at new location.
+   Ctrl-Arrow - Change selected sprite (in spritewindow).
+Ctrl-Diagonal - Change corresponding corner of red box to current position.
+ Alt-Diagonal - jump to corresponding corner of the playfield.
+        Space - Place the selected sprite under the pointer in the playfield.
+        Enter - Pickup sprite under the pointer to the spritewindow. *
+          +/- - Choose level to edit.
+
+       Delete - Place empty sprite (=delsprite, changable in SPEDIT.CFG)
+  Ctrl-Insert - Copy current selected blok (red box) to copy-buffer. *
+ Shift-Insert - Copy copy-buffer to screen using Paste corner (F7-F10).
+ Shift-Delete - Copies contents of red box to copybuffer and then clears the
+                red box to delsprite
+
+       Ctrl-A - Start Supaplex from the editor to test your level.
+            B - Block put, puts 9 sprites around (and under) the pointer.
+            C - Clear entire red box to selected sprite.
+       Ctrl-D - DOS shell. See SPEDIT.CFG for more info.
+            E - Exchange levels. (switch two levels) *
+            F - Search for a sprite.
+         H/F1 - Help.
+            I - Count total number of Infotrons and Electrons in the playfield.
+            K - Clone (copy) other level to current level.
+      M+Arrow - Move contents of red box in the direction of the arrow. Sprites
+                that fall off on one side of the box are pushed in on the other
+                side.
+            O - Open another set of level-datafiles. Per default SpEdit will
+                edit LEVELS.DAT and LEVEL.LST, but you can open other files
+                with this function (LEVELS.D?? and LEVEL.L?? where ?? is a
+                number). You can also load other datafiles on startup via the
+                commandline (see below). If you want to create a new database,
+                just copy LEVELS.DAT and LEVEL.LST to any of the free
+                databases, and start editing.
+            P - Change all sprites of one kind in another.
+            R - Redo last change (after it is undone by pressing 'U').
+       Ctrl-S - Save level. *
+            T - Change title and number of Infotrons needed. *
+            U - Undo last change or move.
+            V - Flip red box horizontally.
+            W - Flip red box vertically.
+            X - Export current level to .SP file (length 1536 bytes) *
+            Y - Import .SP file to current level (length 1536 bytes)
+        Alt-X - Exit SPEDIT. *
+
+           F1 - Help.
+           F2 - Toggle number of rows/information on screen.
+           F3 - Search again (for the same sprite as entered with 'F').
+           F4 - Search again backwards (use 'F' first).
+           F5 - Toggle border editing on/off.
+ F7/F8/F9/F10 - Change Paste-corner (Shift-Insert).
+
+* = Not undoable.
+------------------------------------------------------------------------
+
+Note that Ctrl-A/D/S are the only Ctrl-letter keys. This is done because of
+security. These are somewhat sensitive options that might do something you
+don't want to do accidentally. Pressing the letter without the Ctrl-key will
+popup a reminder message.
+
+If you don't understand what any of these keys do, try them out. As long as
+you have made a backup of the affected files, you are safe. If the files get
+messed up, you can always restore the original ones.
+
+Then, there are some more handy features which I'll discuss now.
+
+There is a really handy commandline parameter which will allow you to start
+editing any level (in stead of level 1) if you are editing in the higher
+regions. use: "SPEDIT.EXE /nnn" where nnn is the number of the level.
+(Previous versions had the initial slash (/) missing, but I changed this to
+be more consistent with Herman Perk's Speed-Fix.)
+
+If you want to edit another dataset (not LEVELS.DAT and LEVEL.LST but
+LEVEL.D?? and LEVEL.L?? where ?? is a number) you can do that by using the
+'O' option inside the editor, or using: "SPEDIT.EXE !nn" where nn is the
+number of the dataset.
+
+Another important (and fun!) part of advanced editing is the use of the
+special see-through wall sprite. This sprite has the functionality of a wall
+sprite (explodable, non-walkable, zonks won't roll off) but it is completely
+invisible in the game. Use this sprite sparingly though, use too much of it,
+and the level will be too hard to solve, or not enough fun doing it. (e.g. a
+maze of invisible walls can take days to solve, and most supaplexers will
+already have given up before that time...)
+
+Also, you can edit SPEDIT.CFG to fit your needs. ESPECIALLY IF YOU HAVE
+HERMAN PERK'S SUPAPLEX SPEED FIX, THIS IS RECOMMENDED, IT HAS SOME FEATURES
+WHICH MAKE TESTING YOUR LEVELS A LOT EASIER. The file is very self-explanatory,
+so you should have no trouble changing it without help. You can edit it with
+any text-file-editor.
+
+Lastly: there are two other executables included: SP2BMP.EXE and SETDEMO.EXE.
+The first makes a big 256 color BMP file from any .SP file (exported with
+SpEdit's X option). This is nice if you want to see what your levels look like.
+For more information on how this program works, just execute it without any
+commandline options.
+The second program has been included to let you use other people's DEMO
+files. It will change the levelnumber the demo file operates on, so that if
+the level is moved in the LEVELS.DAT file, the demo will still work. To see
+how this program works, you can run it (and abort if you don't want to go
+on with it)
+
+You can only record a demo if you use Herman Perk's Supaplex Speed Fix (see
+section 0 on how to get it). Read the DOC's with the speed fix to read how
+to record a demo. If you want to show your demo to your friends, all you
+have to do is export the level to an .SP file with the editor, and send it
+together with the demo-file (DEMO?.BIN) to your friend. With the editor he'll
+be able to load the level, and by using the SETDEMO program on the DEMO?.BIN
+file, he can set the demo to run with the right level number. Now there is no
+way left to say you've completed all levels unless you have proof! >-)
+
+                  -----------------------------------------
+                  =-> SECTION 3 - TECHNICAL INFORMATION <-=
+                  -----------------------------------------
+
+This section is meant for those interested in the background of the program.
+Also if you know a bit about computers and the editor doesn't seem to work
+well, this may help.
+
+I'll begin with thanking Themie Gouthas for making XLIB. It was a great help
+to have so much needed commands already programmed. THANKS!
+
+Requirements for SpEdit:
+ - of course a PC or compatible computer.
+ - VGA screen & card.
+ - About 200 Kilobytes free memory, 500 Kilobytes for optimal performance.
+   (This must be base memory, the "optimal performance" is actually the number
+   of steps you can undo plus the ability to start Supaplex from the editor)
+ - A keyboard for user input.
+ - Power supply.
+ - Just a little intelligence.
+ - User activity.
+ - Probably a lot more, if you know anything, write it down on
+   that postcard!
+
+(There is no soundcard in the list, because you don't need it, just sing a
+song yourself, or turn on the radio!)
+
+Well, enough of that, let's go for the real information:
+
+The program makes use of the mode-X 360x240x256. Therefor it may not work
+correctly on some laptops with LCD-VGA, because these will probably show only
+part of the screen.
+
+More information is not yet available (I just don't know what to put in here.)
+but if you know anything to put in, look at the end of this document for how
+you can send me that information.
+
+                      --------------------------------
+                      =-> SECTION 4 - REGISTRATION <-=
+                      --------------------------------
+
+Small title, small section.
+
+This program is CHARITYWARE!! If you want to continue using this program (very
+likely :) after a 30 day trial period you are free to do so. However, in return
+I would like you to donate some money to a charity. If you don't know which,
+here are a few suggestions: http://www.wwf.org, http://www.greenpeace.org.
+
+                       -------------------------------
+                       =-> SECTION 5 - LEGAL STUFF <-=
+                       -------------------------------
+
+The author (M. Egmond, Elmer Productions) of this program (SPEDIT) cannot be
+held responsible for any damage occurred to your or others' computer, or any
+other property of any kind, whether or not caused by using this program.
+
+The original program is checked for all known viruses with the latest
+virusscanners. No virus has been detected (if you find one in the original
+ZIP file, let me know as soon as possible).
+
+You may not reverse engineer, decompile or disassemble the software. You may
+not modify this program, and you may not distribute modified copies of this
+program.
+
+This program may be freely distributed as long as you distribute the complete
+software-package in the uninstalled state (SPEDITxx.ZIP, where xx is the
+version number.)
+
+If you want to put this program on a BBS, or CD-ROM, or other media (with a
+wide range of customers), please let me know about it. I'll be able to
+supply the latest version.
+
+This program may not be sold for profit without written permission from the
+author (M. Egmond, Elmer Productions). A resonable amount may be charged for
+copying services and material.
+
+These rules are subject to change without notice.
+
+                     ----------------------------------
+                     =-> SECTION 6 - OTHER SOFTWARE <-=
+                     ----------------------------------
+
+Other products available from Elmer Productions are:
+ - ZapIt    - A hex. file/disk editor with lots of features like bin/dec/hex
+              calculation/conversion, search ANY text or specific text,
+              cut/copy/paste/replace, and lots more.
+ - CaveIt   - A simple game in which you have to beat monsters in order to
+              save the world. The game runs on 50 line text-mode, but with
+              a specially designed font, so it really isn't THAT bad.
+ - TagStrip - A tagline-file-double-tagline-finder-and-stripper. This
+              program can find not only exact double lines but also ALMOST
+              doubles. Just run TagStrip on a text-file containing those
+              taglines, and all (almost) doubles will be deleted (if you
+              wish to).
+ - XCom2Cht - A cheat program for XCom2 Terror of the Deep. You can edit
+              your soldier statistics, all buildings on all 8 bases,
+              manufacture and research, store contents and craft equipment.
+ - Supaplex SpeedFix - This 'updated' version of supaplex was made by Herman
+              Perk. It's meant to play Supaplex on fast computers (but has
+              some very useful features for any computer too!). It seems that
+              Some levels can't be solved on high speeds. This program
+              fixes that.
+ - Check the WWW http://www.elmerproductions.com for the latest information
+   about the programs.
+
+                     -----------------------------------
+                     =-> SECTION 7 - TROUBLESHOOTING <-=
+                     -----------------------------------
+
+When you start SUPAPLEX.EXE from the editor (Ctrl-A) or shell to dos (Ctrl-D)
+it is possible that you will get an error message. These are:
+  File not found
+   - Edit SPEDIT.CFG and change the PATH and/or CMDLINE settings. See the
+     SpEdit startup-screen to see what exactly SpEdit is trying to execute
+     (Supaplex commandline).
+  Path not found
+   - Edit SPEDIT.CFG and change the PATH setting.
+  Access denied
+   - This is a tougher one. Are you running SUPAPLEX from a networked drive?
+     Maybe someone else is already using the files. Refer to your network-
+     documentation for solutions. If you are multitasking, it could be that
+     somewhere else a copy of the game is already running. Close that copy
+     and try again. If everything fails, try a reboot.
+  Invalid handle
+   - Check your DOS-manual for more info about this (I have no idea where this
+     one can come from)
+  Not enough memory
+   - SpEdit uses some memory, and SUPAPLEX want to have some too. Since memory
+     can only be used for one thing at a time, you need more. Refer to your
+     DOS-manual for more info on how to make more free BASE-memory (Try
+     MEMMAKER, or a clean-boot) or try changing SPEDIT.CFG settings so that
+     memory will be swapped to XMS/DISK or even that undobuffers are destroyed.
+  Invalid environment
+   - No idea... Check your DOS-manual for this one.
+  Invalid format
+   - The file you are trying to run probably isn't an executable. Check that.
+     Otherwise, check your DOS-manual for more info.
+  No more files
+   - The computer can't cope with this much files at the same time. Edit
+     your CONFIG.SYS and change (or add) the "FILES=xx" line to a higher
+     number (FILES=20 should do in most cases, if it's already higher, you
+     need to increase it even more...) You can also try to run SpEdit with
+     less applications running in the background (if you are multitasking)
+
+Then, there are a few "Unknown" errors. See your DOS-manual (in combination
+with the number between the parenthesis) for more information on what's wrong.
+
+If you encounter any problems while doing basic things (like saving your
+level, or importing a .SP file) there is probably something wrong with your
+harddisk (Bad sector, data error). You'll have to check your harddisk with
+a utility suited for that. See your DOS-manual for more info.
+If you can replicate the error on another machine (or are certain that the
+error is in SpEdit) please let me know as soon as possible. Thanks.
+
+If you are not seeing the entire screen in the editor (you don't see the
+right window with all the sprites and the text below) your graphics card or
+monitor probably don't support the mode-X I use in the editor. SpEdit should
+work with any 100% compatible VGA card and monitor. If you can't use another
+card or monitor, there's not really a good solution to this problem.
+
+If your monitor starts emitting high-tone noise (or keeps flickering) your
+monitor is probably not 100% VGA compatible. Unless you get a new monitor (or
+maybe it could be the graphics card?) you will not be able to use the editor.
+
+                    -------------------------------------
+                    =-> SECTION 8 - HOW TO CONTACT ME <-=
+                    -------------------------------------
+
+That's about it I guess. If you know more information (about SPEDIT) which
+should be included in this documentation, send it to me. For more information
+please refer to the Supaplex website:
+  http://www.elmerproductions.com/sp
+
+Thanks for your support and enjoy this program!

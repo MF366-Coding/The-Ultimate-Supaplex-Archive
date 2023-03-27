@@ -1,0 +1,41 @@
+@Echo off
+text 
+ Valitse k„ytett„v„t radat:
+  1 - Oikeat Supaplexin radat
+  2 - Omat radat
+  3 - Jussin radat
+endtext
+inkey %%Valinta
+attrib player.lst -h
+
+iff "%Valinta" == "1" then
+   copy levels0.dat levels.dat
+   copy level0.lst level.lst
+   copy player0.lst player.lst
+endiff
+
+iff "%Valinta" == "2" then
+   copy levels1.dat levels.dat
+   copy level1.lst level.lst
+   copy player1.lst player.lst
+endiff
+
+iff "%Valinta" == "3" then
+   copy levels2.dat levels.dat
+   copy level2.lst level.lst
+   copy player2.lst player.lst
+endiff
+
+supaplex
+
+attrib player.lst -h
+iff "%Valinta" == "1" then
+   copy player.lst player0.lst
+elseiff "%Valinta" == "2" then
+   copy player.lst player1.lst
+elseiff "%Valinta" == "3" then
+   copy player.lst player2.lst
+endiff
+attrib player.lst +h
+set valinta=
+cls
