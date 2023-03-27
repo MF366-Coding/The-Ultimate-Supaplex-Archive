@@ -1,0 +1,10 @@
+Changes in Supaplex 13
+----------------------
+
+- Level 085: added exit
+- Level 099: removed Murphy in top-right corner
+
+
+-------------------------------
+Martijn's Boulder Dash Fan Site
+http://www.bd-fans.com
