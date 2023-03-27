@@ -64,18 +64,24 @@ OpenSupaplex runs in almost every platform, including PS Vita and Nintendo Switc
 
 Homebrew is no longer available for the Nintendo Switch, so you can't install OpenSupaplex anymore. :-(
 
-Created by sergiou87 (https://github.com/sergiou87/open-supaplex) 
+Created by [sergiou87](https://github.com/sergiou87/open-supaplex).
+
 ### 🎮 How to play?
 Use the arrow Keys to move.
 
 SpaceBar + arrow Key to snap (get what's next to you without moving).
 
 Hold SpaceBar to drop a Red Disk (and then run away before it explode!).
+
 ## ℹ️ Extra information and content
 ### 💾 Fandom Wiki
-https://supaplex.fandom.com/wiki/Supaplex
+You can find the Fandom wiki in [here](https://supaplex.fandom.com/wiki/Supaplex).
+
 ### 👨‍💻 People's Levels that were not packed
-#### ➕ Norb's levels
-https://github.com/norbcodes/NorbSupaplexArchive 
-#### ➕ AlterT's levels
-https://github.com/thealtermaven/promotek-supaplex
+Here you can find levels that weren't commited to `main`.
+
+[Norb's](https://github.com/norbcodes/NorbSupaplexArchive) and [AlterT's](https://github.com/thealtermaven/promotek-supaplex) levels.
+
+**Quick Note**
+
+Some of AlterT's levels are actually in `Supaplex_Levels` but I decided to still link the original repo.
