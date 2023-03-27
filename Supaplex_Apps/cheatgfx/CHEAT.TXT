@@ -1,7 +1,0 @@
-To use these 'cheaters' graphics, backup your original MOVING.DAT and
-FIXED.DAT files (if you ever want to use the original graphics again) and
-copy these ones over the old ones.
-
-Some of the changes:
- - You can clearly see bugs, since they have now a different color base.
- - Murphies that do not play are colored blue

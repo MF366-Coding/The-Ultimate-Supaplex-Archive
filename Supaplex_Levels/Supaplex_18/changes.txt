@@ -1,9 +1,0 @@
-Changes for Russian Levels 04
------------------------------
-
-- Level 82: added an exit.
-
-
--------------------------------
-Martijn's Boulder Dash Fan Site
-http://www.bd-fans.com
