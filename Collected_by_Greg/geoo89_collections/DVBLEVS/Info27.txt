@@ -1,0 +1,16 @@
+I received these levels by e-mail September 28, 2004, anonymously (except for
+the initials DVB.)
+----
+Subject:        New levels for SUPAPLEX
+
+Message body:   Present from Russia
+                dvb           mailto:dvb@samy.krasnoyarsk.su
+----
+All demos were MPX files, which I converted to SP files by removing the
+first 20 bytes. Three demos do not finish properly: 93, 104 and 107
+
+The complete level file was called LEVELS.DVB, which I renamed to LEVELS.D27
+and added LEVEL.L27, just for completeness.
+
+Have fun
+Herman Perk

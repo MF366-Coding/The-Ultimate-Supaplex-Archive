@@ -1,0 +1,10 @@
+changes for Geoo89
+------------------
+
+- Level 003: added an exit + infotron.
+- Level 008: adden an exit.
+
+
+-------------------------------
+Martijn's Boulder Dash Fan Site
+http://www.bd-fans.com
