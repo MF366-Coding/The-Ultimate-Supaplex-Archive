@@ -1,0 +1,52 @@
+Supaplex Levels WN2 
+24 Levels Supaplex
+www.grylogiczne.pl
+
+e-mail: nowicki86@interia.pl
+Nowicki Wojciech
+Ul. Koniecpolskiego 6d / 7	<----- Street, Strasse
+78-105 Ko³obrzeg		<----- City, Stadt
+POLAND
+Bank BPH 18-10600076-0000304000723478    (PLN)
+	
+
+	
+
+	W pliku Supaplex Levels WN2.zip spakowane s¹ nastêpuj¹ce pliki:
+	- Info
+	- Level.lst
+	- Levels.dat
+	- Player.lst
+	Skopiuj te pliki do katalogu z gr¹ Supaplex. 
+	
+	To jest druga edycja moich etapów do gry Supaplex
+	
+	Wszystkie plansze wykona³em sam. Oryginalne plansze zawiera³y bardzo du¿o elementów
+	zrêcznoœciowych. Postanowi³em, ¿e zrezygnuje z tego pomys³u. W moich planszach jest du¿o 		myœlenia, a ma³o zrêcznoœci (chocia¿ czasami...).
+	Równie¿ do minimum zastosowa³em grawitacjê, a tak¿e zrezygnowa³em z dziwnego elementu
+	jak czarna œciana (wygl¹da jak puste miejsce, ale nie mo¿na przejœæ). 
+	
+	Wszystkie etapy da siê ukonczyæ
+	Plansze robione: Supaplex Editor for Windows 95 Version 1.2
+	Plansze testowane: Supaplex Speed Fix Version 6.3
+
+	P.S.1
+	W pierszej linijce tego dokumentu znajduje siê ogólna nazwa moich plansz, tj.
+	Supaplex Levels WN2. WN oznacza moje inicja³y.
+	
+	P.S.2
+	Zabronione jest bez mojej zgody:
+	- zmiany w pliku: Info, Levels.dat, level.lst
+	- wykorzystywanie moich uk³adów plansz do wykonywania innych etapów.
+	- umieszczanie tego wszystkiego na CD_ROMach
+	- pobieranie pieniêdzy za rozpowszechnianie
+
+		
+	17.05.2002,  21:47 Ko³obrzeg
+						Nowicki Wojciech	
+				
+
+Edit: 11.02.2006
+
+
+ 
