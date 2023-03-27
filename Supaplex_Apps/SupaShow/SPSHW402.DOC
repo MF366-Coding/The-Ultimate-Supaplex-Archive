@@ -1,0 +1,554 @@
+
+
+               BUG FIX RELEASE 4.02: SEE LAST PART OF HISTORY BELOW
+
+               ATTENTION: SUPAMINI.DAT IS NOT USED ANYMORE:
+                          THE NEW ENHANCED FILE IS SUPASHOW.DAT.
+
+               NEW: ANY INTENSIVE USE OF THIS PROGRAM *MUST* BE REWARDED
+                    WITH A SHORT NOTE ADDRESSED TO ME, EITHER BY E-MAIL
+                    OR BY STANDARD MAIL.  ADDRESS: SEE END OF THIS FILE.
+
+
+This complete ZIP file should contain following files:
+-----------------------------------------------------
+
+ SUPASHOW.EXE  Supaplex+SPEDIT level viewer/launcher.
+
+ SUPASHOW.INI  Textfile with calls to Supaplex/SpeedFix and SPEDIT now too.
+               Read this INI file too for more info!!!
+
+ SUPASHOW.DAT  Sprite information file needed by SUPASHOW.EXE (text format)
+
+ SPRITES.EXE   Testprogram for SUPASHOW.DAT, usefull if you edit SUPASHOW.DAT
+
+ SUPA_ASM.ASM  Fast Supaplex minilevel display routines in assembler.
+
+ SUPA_ASM.OBJ  Ready to link the ASM into your own programs.
+
+ LEVELS.D99    Complete Macintosh Infotron levels, converted to Supaplex.
+               (Levels larger than 60*24 are just splitted into several
+                Supaplex levels, and cannot be played, but can be viewed)
+
+ LEVEL.L99     Needed by Supaplex itself, in case you want to play those.
+
+ SPECIAL.SP    First released level ever using new special port properties.
+
+ SPSHW402.DOC  This file you are reading now.
+
+------------------------------------------------------------------------------
+
+                      INSTUCTIONS FOR USE:
+                      -------------------
+
+Copy at least SUPASHOW.EXE, SUPASHOW.INI and SUPASHOW.DAT to your Supaplex
+directory and just start the program.  Read and do what it says on screen.
+Note: The difference between "smart" and "dumb" (just start the program ...):
+Smart means that all levels that are equal with it's previous level are not
+shown (="EMPTY" levels of the SpEdit level editor of Maarten (Elmer) Egmond).
+Smart also means, with the Infotron splitted levels (LEVELS.D99), that all
+parts of all splitted levels are placed on screen in their relative positions,
+so that a better impression of those levels is presented (I hope).
+Dumb means that none of such "smartness" is applied.
+
+
+The main files of this package are SUPASHOW.EXE, .INI and .DAT.
+The other files are either demonstration files for SUPASHOW (LEVELS.D99), or
+for playing those levels (LEVELS.D99 and LEVEL.L99), or for people who don't
+like the result of SUPASHOW and therefore want to modify SUPASHOW.DAT 
+(SPRITES.EXE), or for programmers who want to use some of my stuff either
+immediately (SUPA_ASM.OBJ and SUPASHOW.DAT) or indirectly (SUPA_ASM.ASM).
+
+
+SUPASHOW.EXE is the main program of this package: view and launch Supaplex
+levels.  (You need ca. 500kb free memory to be able to launch Supaplex.)
+SP files and extended format SP files (with a demo riding piggyback on the SP
+file) can be launched with the space key too!  See version info below.
+Furthermore, the D key does the same as the space key, but starts the SpeedFix
+(version 3 and above) in Debug mode (if you want to do Demo recording etc.)
+The E key starts Spedit.  Read the SUPASHOW.INI file for details.
+Be aware, that you might not be able to launch Supaplex/SpeedFix from Spedit
+due to memory shortage.
+
+
+SUPASHOW.INI only contains calls to the Speedfix 6.x (or lower, or higher),
+and to SPEDIT.  It also tells SupaShow, which level set is free for use, and
+which files to display (LEVELS.D??, DEMO?.B??, *.SP).
+All the rest of that file describes how and what, and about anything else
+that you can tell SUPASHOW to do: please read SUPASHOW.INI!
+
+
+SUPASHOW.DAT contains numbers, numbers and numbers, and a description.
+The end of SUPASHOW.DAT explains what those numbers mean, and how to edit
+the look of the Supaplex mini sprites and/or colors.
+
+
+After editing SUPASHOW.DAT you might want to have a close look at the edited
+sprites, and that is where SPRITES.EXE should be called.  It shows all sprites
+in several sizes (enlarged too, so you don't need a microscope to see which
+pixel might be wrong).  That is the only thing this program does.
+
+If you want to make a program which uses the SUPASHOW.DAT file, you are
+invited to do so (and send me a free copy of your program).
+I've included an example ASM file with lots of information inside for
+such programmers.  These routines are written for QuickBasic 4.x, but are
+easily changed to integrate into other languages too.  Read the ASM.
+
+For those programmers who still use QuickBasic (version 4.x) I've included
+the ready-to-link SUPA_ASM.OBJ file.  (Not everyone has an assembler ...)
+See the SUPA_ASM.ASM file for more information.
+
+LEVELS.D99 and LEVEL.L99 are the complete level works of Dave Peck, who wrote
+Infotron on the Macintosh.  Thanks to his information I was able to convert
+his files to the Supaplex format.  Infotron uses a variable game field size
+of 120*120 sprites.  Supaplex uses a fixed game field size of 60*24 sprites.
+The levels that were larger than 60*24 are split into several levels and
+cannot be played.  I marked those levels with different names: those all start
+and end with different characters than the usual minus signs, and contain
+information about which part of the whole level that levelpiece is.
+Due to differences between both games, some of the 'small' levels cannot be
+finished: in Infotron Murphy runs faster than the other moving objecs or
+chain explosions.  Infotron also has 4 different initial directions for
+scissors, which could not be converted.  This also creates problems in several
+levels: the scissors do not move in Supaplex as they do in Infotron.
+To play those levels anyway, either rename these files to LEVELS.DAT and
+LEVEL.LST, or use my Supaplex SpeedFix V4.0 with at least the parameter !99.
+I translated the largest level (SEEING YELLOW) to a playable Supaplex level
+and the result is level 111. All features are matched exactly.
+
+Maarten's level set 01 contains all playable levels from this set, as far as
+those are no exact copies of original Supaplex levels.
+There is only one small difference: the levels in level set 01 are taken from
+a preliminary conversion that I'd send him.  The levels are identical but his
+nice-looking hardware is not matching the original Infotron hardware.
+Level set 99 matches Infotron as close as possible.  (All hardware - nice or
+dull - is indestructable, and as such it makes no difference.)
+
+SPECIAL.SP can be seen as a demo level for the new SupaShow cheat mode.
+(This is exactly the same level as SPECIAL1.SP from Maarten's page.)
+
+------------------------------------------------------------------------------
+
+                  HOW TO INTERPRET CHEAT CODES:
+                  ----------------------------
+
+If you change the fifth line of SUPASHOW.INI to read CHEAT, you will see
+strange things happen in special ports (formerly called gravitation ports).
+If you look with SPRITES.EXE at the last line of the sprites contained in
+SUPASHOW.DAT, you will see ports with a square patch of white and black
+inside, arranged as follows (W=white, B=black):
+  BW
+  WW
+The black part tells us that we deal with a special port.  That black part
+never changes. It serves as an optical reference to the three white parts.
+Now it comes:
+Each of those 3 white parts is showing one of the 3 port properties:
+
+  Top left:    (always black)   Top right:    Gravitation
+
+  Bottom left: Frozen Zonks     Bottom right: Frozen Snik-Snaks/Electrons
+
+SupaShow 4.0 is programmed to: LEAVE WHITE if the port switches the property
+to ON when Murphy passes that port, and to OVERWRITE it with the corresponding
+RED/GREY parts of the standard ports (=the ports that have no properties) if
+the port switches the property to OFF when Murphy passes that port.
+
+Now there are 3 different properties, which means 8 different combinations.
+All 3 properties can independently be set at will by the level designer.
+
+Example1 (the dash means that that part of the port looks like a normal port.)
+  BW
+  --
+The black part is only the marker, and gives us some help to which white
+property we are dealing with: Gravitation is switching on, BUT ALSO:
+Frozen Zonks AND Frozen Snik-Snaks/Electrons ARE SWITCHING OFF! (They move!)
+
+Example2:
+  B-
+  WW
+The black part is only the marker. Bottom left is white: Zonks will be frozen.
+Bottom right is white: Snik-Snaks/Electrons will be frozen.
+BUT ALSO:  Gravitation IS SWITCHING OFF!
+
+Example3:
+  B- 
+  --
+The black part is only the marker and the port just looks like a standard port
+with a small black hole in it: ALL 3 PROPERTIES ARE SWITCHING OFF!
+
+Example4:
+  BW 
+  WW
+The black part is only the marker. All 3 properties are switching ON!
+
+NB: This last situation can ALSO mean: The level is corrupt: the port has
+no entry in the small "special port database" at the end of each level,
+which implies that the port just reacts as any normal port without affecting
+any property.  Just play the level and you'll know!
+Levels like these can only be produced with "bad" level editors that do not
+limit the number of special ports to 10 (which is the maximum number of
+database entries), or that do not handle the special ports properly.
+(Also fiddling with a hex-editor like Norton's Diskedit, or Maarten's Zapit
+can produce these unspecified ports in levels.)
+
+------------------------------------------------------------------------------
+
+        HISTORY (see last items for the most recent changes):
+        ----------------------------------------------------
+
+SUPASHOW.EXE started with version 1.7 since there were no public releases
+of all the previous versions.
+
+All files are unchanged except SUPASHOW.EXE, SUPAMINI.DAT and this README.*
+Version 1.8 is mainly a bugfix of 1.7:
+- Pressing "1" or "2" in the first screen displayed the line with the file-
+  number distorted.  This was a bad looking but just an optical bug.
+- Going through the levels with the cursor keys was slowed down by flushing
+  all keys before testing for the next key.  This was necessary while if the
+  keyboard autorepeat is faster than stepping through the levels and the
+  keyboardbuffer became full, the resulting beeps were stopping the process.
+  Now all keys but the last key are flushed, so cursor movement is speeded up
+  since there is no more wait for the next key of the autorepeat.
+- Warning text changed which appears if no Supaplex files are found.
+- Slight modifications are made in SUPAMINI.DAT.  Nothing dramatic.
+
+Version 2.0 has one completely new and important feature:
+- It is now possible to start playing the level pointed to by the cursor
+  by simply pressing the SPACE key. (Launch level)
+- Extra file SUPASHOW.INI, which actually contains the call to Supaplex
+  SpeedFix version 4, but here you can choose your own preferences.
+  Read the text in SUPASHOW.INI for more info.
+- The keyassignment has changed, mainly in the intro screen.
+  Although it says: +/- = NEXT/PREVIOUS, all cursor keys are also assigned
+  to help to change level files in one way or another.  (big/small steps)
+  All keys without function do not change the levelfile pointer anymore.
+- Now only the ESC key returns to the intro screen (and from there to DOS).
+- Cursor now remembers the level when switching between "smart" and "dumb".
+- Changes in SUPAMINI.DAT, so gravitation changing ports cannot be recognized
+  anymore.  (It is up to you to edit to cheat.)
+
+Version 2.1 can now launch SP levels INCLUDING DEMO's appended to the SP files
+- SP files, created by SpEdit, can be launched too now!
+  For this to work, SupaShow uses the *.?00 levelset to generate the necessary
+  files for SPFIX4.  The SP level is multiplied 111 times to form LEVELS.D00,
+  and LEVEL.L00 is generated. All of these scratch files are deleted later.
+  Before any old *.?00 is overwritten, those old files are renamed to "*.?~0".
+  After returning back to SupaShow, those files are renamed back to *.?00.
+  If an SP file is launched, SPFIX4 is started according to SUPASHOW.INI, but
+  it will always start in cheat mode.
+- NEW!: Any demo information glued "piggyback" to this SP file, is activated
+  and connected to the F1 function key! (DEMO0.B00 is generated!)
+
+  The total amount of bytes of all ten demo files of a specific level set
+  may not exceed 64010 bytes, and those may be all in one single DEMO0.
+
+  Creating such SP files with piggyback demo information can be done with
+  the DOS command:     COPY/B filename.SP + DEMOm.Bnn  newfile.SP
+  The m is the ctrl-function key (minus 1) which you used to create the demo.
+  The nn is your level set indication: 00 to 99, or IN (the original demo's).
+
+  Example: suppose you have the old format SP file EASY.SP and the demo
+  file DEMO3.B03 for that level.  If you want to call the new file EASYDEMO.SP
+  then you just type following command on the DOS command line:
+        COPY/B EASY.SP+DEMO3.B03 EASYDEMO.SP
+  If you want to name the new SP file EASY.SP then   COPY/B EASY.SP+DEMO3.B03
+  is enough.  (You will lose the original file EASY.SP then!)
+  Do not forget the plus sign, which stands for "concatenate files"!
+  Do not forget the "/B", which stands for "binary" file copy!
+
+- This version was meant for Maarten (Elmer) Egmond, to demonstrate the
+  possibilities of SpeedFix 4 in combination with his (extended) SP files.
+  He never distributed it.
+
+Version 2.2 uses the new SpeedFix 5 parameter to launch (extended) SP files.
+REMEMBER: SPFIX5 CANNOT USE THE OLD DEMO FILES ANYMORE: IT USES THE EXTENDED
+SP FILES (LEVEL+DEMO) INSTEAD.  THE NEW DEMO?.B?? FILES ARE EXTENDED SP FILES!
+- As version 2.1, with added support for the ":file.SP" parameter of SPFIX51.
+- The "backup file" names changed from *.?~0 to *.?~~ (see Ver. 2.1 above).
+- Previous SpeedFixes, and even Supaplex itself can now play (extended) SP
+  files (and new format demo files, but only if those are renamed to *.SP).
+  (New format demo files (SpeedFix 5) ARE extended SP files, vice versa!)
+  See also SUPASHOW.INI, README.V51 (= Supaplex/SpeedFix "manual") and
+  SPEDIT.DOC for more details.
+- SupaShow knows now (by the name used in the INI file only), which demo file
+  format it must prepare for which SPFIX version, for launching SP files.
+- The scratch level set, used by SupaShow, is not fixed to set 00 anymore,
+  as in Version 2.1.  It can be chosen in the INI file to be any of 00,..,99,
+  or even the standard set, if you want.
+- The scratch level set is the standard level set, if no SPFIX4 or SPFIX5 is
+  addressed in the INI file.  (Either older SpeedFixes, or renamed new ones)
+- Several keys added in the display mode:
+  D = launch level in debug mode. Debug is not fixed anymore in the INI file.
+  E = launch SPEDIT, and start editing on the launched level (SPEDIT 3.x)
+      See the warning in SUPASHOW.INI if you start SPEDIT on a *.SP file!
+  4 = set SP launch mode with SPFIX5 to compatible mode (see Ver. 2.1 above).
+  5 = set SP launch mode with SPFIX5 to be the new SPFIX5 mode (":file.SP").
+      The difference between these modes are, that with a demo attached,
+      the "5" mode always starts the demo first.  The "4" mode always starts
+      the level, ready to play.  The "5" mode is the default mode with SPFIX5.
+- Added more information here and in SUPASHOW.INI: READ THAT FILE TOO!
+- The only changed files since version 2.0 are: SUPASHOW.EXE, SUPASHOW.INI
+  and this README.220.  All the other files are unchanged.
+- Splitted the package into complete file for newcomers, and update package
+  for those who have version 2.0, just to save download time.
+
+Version 2.3 is mainly a bugfix of version 2.2, with one extra addition:
+- The good old Supaplex can be used too in all cases, not just for SP files!
+  (The levels are to be searched in the Supaplex menu then, but the proper
+  files are used. PLAYER.LST is NOT updated to allow the level to be played!)
+- Bug-fix: Renaming the original level-set works too, now.  This was not yet
+  tested, but implemented with an "AT" on the third line of the INI-File.
+  Since wildcards were used in the renaming scheme, all DAT files, including
+  the other Supaplex DAT files, were renamed.  Supaplex could not start, but
+  in the end, everything was correctly changed back: no harm done.
+- Renaming scheme (for SpeedFix versions before version 5) has changed
+  slightly: only LEVELS.D??, LEVEL.L??, DEMO0.B?? and DEMO1.B?? are renamed
+  now, in stead of a wider selection (DEMO?,B??).  See item above.
+  DEMO1 is renamed away, so all other demos are disabled.  See INI file too.
+- The only changed files since version 2.0 are: SUPASHOW.EXE, SUPASHOW.INI
+  and this README.230.  All the other files are unchanged.
+
+Version 2.4 has a few additions over Version 2.3, which make life easier:
+- Bugfix: the "demo attached" message in the display sceen for SP files was
+  chaned after many keypresses (like 454545454...,) to "no demo attached ...".
+  (The number of keys to press was equal to the length of the demo.)
+  This was only a screen quirk, but I wanted to fix it anyway.
+- Now level names are displayed too!  There was lots of space with SP files,
+  but I had to split the level name into 3 pieces in the level-sets ...
+- The standard cursor keys in the level-set display now wrap around to the
+  next/previous line/column, in stead of stopping at the end/beginning of the
+  line/column.  (Up,Down,Left and Right keys only)
+  It is now possible to sequentially scan through all 111 levels with the
+  Down key only, and a reverse scan with the Up key only.
+- The default call to the SpeedFix changed to call the most recent SPFIX52.
+  (I forgot to mention these changes in the previous versions above here.)
+- The only changed files since version 2.0 are: SUPASHOW.EXE, SUPASHOW.INI
+  and this README.240.  All the other files are unchanged.
+
+- SUPASHOW.INI was updated from version 2.3 to read the most recent SpeedFix
+  (SPFIX52).  The parameters in the call to this SPFIX52 (the first line of
+  that file) is now equal to the default parameter (# only, in stead of #*5).
+  (You do not need to reread that whole file if you've read the one from 2.3.)
+
+Version 3.0 now shows DEMO?.B* files too, and a lot of extra info on screen!
+- Demo files are extended SP files with SpeedFix 5 and up.
+  So why not show those too?  These files show only if SPFIX5 or above is
+  used, since only with SPFIX5 and up these files contain the level too!
+  If the demo file is shorter than a level, the old demo format is assumed,
+  and the file is skipped (but counted):  Please rename those old demo's.
+- Since demo times can be extracted from the demo's (with a resolution of
+  1/35th of a second!), as I explained Maarten, these times are shown too now.
+  Now all "Honoured Solutions" can be compared without playing the demo's.
+  Remember: These times are calculated to show the default SpeedFix speed,
+  and may vary on different computers (+/- a second or so), depending on
+  deviations in the video frame frequency, compared with the system timer.
+  (Supaplex reprograms the system timer to run at 50Hz in stead of 18.2Hz,
+  which may not be possible in multitasking operating systems: USE DOS!)
+  Only these objectively calculated times can be compared, as Maarten does!
+- SPFIX53 and up generate SP files, from which the maximum real playing-
+  time can be extracted.  This is done by storing the normalized delay value
+  (the number of extra delays needed for the standardized speed) and the
+  maximum number of delays used when recording the demo in the resulting demo.
+  From this the real time can never be extracted if the grey "speedfix keys"
+  are used during the recording: only the demo time with the slowest used
+  speed (for the whole recording!) can be calculated.
+  Too bad there is a bug in SPFIX53, where the slowest used speed is not
+  always stored ... SPFIX54 fixes this.
+  The calculated maximum time is shown, and when it is certain that it is
+  not influenced by that bug, it is shown bright, else it is shown dimmed.
+  Both "extra delay" values are shown, together with the resulting factor
+  to multiply the time with in order to get the "real" playing speed.
+  For more info about these factors: see "footnote" below.
+- More info: A green "G" after the level number stands for "Gravity on",
+  The number of Infotrons, Electrons and Infotrons-to-eat are also shown now.
+  With level files (LEVELS.D??) some path indication is added:
+  .\*.DAT means in the active subdir, ?\*.DAT means somewhere else.
+- When available, the demo signature can be shown now by pressing <Enter>.
+- If an SP file file was shown, there just was too much blabla text.
+  This is simplified, but the info may be more implicit now.  Think a little.
+  With SP/demo files, a level number may be shown: this is the level number
+  at creation time of the demo: the first byte of the demo (like >056).
+- When changing from one file to the other, the screen was cleared, which
+  resulted in screen flickering when scrolling through the files.
+  This has been changed: no clear screen, but screen overwrite.
+- Supashow can now handle up to 4000 files, and seems to do that well now.
+  A major code revision was needed, which is why this is not version 2.5.
+  (Furthermore some complicated code has been simplified, which doesn't show.)
+- SP and DEMO files can be played if those are not located in any Supaplex
+  directory, and this also now in compatible mode!
+  The only drawback: SUPASHOW must reside in a Supaplex directory!
+- Starting SpEdit with SP and DEMO files will automatically invoke the
+  compatible mode for that call, so the level can be edited immediately.
+  This is done since otherwise the original level set was always chosen.
+- Although wildcards are used to search for DEMO?.B*, some are excluded:
+  The "?" here may only be a digit (0,..,9) and the "*" cannot start
+  with an "A" like DEMO0.BAK, DEMO4.BAS etc.  Some Basic packages contain
+  DEMO?.BAS, which are to be excluded from the list anyway.
+  I found another LEVELS.DAT file with a game called PRINCE OF PERSIA 2,
+  but I did not exclude files like those.  That's life ...
+- The cursor keys in the first screen have been changed a little, to
+  accomodate for those large amounts of files: steps are 1,10,100,1000 now.
+- The 4 and 5 keys are now a command line options too, although not shown in
+  the first screen. (5 is default anyway, if SPFIX5 or up are used)
+- The default call to the SpeedFix changed to call the actual SPFIX54.
+- More files are changed since version 2.0: SUPASHOW.EXE, SUPASHOW.INI,
+  SUPA_ASM.ASM, SUPA_ASM.OBJ and this README.300.
+  Unchanged since ver. 2.0: SUPAMINI.DAT, SPRITES.EXE, LEVELS.D99, LEVEL.L99.
+
+- SUPASHOW.INI was updated from version 2.4 to read the actual SpeedFix
+  (SPFIX54), AND a new INI line has been defined!. This line specifies which
+  file types are to be viewed, and the order of those types.
+  You do not need to reread that whole file if you've read the one from 2.3,
+  only the first few lines, since nothing changed after the short description.
+
+Version 3.01 fixes only minor bugs of version 3.0, and as such not called 3.1:
+- If a demo was recorded with "Delays: 5,7", the time factor correctly showed
+  "2" on the display and the normalized time showed, but the calculated time
+  did not appear, which should read the normalized time times 2.
+  That problem always occurred when the time factor shows as a single digit.
+  This has been fixed. 
+- If the Supaplex directory contains many files, one waits rather long before
+  something happens.
+  A message "Please wait for ATTRIB ..." has been added.
+  This also addresses the uncertainty one had of having pressed the dot in
+  order to rescan the Supaplex directory:
+- Already in 3.0, but not described there: If a level has been created
+  with SPEDIT, which was launched by SupaShow, it was not recognized until
+  either SupaShow was restarted, or subdirectories were searched and then
+  the Supaplex directory again.  This was already fixed in 3.0: after SPEDIT
+  returns, you can press the dot (".") in the main menu to rescan the active
+  (Supaplex) directory.
+
+- No updates of any files except for this readme.301 and SupaShow.exe
+  This readme is unchanged except for this place, the first (header) line,
+  and the list of files for updating from version 3.0.
+
+Version 3.02 fixes another little bug of version 3.01:
+- If a level file was created with many long level names, the "smart" display
+  mode could easily be fooled to think that more levels were part of a single
+  larger level, like in levelset 99 (The complete Infotron works of Dave Peck)
+  This has been fixed.
+
+- No updates of any files except for this readme.302 and SupaShow.exe
+  This readme is unchanged except for this place, the first (header) line,
+  and the list of files for updating from version 3.0.
+- This version was not officially released.  The fixed bug concerned only me.
+
+Version 4.00 has a lot of changes in many files.  The main added feature is,
+that the properties of special ports can be made visible: gravitation on etc.
+The unknown features I found in Supaplex (+ SpeedFix) recently just put me to
+work to have those shown in SupaShow too.
+- Added cheat mode: show all properties of special ports and show hidden walls
+  with just the word CHEAT in SUPASHOW.INI.  (Otherwise: no cheat!)
+- Added two new configuration lines in SUPASHOW.INI, and updated information
+  in that file.  READ THAT FILE!  One line to use cheat mode, and one line
+  for inserting a short beep if a displayed level contains special ports.
+  This beep is only implemented for special-port hunters.
+- Changed SUPAMINI.DAT to support both standard AND cheat mode, and therefore
+  it is called SUPASHOW.DAT from now.  (Read info at the end of SUPASHOW.DAT)
+- If Zonks are frozen at the start of a level, it now shows with a green "Z"
+  after any green "G" (gravitation) after the level number (lower right edge).
+- Added a small delay after return from Supaplex/Spedit so any error message
+  like "Program too big to fit in memory" can be read now.
+- SPRITES.EXE changed to read SUPASHOW.DAT in stead of SUPAMINI.DAT, and to
+  show all standard sprites (including hidden wall as blank) followed by
+  the 5 modified sprites, adapted to the special built-in cheat mode.
+- Updated the menu text to show "Launcher 4.00" and "1997" in stead of
+  "Viewer 3.02" and "1996".
+- Updated all files to read and use SPFIX60, including the default calls.
+  (This SPFIX60 fixes many bugs from SPFIX54 and adds several new features.)
+- Renamed README.Vxx to SPSHOW40.DOC with appropriate additions:
+- Special "How to interpret cheat codes" paragraph inserted above.
+- Changed FREEWARE into (E-)MAIL ware.  See below for more info.
+  (There are NO special provisions for this programmed into the software!)
+
+Version 4.01 fixes a few little bugs of version 4.00:
+- If a demo was played by a suspicious PC where the automatic speed check
+  found a number other than 0 or 5, the text line to show these delay numbers
+  was formatted badly and had some useless variables displayed too.
+  Stepping to the next demo with such a line would also leave extra characters
+  on screen.  This has been fixed.
+- If a demo time was over 10 minutes, part of the demo time was overwritten.
+  Now there is more space reserved for displaying demo times.
+- If the stored number of infotrons to eat was 0, SupaShow showed 0 to eat.
+  This was wrong since Supaplex then counts the total of available infotrons.
+  Now SupaShow always shows the correct amount, but in case of 0 between "()".
+  (Note that if the available amount of infotrons is an exact multiple of 256,
+  Supaplex calculates the amount of Infotrons-to-eat to be exactly 0, because
+  Supaplex only uses the lower byte of the available total amount.)
+- Updated all files to read and use SPFIX61, including the default calls.
+  (This SPFIX61 fixes bugs from SPFIX60 plus the "Red-Disk release" bug.)
+
+Version 4.02 fixes a bug of version 4.01, and now the correct SUPASHOW.DAT:
+- If the original SUPAPLEX is used in stead of SPFIX61, a demo created with
+  SPFIX5+ cannot start.  Since Maarten changed the first byte of the demo part
+  of which the highest bit is set now, Supaplex takes an illegal level.
+  I forgot to reset this bit in the temporary demo file which SupaShow
+  creates in order to start the demo in compatible mode.  This has been fixed.
+- If path and file names were too long, they were written on the wrong line.
+  Meant is that yellow line below the orange numbers.  This has been fixed.
+- Sorry people! With version 4.01 I packaged the wrong SUPASHOW.DAT file!
+  It was an old trial version.  The special ports were not showing correctly
+  as described above in the "How to interpret cheat codes" paragraph.
+
+Herman
+
+(Maybe next time I make a more usefull documentation if someone asks for it.)
+
+------------------------------------------------------------------------------
+
+       This is the "footnote below" (Referenced by: History at Version 3.0)
+       ----------------------------
+
+About Speedfix delay factors:
+
+For slow machines these can only be (depending on the Speedfix value 0..10):
+
+   1, 11/10, 9/8, 7/6, 5/4, 3/2, 4/2, 5/2, 6/2, 7/2, 8/2
+
+For fast machines:
+
+ 1/2,  6/10, 5/8, 4/6, 3/4, 2/2, 3/2, 4/2, 5/2, 6/2, 7/2
+
+These factors can easily be theoretically calculated, considering that
+Supaplex synchronizes on the 70 Hz video frame frequency, and needs two
+of those frames per calculation-cycle in order to run at standardized speed.
+On fast computers, the calculation is done within one cycle, and due to the
+discreteness of the synchronization, it runs exactly double speed.
+
+The Speedfix introduces extra (discrete) delays: it waits for extra video-
+frame synchronization pulses (the 70 Hz pulses), and the amount of extra
+delays is (for each of the SpeedFix values 0..10):
+
+   0, 1/5, 1/4, 1/3, 1/2, 1, 2, 3, 4, 5, 6
+
+(The fractional amounts of delays are created by inserting one delay every
+so many calculation cycles, and taking the mean delay over a large enough
+time interval.)
+
+In some notebooks the VGA standard 70Hz is reduced to 60Hz which makes things
+even more complicated ...
+
+------------------------------------------------------------------------------
+
+This package is almost freeware.  My only conditions are:
+If you use SupaShow, you MUST send me some (few) words about this product!
+(It took me some time to program it, and I don't even know as I write this
+line if this program is used and/or if it is appreciated. That's why!)
+If you use any of these files for your own programs, I expect to receive
+a copy of those programs for free.
+
+------------------------------------------------------------------------------
+
+DISCLAIMER:
+These files are not to be used in life support systems, but may help the
+programmers of the Ariane 5 to improve their work...
+No damage is expected to result from these files, but in no case can I be
+held responsible for anything that might happen using these files.
+
+------------------------------------------------------------------------------
+
+Herman Perk                     E-Mail:
+Spessartstr. 15                 CompuServe:   100327,467
+D-14197 Berlin                  Internet:     100327.467@compuserve.com
+Germany
