@@ -26,16 +26,18 @@ Two developers started playing BoulderDash, an older game than Supaplex. They we
 While one worked on programming, the other started creating levels and sprites. The game launched as Think!, but due to copyright thay had to change the name. And then, Supaplex was born. 
 
 ### 🤯 Can I create a level? 
-There are lots of Level Editors, but the most recent one made in HTML has connection to Supaplex Online. 
+There are lots of Level Editores, but the most recent one, fully online, has connection to Supaplex Online. 
 
 By: [Vovan-VE](https://github.com/Vovan-VE/Supaplex-levels-editor) and the actual editor is located [here](https://sple.me).
 
 Enjoy... :+1:
 
 ### 🌐 Supaplex Online
-Supaplex Online is a project that allows you to play SP levels directly in your bowser! It also records demos and saves info on what levels you solved, you didn't, etc. (For that you need an account. Make sure that the part before the @ is the username you want.)
+Supaplex Online is a project that allows you to play SP levels directly from your bowser!
 
-Created a level? Upload it to Supaplex Online (for that you need Discord). 
+It also records demos and saves info on what levels you solved, you didn't, etc. (For that you need an account. Make sure that the part before the @ is the username you want.)
+
+Made a level? Upload it to Supaplex Online (for that you need Discord). 
 
 Supaplex Online's Official Discord Server: https://discord.gg/Q2n3sQTsMb 
 
@@ -62,7 +64,7 @@ OpenSupaplex runs in almost every platform, including PS Vita and Nintendo Switc
 
 **Quick Note**
 
-Homebrew is no longer available for the Nintendo Switch, so you can't install OpenSupaplex anymore. :-(
+Homebrew is no longer available for the Nintendo Switch, so you can't install OpenSupaplex on it anymore. :-(
 
 Created by [sergiou87](https://github.com/sergiou87/open-supaplex).
 
@@ -78,9 +80,11 @@ Hold SpaceBar to drop a Red Disk (and then run away before it explode!).
 You can find the Fandom wiki in [here](https://supaplex.fandom.com/wiki/Supaplex).
 
 ### 👨‍💻 People's Levels that were not packed
-Here you can find levels that weren't commited to `main`.
+Here you can find levels that weren't commited to `main`:
 
-[Norb's](https://github.com/norbcodes/NorbSupaplexArchive) and [AlterT's](https://github.com/thealtermaven/promotek-supaplex) levels.
+> [Norb's](https://github.com/norbcodes/NorbSupaplexArchive)
+
+> [AlterT's](https://github.com/thealtermaven/promotek-supaplex) levels.
 
 **Quick Note**
 
