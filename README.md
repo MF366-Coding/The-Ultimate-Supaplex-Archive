@@ -1,18 +1,37 @@
 # 💻 The Ultimate Supaplex Archive
-## 📃 The Biggest SP Archive Ever
-Find anything reated to Supaplex, from levels to executable of level editores and much more!!! You can also find Supaplex Online links.
+## 📃 Announcement
+Due to the Supaplex being such an active community I couldn't find much time to keep this repo up-to-date.
+
+I'm sad to inform you guys, but it will be archived... 😥
+
+Sorry, everyone, for all the trouble. 
+
+The files that had been archived so far will still be here for you guys...
+
+## 👨‍💻 Cool levels made by cool people
+Here are their personal Supaplex archives for their own levels and sets:
+
+* [Norb](https://github.com/norbcodes/NorbSupaplexArchive)
+
+* [AlterT](https://github.com/thealtermaven/promotek-supaplex)
+
+## ℹ Instead go to...
+...the official Supaplex Online level archive.
+
+Now, keep in mind that it has so many levels that Greg (the owner of SPOnline) couldn't organize it better than it is now.
+
+But that's fine because it's always updated and it contains SO MANY levels made by the whole SP community.
+
+So, special thanks to Greg and check out the SO Archive.
+
+Download the archive [here](https://supaplex.online/all.zip) or go to https://supaplex.online/all.zip in your browser.
 
 ## ⚠️ Warning!
 There might be some duplicates amongst the files.
 
-If you see one, please report it in the *Issues* tab.
+And also keep in mind that a level can have a new version that isn't here.
 
-Thank you for your help. :+1:
-
-## 💁‍♂️ Want to help?
-I accept any SP, DAT, MPX files and demos and Supaplex Online links. 
-
-Send me them via Discord: MF366#8679 or create a Mergable Pull Request. 
+That's because I am archiving the repository for good...
 
 ## 📕 The History of Supaplex
 I also want to talk about Supaplex's history. 
@@ -62,10 +81,6 @@ Pick a level from thousands of them and you are definitely good to go!!!
 #### 4️⃣ Option 4: Use an open-source clone
 OpenSupaplex runs in almost every platform, including PS Vita and Nintendo Switch (check the quick note down below)! Amazing, right? 
 
-**Quick Note**
-
-Homebrew is no longer available for the Nintendo Switch, so you can't install OpenSupaplex on it anymore. :-(
-
 Created by [sergiou87](https://github.com/sergiou87/open-supaplex).
 
 ### 🎮 How to play?
@@ -75,17 +90,7 @@ SpaceBar + arrow Key to snap (get what's next to you without moving).
 
 Hold SpaceBar to drop a Red Disk (and then run away before it explode!).
 
-## ℹ️ Extra information and content
-### 💾 Fandom Wiki
+## 💾 The Fandom Wiki
 You can find the Fandom wiki in [here](https://supaplex.fandom.com/wiki/Supaplex).
 
-### 👨‍💻 People's Levels that were not packed
-Here you can find levels that weren't commited to `main`:
-
-> [Norb's](https://github.com/norbcodes/NorbSupaplexArchive)
-
-> [AlterT's](https://github.com/thealtermaven/promotek-supaplex) levels.
-
-**Quick Note**
-
-Some of AlterT's levels are actually in `Supaplex_Levels` but I decided to still link the original repo.
+> ## Thanks to everyone that helped me with this project, from the bottom of my heart ❤
